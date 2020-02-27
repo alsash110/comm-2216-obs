@@ -1,6 +1,6 @@
 ---
 layout: default
 title: Commands
-parent: navigating
+parent: Navigating the File System
 nav_order: 3
 ---

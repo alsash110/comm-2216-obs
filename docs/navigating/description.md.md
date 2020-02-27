@@ -1,6 +1,6 @@
 ---
 layout: default
 title: Description
-parent: navigating
+parent: Navigating the File System
 nav_order: 1
 ---

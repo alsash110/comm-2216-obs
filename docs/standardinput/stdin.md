@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Concept of Standard Input
-parent: standardinput
+parent: Standard Input
 nav_order: 1
 ---
 
