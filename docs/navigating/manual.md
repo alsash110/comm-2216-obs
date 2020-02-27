@@ -1,6 +1,6 @@
 ---
 layout: default
 title: Manual
-parent: Navigating the file system
+parent: Navigating the File System
 nav_order: 4
 ---
