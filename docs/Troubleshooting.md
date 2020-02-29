@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Glossary
-nav_order: 7
+title: Troubleshooting
+nav_order: 9
 has_children: true
 permalink: /docs/troubleshooting
 ---
