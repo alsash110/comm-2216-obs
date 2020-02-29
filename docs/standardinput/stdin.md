@@ -5,7 +5,7 @@ parent: Standard Input
 nav_order: 1
 ---
 
-Instruction 5: Understanding and using standard output
+# Understanding and using standard output
 
 The Terminal and terminal emulators are the software a user interfaces with to issue commands to the shell. The shell then parses the commands and sends it to the kernel.
 

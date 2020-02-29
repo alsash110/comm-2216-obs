@@ -1,10 +1,13 @@
 ---
 layout: default
-title: General Introduction
+title: Introduction
 nav_order: 1
 has_children: true
 permalink: /docs/introduction
 ---
+
+Introduction
+{: .fs-6 .fw-300 }
 
 # Introduction
 
