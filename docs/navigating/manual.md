@@ -2,5 +2,5 @@
 layout: default
 title: Manual
 parent: Navigating the File System
-nav_order: 4
+nav_order: 5
 ---
