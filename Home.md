@@ -8,9 +8,7 @@ permalink: /
 
 ## Home
 
-
 ### Due March 5th for peer review, March 15 for submission
-
 
 Checklist:
 - Topographical conventions
