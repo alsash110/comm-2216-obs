@@ -8,5 +8,5 @@ permalink: /docs/standardinput
 
 # Standard Input
 
-Show how to navigate through linux
+A brief explanation of standard input, output, and error
 {: .fs-6 .fw-300 }

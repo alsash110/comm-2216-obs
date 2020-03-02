@@ -8,5 +8,5 @@ permalink: /docs/users
 
 # Users
 
-Show how to navigate through linux
+A brief explanation of Linux users
 {: .fs-6 .fw-300 }
