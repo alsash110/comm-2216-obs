@@ -6,12 +6,13 @@ nav_order: 2
 ---
 
 ## How to View Processes
+{: .fs-6 .fw-300 }
 
 The two most common commands used to view processes are the `ps` and the `top` command. The difference between the two is `ps` takes a snapshot while `top` continuously updates its list of processes.
 
 The `ps` stands for process status and it takes several different types of _switches_ as we can see here in the `ps` man page.
 
-![Screen shot of ps man pages](../images/processes/man_ps.png "ps man pages")
+![Screen shot of ps man pages](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/processes/man_ps.png "ps man pages")
 
 If you open a terminal and execute the `ps` command you will only see processes running on the current terminal.
 > *`ps`*  >-->  **[Enter]**

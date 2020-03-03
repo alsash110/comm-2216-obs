@@ -7,6 +7,6 @@ permalink: /docs/files
 ---
 
 # File CRUD Operations
+{: .fs-6 .fw-300 }
 
 Create, Read, Update, Delete
-{: .fs-6 .fw-300 }

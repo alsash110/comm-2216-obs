@@ -7,10 +7,9 @@ permalink: /docs/processes
 ---
 
 ## Processes
-
-Introduction to Linux processes
 {: .fs-6 .fw-300 }
 
+Introduction to Linux processes
 
 A process represents something running on your computer. They are classified into two types, foreground processes and background processes. Foreground processes are interactive and require some type of input. Launching a foreground process ties up the terminal so you can not issue new terminal commands until the processes terminates. Background processes can run independently and do not tie up the terminal.
 

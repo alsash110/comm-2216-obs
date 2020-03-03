@@ -6,6 +6,7 @@ nav_order: 1
 ---
 
 ## Linux Process States
+{: .fs-6 .fw-300 }
 
 Linux has four process states, they are:
 * Running/Runnable

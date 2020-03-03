@@ -6,7 +6,8 @@ has_children: true
 permalink: /docs/navigating
 ---
 
-# Navigating the File System
+## Navigating the File System
+{: .fs-6 .fw-300 }
 
 Show how to navigate through linux
-{: .fs-6 .fw-300 }
+
