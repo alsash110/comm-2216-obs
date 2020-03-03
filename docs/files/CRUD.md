@@ -6,7 +6,7 @@ has_children: true
 permalink: /docs/files
 ---
 
-# File CRUD Operations
 {: .fs-6 .fw-300 }
+# File CRUD Operations
 
 Create, Read, Update, Delete

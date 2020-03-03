@@ -5,8 +5,8 @@ parent: Processes
 nav_order: 2
 ---
 
-## How to View Processes
 {: .fs-6 .fw-300 }
+# How to View Processes
 
 The two most common commands used to view processes are the `ps` and the `top` command. The difference between the two is `ps` takes a snapshot while `top` continuously updates its list of processes.
 

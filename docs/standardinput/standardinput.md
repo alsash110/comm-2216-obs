@@ -6,7 +6,7 @@ has_children: true
 permalink: /docs/standardinput
 ---
 
+{: .fs-6 .fw-300 }
 # Standard Input
 
 A brief explanation of standard input, output, and error
-{: .fs-6 .fw-300 }

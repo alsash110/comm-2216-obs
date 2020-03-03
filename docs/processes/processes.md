@@ -6,8 +6,8 @@ has_children: true
 permalink: /docs/processes
 ---
 
-## Processes
 {: .fs-6 .fw-300 }
+# Processes
 
 Introduction to Linux processes
 
