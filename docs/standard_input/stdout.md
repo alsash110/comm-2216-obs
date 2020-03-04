@@ -10,8 +10,7 @@ nav_order: 1
 ## Using Standard Output
 {: .no_toc }
 
-### Table of Contents
-{: .no_toc .text-delta }
+---
 
 * TOC
 {:toc}

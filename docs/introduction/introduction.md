@@ -13,9 +13,10 @@ permalink: /docs/Introduction
 ### Table of contents
 {: .no_toc .text-delta }
 
-1. TOC
+* TOC
 {:toc}
 
+---
 
 The purpose of this document is to help you get started with using Linux and basic commands. Linux provides users with a free operating system that is highly secure and stable, while still offering many features that other operating systems do.
 
