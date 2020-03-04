@@ -9,8 +9,8 @@ nav_order: 4
 
 Once we know the _PID_ of a process, we can issue a _kill command_ to terminate the process.
 
-> *`pgrep firefox`*  >-->  **[Enter]**
-> *`kill 2513`*  >-->  **[Enter]**
+>> *`pgrep firefox`*  >-->  **[Enter]**
+>> *`kill 2513`*  >-->  **[Enter]**
 
 ![Screen shot of PID](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/processes/kill_1.png?raw=true "PID")
 ![Screen shot of kill output](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/processes/kill_2.png?raw=true "kill output")
