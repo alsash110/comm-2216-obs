@@ -10,9 +10,10 @@ permalink: /docs/Introduction
 ## Introduction
 {: .no_toc }
 
+---
+
 ### Table of contents
 {: .no_toc .text-delta }
-
 * TOC
 {:toc}
 
@@ -42,4 +43,4 @@ The concepts and commands covered in this document will work on any Linux distri
 Linux was created in 1991 by Linus Torvalds when he was 21. It started out a Kernel, the lowest level of code interfacing with hardware. In 1992, the Linux Kernel was bundled together with GNUs (GNU’s Not Unix) software packages and published under the GNU General Public Licence. This made GNU/Linux a legally free fully featured operating system.
 
 ### Conclusion
-The idea of a free, stable, customizable and secure operating system is just too good to overlook. With the number of growing Linux users...
+The idea of a free, stable, customizable, powerful, and secure operating system is just too good to overlook. Many users simply moved to Linux to remove themselves from propriety software, others out of curiosity. Anyone who works to the tech industry will also heavily use Linux, so if you wish to have a career in tech, start learning Linux.
