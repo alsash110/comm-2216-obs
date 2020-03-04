@@ -7,8 +7,15 @@ nav_order: 1
 
 {: .fs-6 .fw-300 }
 ## Understanding and using standard output
+{: .no_toc }
 
+### Table of contents
+{: .no_toc .text-delta }
 
+1. TOC
+{:toc}
+
+### Background Information
 The Terminal and terminal emulators are the software a user interfaces with to issue commands to the shell. The shell then parses the commands and sends it to the kernel.
 
 The Terminal reads and writes information as streams. The input stream is called _Standard Input_ (stdin) and the output stream is called _Standard Output_ (stdout). There is also something called _Standard Error_ (stderr) which is thrown when a problem occurs.
@@ -18,7 +25,7 @@ These streams can be redirected to other processes (programs) but the default is
 A simplified explanation is the Standard Output from a command can be ‘piped’ as the Standard Input of another process. This can be chained indefinitely but the final output will be either your terminal or a file.
 
 
-### The ` > ` Operator
+### The `>` Operator
 
 The `>` operator takes the _stdout_ from  `ls -la`  and writes it to a newly created file called `list.txt` in your current directory.
 The `>` command is formatted as `command > filename`
@@ -30,11 +37,17 @@ The `>` command is formatted as `command > filename`
 We can see that the contents of the file is exactly the same as the terminal output of  ls -la. An interesting note is that the contents of list.txt actually contains the file list.txt itself.
 
 
-### The ` >> ` Operator
+### The `>>` Operator
 The `>>` operator _appends_ the stdout to an existing file while the `>` always creates (overwrites) a file.
 
+>> `pwd >> list.txt`  >-->  **[Enter]**
+
+![Screen shot of pwd >> list.txt](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdin_2.png?raw=true ">>")
+
+If you reopen the file, the stdout of `pwd` is appended to the end of the file.
 
 
+### The `|` Operator
 
 The `|` is another operator that takes Standard Output from the left side and ‘pipes’ it as the Standard Input to the right side.
 
