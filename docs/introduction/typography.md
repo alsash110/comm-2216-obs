@@ -5,9 +5,9 @@ parent: Introduction
 nav_order: 1
 ---
 
-# Typographical Conventions
+## Typographical Conventions
 
-These instructions use the following typographic conventions:
+These instructions use the following typographic conventions.
 
 | Convention                           | Typeface                  | Examples                                                    |
 | :----------------------------------- | :------------------------ | :---------------------------------------------------------- |
