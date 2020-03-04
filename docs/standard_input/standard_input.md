@@ -9,12 +9,6 @@ permalink: /docs/standard_input
 {: .fs-6 .fw-300 }
 
 ## Standard Input
-{: .no_toc }
-
----
-
-* TOC
-{:toc}
 
 ---
 

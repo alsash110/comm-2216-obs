@@ -10,8 +10,7 @@ nav_order: 2
 ## How to View Processes
 {: .no_toc }
 
-### Table of Contents
-{: .no_toc .text-delta }
+---
 
 * TOC
 {:toc}

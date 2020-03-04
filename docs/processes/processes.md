@@ -10,6 +10,8 @@ permalink: /docs/processes
 
 ## Processes
 
+---
+
 ### Introduction to Linux processes
 
 A _process_ represents something running on your computer. They are classified into two types, _foreground processes_ and _background processes_. _Foreground processes_ are interactive and require some type of input. Launching a _foreground process_ ties up the terminal so you can not issue new terminal commands until the processes terminates. _Background processes_ can run independently and do not tie up the terminal.

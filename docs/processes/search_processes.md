@@ -10,8 +10,7 @@ nav_order: 3
 ## Searching Specific Processes
 {: .no_toc }
 
-### Table of Contents
-{: .no_toc .text-delta }
+---
 
 * TOC
 {:toc}

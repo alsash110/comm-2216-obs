@@ -10,8 +10,7 @@ nav_order: 4
 ## Killing Processes by PID
 {: .no_toc }
 
-### Table of Contents
-{: .no_toc .text-delta }
+---
 
 * TOC
 {:toc}
