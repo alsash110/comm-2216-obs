@@ -53,7 +53,7 @@ I can search the list to see if my password is on the list by using this command
 
 The command is formatted as `command  |  command`
 
-![Screen shot of cat rockyou.txt `|` grep aaabbbcccddd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdin_3.png?raw=true "|")
+![Screen shot of cat rockyou.txt `|` grep aaabbbcccddd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdin_3.png?raw=true "`|`")
 
 Yes aaabbbcccddd is in it and so it is a terrible password.
 

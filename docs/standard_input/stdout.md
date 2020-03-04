@@ -52,6 +52,6 @@ The `|` is another operator that takes Standard Output from the left side and â€
 
 Piping something to `less` is rather pointless but it serves as a demonstration of how to use `|` to _pipe_ the stdout from command to the stdin of another.
 
-![Screen shot of ls /etc `|` less](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdout_3.png?raw=true "|")
+![Screen shot of ls /etc `|` less](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdout_3.png?raw=true "`|`")
 
 To exit, press **[q]**.
