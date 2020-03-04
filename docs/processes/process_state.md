@@ -36,11 +36,12 @@ A _running state_ means the process is currently active and is performing operat
 
 ### Sleeping
 
-A _sleeping state_ means the process is waiting for resources that it does not have to run. Since it can not run, its access to the CPU is freed to make way for other processes. Once it receives the resources, the Linux scheduler will put it in a runnable state.
+A _sleeping state_ means the process is waiting for resources that it does not have. Since it can not run, its access to the CPU is freed to make way for other processes. Once it receives the resources, the _Linux scheduler_ will put it in a runnable state.
 
-Sleeping states are further broken down into two groups, interruptible and uninterruptible.
+The sleeping state is further broken down into two groups, _interruptible_ and _uninterruptible_.
 
 _Interruptible sleep state_ processes will wait for an event or time slot trigger to occur before it changes state. These processes are represented with the letter `S` in the state column.
+
 _Uninterruptible sleep state_ processes will wait for resources to arrive or a time-out trigger before it changes state. These processes are represented with the letter `D`.
 
 Newer versions of Linux following 4.15.12 introduces the _Idle State_ which represents both interruptible and uninterruptible sleeping states. These processes are represented with the letter `I`.
