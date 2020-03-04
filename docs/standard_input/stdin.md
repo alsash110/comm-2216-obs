@@ -5,29 +5,39 @@ parent: Standard Input
 nav_order: 1
 ---
 
-# Understanding and using standard output
+## Understanding and using standard output
+* {: .fs-6 .fw-300 }
 
 The Terminal and terminal emulators are the software a user interfaces with to issue commands to the shell. The shell then parses the commands and sends it to the kernel.
 
-The Terminal reads and writes information as streams. The input stream is called Standard Input (stdin) and the output stream is called Standard Output (stdout). There is also something called Standard Error (stderr) which is thrown when a problem occurs.
+The Terminal reads and writes information as streams. The input stream is called _Standard Input_ (stdin) and the output stream is called _Standard Output_ (stdout). There is also something called _Standard Error_ (stderr) which is thrown when a problem occurs.
 
 These streams can be redirected to other processes (programs) but the default is the Terminal. This is why after you issue a command you can see the result (output) displayed on the Terminal.
 
 A simplified explanation is the Standard Output from a command can be ‘piped’ as the Standard Input of another process. This can be chained indefinitely but the final output will be either your terminal or a file.
 
-> `ls -la > list.txt`  >-->  [Enter]
 
-The  >  operator takes the stdout from  ls -la  and writes it to a newly created file called list.txt in your current directory.
+### The ` > ` Operator
 
-The command is formatted as	command > filename
+The `>` operator takes the _stdout_ from  `ls -la`  and writes it to a newly created file called `list.txt` in your current directory.
+The `>` command is formatted as `command > filename`
+
+>> `ls -la > list.txt`  >-->  **[Enter]**
+
+![Screen shot of ls -la > list.txt](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdin_1.png?raw=true ">")
 
 We can see that the contents of the file is exactly the same as the terminal output of  ls -la. An interesting note is that the contents of list.txt actually contains the file list.txt itself.
 
-The `>>` operator appends the stdout to an existing file while the  >  always creates (overwrites) a file.
+
+### The ` >> ` Operator
+The `>>` operator _appends_ the stdout to an existing file while the `>` always creates (overwrites) a file.
+
+
+
 
 The `|` is another operator that takes Standard Output from the left side and ‘pipes’ it as the Standard Input to the right side.
 
-> `ls /etc | less`  >-->  [Enter]
+>> `ls /etc | less`  >-->  [Enter]
 
 
 Piping something to  less  is kinda pointless but serves as a demonstration to use  |  to redirect the output of one command to another command.
@@ -36,7 +46,7 @@ We can redirect stdin as well with the  <  operator.
 
 If you haven’t deleted the list.txt or changed directories, if you run:
 
-> `wc < list.txt`  >-->  [Enter]
+>> `wc < list.txt`  >-->  [Enter]
 
 
 You will get a word count of the list.txt file. 

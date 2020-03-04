@@ -5,7 +5,7 @@ parent: Processes
 nav_order: 1
 ---
 
-# Linux Process States
+## Linux Process States
 
 Linux has four process states, they are:
 * Running/Runnable
@@ -14,7 +14,7 @@ Linux has four process states, they are:
 * Zombie
 
 Here is an example of what these processes look like:
-![Screen shot of list of processes](../images/processes/top_1.png "Top command output")
+![Screen shot of list of processes](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/processes/top_1.png?raw=true "Top command output")
 
 A _running state_ means the process is currently active and is performing operations using systems CPU. A _runnable state_ means the process is ready to run and is waiting to use the CPU. Both of these are represented with the letter `R` under processes state column `S` in Linux.
 

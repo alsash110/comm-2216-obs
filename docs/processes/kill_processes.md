@@ -5,7 +5,7 @@ parent: Processes
 nav_order: 4
 ---
 
-# Killing Processes by PID
+## Killing Processes by PID
 
 Once we know the _PID_ of a process, we can issue a _kill command_ to terminate the process.
 

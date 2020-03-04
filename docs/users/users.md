@@ -6,7 +6,7 @@ has_children: true
 permalink: /docs/users
 ---
 
-{: .fs-6 .fw-300 }
-# Users
 
-A brief explanation of Linux users
+## Users
+
+* {: .fs-6 .fw-300 }
