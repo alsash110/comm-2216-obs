@@ -5,8 +5,9 @@ parent: Standard Input
 nav_order: 1
 ---
 
+{: .fs-6 .fw-300 }
 ## Understanding and using standard output
-* {: .fs-6 .fw-300 }
+
 
 The Terminal and terminal emulators are the software a user interfaces with to issue commands to the shell. The shell then parses the commands and sends it to the kernel.
 
