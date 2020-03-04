@@ -8,14 +8,12 @@ nav_order: 1
 {: .fs-6 .fw-300 }
 
 ## Using Standard Output
-
 {: .no_toc }
 
-### Table of contents
-
+### Table of Contents
 {: .no_toc .text-delta }
 
-1. TOC
+* TOC
 {:toc}
 
 ---

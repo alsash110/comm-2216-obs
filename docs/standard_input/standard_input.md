@@ -6,13 +6,14 @@ has_children: true
 permalink: /docs/standard_input
 ---
 
+{: .fs-6 .fw-300 }
 
 ## Standard Input
-* {: .fs-6 .fw-300 }
 
 ---
 
 ### Background Information
+
 The Terminal and terminal emulators are the software a user interfaces with to issue commands to the shell. The shell then parses the commands and sends it to the kernel.
 
 The Terminal reads and writes information as streams. The input stream is called _Standard Input_ (stdin) and the output stream is called _Standard Output_ (stdout). There is also something called _Standard Error_ (stderr) which is thrown when a problem occurs.
