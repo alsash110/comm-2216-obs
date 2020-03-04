@@ -35,7 +35,7 @@ It _redirects_ the _stdout_ form the _right side_ as the _stdin_ on the _left_.
 
 ---
 
-Note, the  |  operator is one director and is always left to right.
+Note, the  `|`  operator is one direction and is always from left to right.
 
 ---
 

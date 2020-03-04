@@ -53,4 +53,4 @@ Piping something to `less` is rather pointless but it serves as a demonstration 
 
 ![Screen shot of ls /etc | less](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdout_3.png?raw=true "|")
 
-To exit, press **[q]**
+To exit, press **[q]**.

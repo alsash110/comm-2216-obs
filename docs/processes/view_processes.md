@@ -5,11 +5,24 @@ parent: Processes
 nav_order: 2
 ---
 
-
-## How to View Processes
 {: .fs-6 .fw-300 }
 
+## How to View Processes
+{: .no_toc }
+
+### Table of Contents
+{: .no_toc .text-delta }
+
+* TOC
+{:toc}
+
+---
+
 The two most common commands used to view processes are the `ps` and the `top` command. The difference between the two is `ps` takes a snapshot while `top` continuously updates its list of processes.
+
+---
+
+### The `ps` Command
 
 The `ps` stands for process status and it takes several different types of _switches_ as we can see here in the `ps` man page.
 
@@ -30,9 +43,14 @@ There is a lot more information given, we can see the different _users_, _proces
 
 Try playing around with the different _switches_ and see how it affects the output of `ps`.
 
+---
+
+### The `top` Command
+
 Lets try the top command.
+
 > *`top`*  >-->  **[Enter]**
 
 ![Screen shot of list of processes](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/processes/top_2.png?raw=true "top command output")
 
-This gives us a lot more info but it constantly changes so it's sometimes hard to find or keep track of a process. There are switches for additional options which you can find in the `top` _man pages_. To exit press `q`.
+This gives us a lot more info but it constantly changes so it's sometimes hard to find or keep track of a process. There are switches for additional options which you can find in the `top` _man pages_. To exit press **[q]**.

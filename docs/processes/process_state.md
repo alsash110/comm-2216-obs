@@ -5,7 +5,18 @@ parent: Processes
 nav_order: 1
 ---
 
+{: .fs-6 .fw-300 }
+
 ## Linux Process States
+{: .no_toc }
+
+### Table of Contents
+{: .no_toc .text-delta }
+
+* TOC
+{:toc}
+
+---
 
 Linux has four process states, they are:
 * Running/Runnable
@@ -13,10 +24,18 @@ Linux has four process states, they are:
 * Stopped
 * Zombie
 
-Here is an example of what these processes look like:
+Here is an example of what some of these processes look like:
 ![Screen shot of list of processes](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/processes/top_1.png?raw=true "Top command output")
 
+---
+
+### Running/Runnable
+
 A _running state_ means the process is currently active and is performing operations using systems CPU. A _runnable state_ means the process is ready to run and is waiting to use the CPU. Both of these are represented with the letter `R` under processes state column `S` in Linux.
+
+---
+
+### Sleeping
 
 A _sleeping state_ means the process is waiting for resources that it does not have to run. Since it can not run, its access to the CPU is freed to make way for other processes. Once it receives the resources, the Linux scheduler will put it in a runnable state.
 
@@ -27,6 +46,14 @@ _Uninterruptible sleep state_ processes will wait for resources to arrive or a t
 
 Newer versions of Linux following 4.15.12 introduces the _Idle State_ which represents both interruptible and uninterruptible sleeping states. These processes are represented with the letter `I`.
 
+---
+
+### Stopped
+
 A _stopped state_ means the process has exited or is terminated. Stopped processes release their resources but are kept in the process table until its parent process closes it.
+
+---
+
+### Zombie
 
 A _zombie state_ means the process has stopped but it’s parent process did not close it. This is usually caused by the parent process either terminating before it’s child processes or bugs within the parent process itself. These processes are represented with the letter ‘Z’ and can not be killed normally.
