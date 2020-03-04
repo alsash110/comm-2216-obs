@@ -27,7 +27,7 @@ In Linux, everything is stored in the `/` (root) directory and follows something
 
 If you are familiar with windows, partitions refer to the drive letters such as `C:\` or `D:\` and so on. In Linux, these partitions are found in `/dev/sda` followed by a number representing which partition.
 
->> >> `ls -la /dev`  >-->  **[Enter]**
+>> >> *`ls -la /dev`*  >-->  **[Enter]**
 
 ![Screen shot of ls -la /dev/](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/file_system/sda.png?raw=true "/dev")
 
