@@ -12,6 +12,8 @@ nav_order: 2
 
 ---
 
+### Table of Contents
+{: .no_toc .text-delta }
 * TOC
 {:toc}
 
