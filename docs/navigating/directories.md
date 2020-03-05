@@ -21,4 +21,6 @@ nav_order: 2
 
 ### Directories
 
-In concept, directories are similar to folders.
+An analogy for linux directories is folders. In actuality, directories are a special type of file used to store information about other files. It's contents are controlled bt the system and it includes things such as name, permission, type, size, and so on.
+
+The home directory for non root users are in the `/Users` directory and for the root user it is `/root`.

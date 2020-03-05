@@ -23,7 +23,7 @@ nav_order: 1
 
 A _file system_ is used to load and store information in a _non volatile_ way.
 
-In Linux, everything is stored in the `/` (root) directory and follows something whats known as a _hierarchical directory structure_. This means that the _root directory_ is at the top of the hierarchy and everything else in the file system branches from it, this even includes partitions.
+In Linux, "everything is a file" (_inode_) and every file is stored in the `/` (_root_) directory. Linux's file system follows a _hierarchical directory structure_. This means that the _root directory_ is at the top of the hierarchy and everything else in the file system branches from it, this even includes partitions.
 
 If you are familiar with windows, partitions refer to the drive letters such as `C:\` or `D:\` and so on. In Linux, these partitions are found in `/dev/sda` followed by a number representing which partition.
 
