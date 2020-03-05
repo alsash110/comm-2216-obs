@@ -21,3 +21,7 @@ The Terminal reads and writes information as streams. The input stream is called
 These streams can be redirected to other processes (programs) but the default is the Terminal. This is why after you issue a command you can see the result (output) displayed on the Terminal.
 
 A simplified explanation is the Standard Output from a command can be ‘piped’ as the Standard Input of another process. This can be chained indefinitely but the final output will be either your terminal or a file.
+
+### File Descriptor
+
+A File Descriptor is a number used to represents wether the 
