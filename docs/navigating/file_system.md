@@ -21,7 +21,7 @@ nav_order: 1
 
 ### Background
 
-A _file system_ is used to load and store information in a _non volatile_ way.
+The purpose of a computers _file system_ is to load and store information in a _non volatile_ manner.
 
 In Linux, "everything is a file" (_inode_) and every file is stored in the `/` (_root_) directory. Linux's file system follows a _hierarchical directory structure_. This means that the _root directory_ is at the top of the hierarchy and everything else in the file system branches from it, this even includes partitions.
 
