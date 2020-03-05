@@ -21,4 +21,4 @@ nav_order: 2
 
 ### Directories
 
-Directories 
+In concept, directories are similar to folders.

@@ -24,4 +24,10 @@ A simplified explanation is the Standard Output from a command can be â€˜pipedâ€
 
 ### File Descriptor
 
-A File Descriptor is a number used to represents wether the 
+A File Descriptor is a number used to represent stdin, stdout, and stderr.
+
+| type   | file descriptor |
+| :----- | :-------------- |
+| stdin  | 0               |
+| stdout | 1               |
+| stderr | 2               |
