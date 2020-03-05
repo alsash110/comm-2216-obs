@@ -50,7 +50,7 @@ The `|` is another operator that takes Standard Output from the left side and â€
 
 >> *`ls /etc | less`*  >-->  **[Enter]**
 
-Piping something to `less` is rather pointless but it serves as a demonstration of how to use `|` to _pipe_ the stdout from command to the stdin of another.
+Piping something to `less` is rather pointless but it serves as a demonstration of how to use `|` to _pipe_ the stdout from one command to the stdin of another.
 
 ![Screen shot of ls /etc `|` less](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdout_3.png?raw=true "`|`")
 
