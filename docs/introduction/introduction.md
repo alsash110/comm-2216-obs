@@ -19,7 +19,7 @@ permalink: /docs/Introduction
 
 ---
 
-The purpose of this document is to help you get started with using Linux and basic commands. Linux provides users with a free operating system that is highly secure and stable, while still offering many features that other operating systems do.
+The purpose of this document is to help you get started with using Linux and basic commands. Linux provides users with a free operating system that is highly secure and stable. Linux also makeup the backbone of the internet
 
 ---
 
