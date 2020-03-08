@@ -27,7 +27,7 @@ The two most common commands used to view processes are the `ps` and the `top` c
 
 The `ps` stands for process status and it takes several different types of _switches_ as we can see here in the `ps` man page.
 
-![Screen shot of ps man pages](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/processes/man_ps.png?raw=true "ps man pages")
+![Screen shot of ps man pages](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/processes/man_ps_1.png?raw=true "ps man pages")
 
 If you open a terminal and execute the `ps` command you will only see processes running on the current terminal.
 >> *`ps`*  >-->  **[Enter]**
@@ -43,6 +43,8 @@ If you want to check all the processes running on the machine run:
 There is a lot more information given, we can see the different _users_, _process id_ `PID`, _state_ `STAT`, when the processes started, and the _root directory_ or _alias_ where the processes loaded from.
 
 Try playing around with the different _switches_ and see how it affects the output of `ps`.
+
+![Screen shot of ps man pages](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/processes/man_ps_2.png?raw=true "ps man pages")
 
 ---
 
