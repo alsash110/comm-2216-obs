@@ -7,7 +7,9 @@ permalink: /docs/files
 ---
 
 {: .fs-6 .fw-300 }
-# File CRUD Operations
+
+## File CRUD Operations
+{: .no_toc }
 
 ---
 

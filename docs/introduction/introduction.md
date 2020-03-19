@@ -34,7 +34,7 @@ understand and use standard output.
 ---
 
 ### Prerequisites
-To follow along with this document, you should have access to a computer. Experience with using a computer is helpful. Internet access to online Bash terminals such as https://bellard.org/jslinux/ or https://copy.sh/v86/ is another way to practice using Linux.
+To follow along with this document, you should have access to a computer. If you have Linux installed _locally_ or in a _virtual machine_, great. If not, as long as you have internet access, online Bash terminals such as [Bellard's Linux emulator](https://bellard.org/jslinux/ "Browser Linux emulator") or [Copy.sh's Linux emulator](https://copy.sh/v86/ "Browser Linux emulator")  is another way to practice using Linux without installing anything.
 
 ---
 
