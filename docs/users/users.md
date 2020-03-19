@@ -16,12 +16,14 @@ permalink: /docs/users
     sudo su -
     ```
     <br />
-2. Enter the adduser command below to add a new user to your Linux system. Replace newusername with the user you want to create.
+2. Enter the adduser command below to add a new user to your Linux system. 
+    <br />
+    > Note: Replace newusername with the user you want to create.
     <br />
 
-    ```
-    sudo adduser newusername
-    ```
+
+    *`sudo adduser newusername`*
+
 
     You will be prompted to enter your password for the current user.
 
@@ -60,23 +62,25 @@ permalink: /docs/users
     <br />
 
 5. Enter the usermod command with the newly created username to the sudo group.
+    <br />
+    *`usermod -aG sudo newusername`*
 
-    ```
-    usermod -aG sudo newusername
-    ```
+    <br />
 
 6. Enter the following command to switch to the newly created user account.
     <br />
-    ```
-    su - newusername
-    ```
+
+    *`su - newusername`*
+
     <br />
 7. Enter the following sudo command to verify that the new user has admin privileges.
     <br />
+
     >Note: the /root directory is normally accessible only by the root user and requires sudo privileges.
 
-    ```
-    sudo ls -la /root
-    ```
+    <br/>
+    
+    *`sudo ls -la /root`*
 
+    <br/>
     You should see the a list of directories if the user has been assigned to the sudo group.
