@@ -15,7 +15,7 @@ permalink: /docs/users
 sudo su -
 ```
 
-2. Enter the adduser command below to add a new user to your Linux system.  
+2. Enter the adduser command below to add a new user to your Linux system.
 
 Replace newusername with the user you want to create.
 
