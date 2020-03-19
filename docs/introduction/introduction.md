@@ -25,16 +25,17 @@ The purpose of this document is to help you get started with using Linux and bas
 
 ### Is This Guide for You?
 This guide is created for students or beginner users of Linux that have a basic technical background. There are many comprehensive Linux documents out there, but most of those documents can be overwhelming. This guide simplifies the learning process by teaching you only the basic Linux concepts and commands. By the end of this guide, you will have learned how to:
-install and run Linux on a virtual machine,
-create and modify user profiles,
-show and end processes,
-use the command line, and
-understand and use standard output.
+
+* install and run Linux on a virtual machine,
+* create and modify user profiles,
+* show and end processes,
+* use the command line, and
+* understand and use standard output.
 
 ---
 
 ### Prerequisites
-To follow along with this document, you should have access to a computer. Experience with using a computer is helpful. Internet access to online Bash terminals such as https://bellard.org/jslinux/ or https://copy.sh/v86/ is another way to practice using Linux.
+To follow along with this document, you should have access to a computer. If you have Linux installed _locally_ or in a _virtual machine_, great. If not, as long as you have internet access, online Bash terminals such as [Bellard's Linux emulator](https://bellard.org/jslinux/ "Browser Linux emulator") or [Copy.sh's Linux emulator](https://copy.sh/v86/ "Browser Linux emulator")  is another way to practice using Linux without installing anything.
 
 ---
 
