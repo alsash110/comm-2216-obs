@@ -31,6 +31,12 @@ If you are familiar with windows, partitions refer to the drive letters such as 
 
 ![Screen shot of ls -la /dev/](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/file_system/sda.png?raw=true "/dev")
 
-This image shows that the `/dev/sda`, `/dev/sda1`, `/dev/sda2`, `/dev/sda5`, and `/dev/sg0` are all under the disk _group_.
+The image above shows that the `/dev/sda`, `/dev/sda1`, `/dev/sda2`, `/dev/sda5`, and `/dev/sg0` are all under the disk _group_. We will go in to more detail about _groups_ later in another section.
 
-This tutorial will not go over the data storage format and other details. Feel free to research if you are inclined.
+This tutorial will not go into detail about how Linux manages its data storage and file formats. If you are interested, [wikipedia](https://en.wikipedia.org/wiki/File_system#Linux) has lots more information.
+
+---
+
+### Summary
+
+Linux operates on the _root_ directory and everything is stored in it. The _root_ directory is represented as `/` and there is no parent directory above it.
