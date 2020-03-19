@@ -21,10 +21,11 @@ nav_order: 2
 
 ### Directories
 
-An analogy for linux directories is folders. In actuality, directories are a special type of file used to store information about other files. It's contents are controlled bt the system and it includes things such as name, permission, type, size, and so on.
+Linux directories behave similar to folders. In the background, directories are actually a special type of file used to store information about other files. It's contents are controlled by the Linux operating system and it includes things such as name, permission, type, size, and so on.
 
-The home directory for non root users are in the `/Users` directory and for the root user it is `/root`.
-For example, if a users has an account named Don, their _default directory_ (unless changed) is `/Users/Don`.
+The home directory for common users are located in `/Users` while the _root user_ is stored in a separate `/root` directory. If you are wondering what the difference is between common users and the _root user_, it will be covered in a separate section.
+
+As an example, if a users has an account named Don, their _default directory_ (unless changed) is `/Users/Don`.
 You can check your default directory by opening a terminal and typing:
 
 >> *`pwd`*  >-->  **[Enter]**
@@ -56,3 +57,6 @@ To specify an _absolute reference_ to the ls command:
 The output is different because `ls` is given an _absolute path_ and will list all files and directories stored in the _absolute path_.
 
 ---
+
+### Summary
+

@@ -9,14 +9,6 @@ permalink: /docs/files
 {: .fs-6 .fw-300 }
 
 ## File CRUD Operations
-{: .no_toc }
-
----
-
-### Table of contents
-{: .no_toc .text-delta }
-* TOC
-{:toc}
 
 ---
 
