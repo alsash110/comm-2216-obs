@@ -1,6 +1,6 @@
 ---
 layout: default
 title: Commands
-parent: Users
+parent: Users, Groups, and Privileges
 nav_order: 2
 ---
