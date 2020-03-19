@@ -25,11 +25,12 @@ The purpose of this document is to help you get started with using Linux and bas
 
 ### Is This Guide for You?
 This guide is created for students or beginner users of Linux that have a basic technical background. There are many comprehensive Linux documents out there, but most of those documents can be overwhelming. This guide simplifies the learning process by teaching you only the basic Linux concepts and commands. By the end of this guide, you will have learned how to:
-install and run Linux on a virtual machine,
-create and modify user profiles,
-show and end processes,
-use the command line, and
-understand and use standard output.
+
+* install and run Linux on a virtual machine,
+* create and modify user profiles,
+* show and end processes,
+* use the command line, and
+* understand and use standard output.
 
 ---
 
