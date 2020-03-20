@@ -19,6 +19,10 @@ These instructions use the following typographic conventions.
 
 ---
 
-![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note") This icon indicates please pay attention to the following.
+![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" } This icon indicates please pay attention to the following.
 
-![Caution icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/caution.png?raw=true "Caution") This icon indicates please be careful with the following.
+---
+
+![Caution icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/caution.png?raw=true "Caution"){: style="float: left" } This icon indicates please be careful with the following.
+
+---

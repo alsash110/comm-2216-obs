@@ -44,7 +44,11 @@ It is important to know what _path_ you are referencing when issuing a command. 
 
 ![Screen shot ls](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/ls_rel.png?raw=true "ls")
 
+---
+
 ![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" } You may have noticed that nothing was specified after the `ls` command. By not specifying anything, this implicitly tells the command that this directory (or _path_) is where this command should reference from. This is called a _relative path_ and it refers to the directory location you are currently in. Typically your _home directory_ is the default _path_ when you open a new terminal.
+
+---
 
 To specify an _absolute reference_ to the ls command:
 
