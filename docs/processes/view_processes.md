@@ -19,41 +19,46 @@ nav_order: 2
 
 ---
 
-The two most common commands used to view processes are the `ps` and the `top` command. The difference between the two is `ps` takes a snapshot while `top` continuously updates its list of processes.
+The two most common commands used to view processes are the process status `ps` and the `top` command. The difference between the two is that `ps` takes a snapshot while `top` continuously updates its list of processes.
 
+
+The `pgrep` command searches specifically for the process id `PID` of a process.
+This is a very useful command if you know what the process is called and want to quickly identify each _process id_ associated with it.
 ---
 
 ### The `ps` Command
 
-The `ps` stands for process status and it takes several different types of _switches_ as we can see here in the `ps` man page.
+1. Open up your terminal.
 
-![Screen shot of ps man pages](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/processes/man_ps_1.png?raw=true "ps man pages")
+2. Input the following `ps` command.
 
-If you open a terminal and execute the `ps` command you will only see processes running on the current terminal.
->> *`ps`*  >-->  **[Enter]**
+    *`ps aux`*
 
-![Screen shot of ps output](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/processes/ps.png?raw=true "ps output")
+    You should be able to see a list of all processes running on your machine.
 
-If you want to check all the processes running on the machine run:
->> *`ps aux`*  >-->  **[Enter]**
+    ![Screen shot of ps aux output](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/processes/ps_aux_1.png?raw=true "ps aux output")
+    ![Screen shot of ps aux output](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/processes/ps_aux_2.png?raw=true "ps aux output")
 
-![Screen shot of ps aux output](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/processes/ps_aux_1.png?raw=true "ps aux output")
-![Screen shot of ps aux output](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/processes/ps_aux_2.png?raw=true "ps aux output")
+    There is a lot more information given, we can see the different _users_, _process id_ `PID`, _state_ `STAT`, when the processes started, and the _root directory_ or _alias_ where the processes loaded from.
 
-There is a lot more information given, we can see the different _users_, _process id_ `PID`, _state_ `STAT`, when the processes started, and the _root directory_ or _alias_ where the processes loaded from.
+3. Input the `pgrep` command and your process name.
 
-Try playing around with the different _switches_ and see how it affects the output of `ps`.
+    **Note**: processname is a keyword to search for your process name.
 
-![Screen shot of ps man pages](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/processes/man_ps_2.png?raw=true "ps man pages")
+    *`pgrep processname`*
 
----
+    **Note**: The id of a process is different every time you start a process. If the process name exists, you will be able to see the id of your process, as shown below.
 
-### The `top` Command
+    ![Screen shot of pgrep firefox output](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/processes/pgrep-firefox.png?raw=true "pgrep firefox output")
 
-Lets try the top command.
+4. Input the `kill` command along with the process id to stop your desired process.
 
-> *`top`*  >-->  **[Enter]**
+    *`kill processid`*
 
-![Screen shot of list of processes](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/processes/top_2.png?raw=true "top command output")
+5. Input the `pgrep` command once more to test if the process did in fact stop.
 
-This gives us a lot more info but it constantly changes so it's sometimes hard to find or keep track of a process. There are switches for additional options which you can find in the `top` _man pages_. To exit press **[q]**.
+    *`pgrep processname`*
+
+    If the process did get stopped, there should be no output.
+
+    ![Screen shot of no pgrep firefox output](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/processes/pgrep-firefox-killed.png?raw=true "no pgrep firefox output")

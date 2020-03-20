@@ -12,14 +12,11 @@ permalink: /docs/users
 
 1. Switch to the root user by entering the following command.
 
-    ```
-    sudo su -
-    ```
-
+    *`sudo su -`*
 
 2. Enter the adduser command below to add a new user to your Linux system. 
 
-    > Note: Replace newusername with the user you want to create.
+    **Note**: Replace newusername with the user you want to create.
 
     *`sudo adduser newusername`*
 
@@ -67,10 +64,10 @@ permalink: /docs/users
     *`su - newusername`*
 
 
-7. Enter the following sudo command to verify that the new user has admin privileges.
+7. Enter the following sudo command to verify that the new user has sudo privileges.
 
-    >Note: the /root directory is normally accessible only by the root user and requires sudo privileges.
+    **Note**: the /root directory is normally accessible only by the root user and requires sudo privileges.
 
     *`sudo ls -la /root`*
 
-    You should see the a list of directories if the user has been assigned to the sudo group.
+    You should see the a list of directories if you correctly assigned the user to the sudo group.
