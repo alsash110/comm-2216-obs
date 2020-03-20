@@ -20,7 +20,7 @@ permalink: /docs/Introduction
 
 ---
 
-The purpose of this document is to help you get started with using Linux and basic commands. Linux provides users with a free operating system that is highly secure and stable. Linux also makeup the backbone of the internet
+The purpose of this document is to help you get started with using Linux and some of its basic commands. Linux is a free operating system that is secure, customizable, and stable. These factors lead to the wide adoption of Linux and it now forms the backbone of the internet.
 
 ---
 
@@ -57,3 +57,5 @@ Linux was created in 1991 by Linus Torvalds when he was 21. It started out a Ker
 
 ### Conclusion
 The idea of a free, stable, customizable, powerful, and secure operating system is just too good to overlook. Many users simply moved to Linux to remove themselves from propriety software, others out of curiosity. Anyone who works to the tech industry will also heavily use Linux, so if you wish to have a career in tech, start learning Linux.
+
+---
