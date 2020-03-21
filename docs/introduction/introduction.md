@@ -40,22 +40,30 @@ There are many comprehensive Linux documents out there, but those can be overwhe
 ---
 
 ## Prerequisites
-To follow along with this document, you should have access to a computer. If you have Linux installed _locally_ or in a _virtual machine_, great. Alternatively, browser based terminals such as [Bellard's Linux emulator](https://bellard.org/jslinux/ "Browser Linux emulator") or [Copy.sh's Linux emulator](https://copy.sh/v86/ "Browser Linux emulator") is another way to access Linux without installing anything.
+To follow along with this document, you should have access to a computer.
+
+If you have Linux installed _locally_ or in a _virtual machine_, great. Alternatively, browser based terminals such as [Bellard's Linux emulator](https://bellard.org/jslinux/ "Browser Linux emulator") or [Copy.sh's Linux emulator](https://copy.sh/v86/ "Browser Linux emulator") is another way to access Linux without installing anything.
 
 ---
 
 ## Why learn Linux
-Linux is used everywhere and it is not going away any time soon. At its core, Linux is a free software used to control all types of hardware. The internet is built on Linux, phones are running on linux, even your smart appliances are using Linux. If you are planing to have a career related to technology, it is guaranteed that you will be interacting with Linux. With this in mind, familiarizing your self with Linux is beneficial.
+Linux is used everywhere and it is not going away any time soon. At its core, Linux is a free software used to control all types of hardware. The internet is built on Linux, phones are running on linux, even your smart appliances are using Linux.
+
+If you are planing to have a career related to technology, it is guaranteed that you will be interacting with Linux. With this in mind, familiarizing your self with Linux is beneficial.
 
 ---
 
 ## Works on all versions
-The concepts and commands covered in this document will work with any _Linux distributions_. A _Linux distribution_ is a collection of software bundled with the _Linux Kernel_. These bundles contain a set of features and settings for a particular purpose. The basic building blocks remains the same so all distributions of Linux still retains its main characteristics.
+The concepts and commands covered in this document will work with any _Linux distributions_. A _Linux distribution_ is a collection of software bundled with the _Linux Kernel_. These bundles contain a set of features and settings for a particular purpose.
+
+The basic building blocks remains the same so all distributions of Linux still retains its main characteristics.
 
 ---
 
 ## Brief History
-Linus Torvalds created Linux in 1991 when he was 21. It started out as a _Kernel_, the lowest level of code _interfacing_ with hardware. In 1992, the _Linux Kernel_ was bundled together with _GNUs_ (GNU’s Not Unix) software packages and published under the _GNU General Public Licence_. This made GNU/Linux a legally free, fully featured operating system.
+Linus Torvalds created Linux in 1991 when he was 21. It started out as a _Kernel_, the lowest level of code _interfacing_ with hardware.
+
+In 1992, the _Linux Kernel_ was bundled together with _GNUs_ (GNU’s Not Unix) software packages and published under the _GNU General Public Licence_. This made GNU/Linux a legally free, fully featured operating system.
 
 ---
 
