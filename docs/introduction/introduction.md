@@ -72,4 +72,4 @@ The idea of a free, reliable, customizable, and secure operating system is too g
 
 With that in mind, let's get started.
 
-![Linux mascot](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/tux.png?raw=true "Tux"){: .v-align-middle }
+![Linux mascot](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/tux.png?raw=true "Tux"){: .d-flex style="justify-content: center"}

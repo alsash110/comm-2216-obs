@@ -10,6 +10,8 @@ nav_order: 1
 # The Linux File System
 {: .no_toc }
 
+This section covers the basic Linux file system concepts.
+
 ---
 
 ### Table of Contents
