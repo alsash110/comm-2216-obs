@@ -10,6 +10,8 @@ nav_order: 2
 # The Concept of Directories
 {: .no_toc }
 
+This section describes directories and paths in Linux file system.
+
 ---
 
 ### Table of Contents
