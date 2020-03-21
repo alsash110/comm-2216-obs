@@ -9,6 +9,8 @@ nav_order: 1
 
 These instructions use the following typographic conventions.
 
+---
+
 | Convention                           | Typeface                  | Examples                                                    |
 | :----------------------------------- | :------------------------ | :---------------------------------------------------------- |
 | Command line commands and user input | *`Light`*                 | *`pwd`*, *`ls`*, *`cd`*, *`sudo`*                           |

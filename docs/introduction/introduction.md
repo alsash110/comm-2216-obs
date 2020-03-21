@@ -62,4 +62,4 @@ Linus Torvalds created Linux in 1991 when he was 21. It started out as a _Kernel
 ## Conclusion
 The idea of a free, reliable, customizable, and secure operating system is too good to overlook. Many users switched Linux to remove themselves from propriety software, others out of curiosity. Anyone who works to the tech industry will also heavily use Linux. With that in mind, let's get started.
 
-![Linux mascot](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/tux.png?raw=true "Tux"){: style="align: center" }
+![Linux mascot](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/tux.png?raw=true "Tux"){: style="margin: auto" }
