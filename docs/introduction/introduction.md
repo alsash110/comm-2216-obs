@@ -68,6 +68,8 @@ In 1992, the _Linux Kernel_ was bundled together with _GNUs_ (GNU’s Not Unix) 
 ---
 
 ## Conclusion
-The idea of a free, reliable, customizable, and secure operating system is too good to overlook. Many users switched Linux to remove themselves from propriety software, others out of curiosity. Anyone who works to the tech industry will also heavily use Linux. With that in mind, let's get started.
+The idea of a free, reliable, customizable, and secure operating system is too good to overlook. Many users switched Linux to remove themselves from propriety software, others out of curiosity. Anyone who works to the tech industry will also heavily use Linux.
 
-![Linux mascot](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/tux.png?raw=true "Tux"){: style="margin-left: auto, margin-right: auto" }
+With that in mind, let's get started.
+
+![Linux mascot](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/tux.png?raw=true "Tux"){: .v-align-middle }
