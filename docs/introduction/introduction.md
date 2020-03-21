@@ -60,4 +60,4 @@ Linux was created in 1991 by Linus Torvalds when he was 21. It started out as a 
 ## Conclusion
 The idea of a free, stable, customizable, powerful, and secure operating system is just too good to overlook. Many users simply moved to Linux to remove themselves from propriety software, others out of curiosity. Anyone who works to the tech industry will also heavily use Linux. So if you wish to have a career in tech, start learning Linux.
 
-![Linux mascot](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/tux.png?raw=true "Tux"){: style="float: center" }
+![Linux mascot](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/tux.png?raw=true "Tux")
