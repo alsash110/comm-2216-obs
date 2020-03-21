@@ -33,7 +33,8 @@ If you are familiar with Windows, _partitions_ refer to the drive letters such a
 >> To open a terminal window, launch the terminal app or right click on the desktop and select `open in terminal`.
 
 ---
-We can look for it if open a new terminal and type the following
+
+We can look for it if open a new terminal and type the following:
 
 >> *`ls -la /dev`*  >-->  **[Enter]**
 

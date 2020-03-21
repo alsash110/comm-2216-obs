@@ -59,7 +59,7 @@ It is important to know what _path_ you are referencing when issuing a command. 
 
 Typically your _home directory_ is the default _path_ when you open a new terminal.
 
-To specify an _absolute reference_ to the ls command:
+To specify an _absolute reference_ to the `ls` command:
 
 >> *`ls /users`*  >-->  **[Enter]**
 
