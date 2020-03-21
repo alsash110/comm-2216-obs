@@ -37,7 +37,7 @@ You can also go to your _home directory_ from anywhere by typing:
 
 >> *`cd`*  >-->  **[Enter]**
 
-![Screen shot pwd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/pwd_1.png?raw=true "cd")
+![Screen shot pwd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/pwd_2.png?raw=true "cd")
 
 ---
 
