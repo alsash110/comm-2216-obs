@@ -93,55 +93,55 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 **3.** Display the contents inside your current directory by inputting the following command.
 
-    ![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" } It is important to know what _path_ you are referencing when issuing a command. The `ls` command implicitly shows the contents, such as files and directories under your current directory.
+>![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" } It is important to know what _path_ you are referencing when issuing a command. The `ls` command implicitly shows the contents, such as files and directories under your current directory.
 
-    *`ls`*
+>*`ls`*
 
-    You will be shown everything inside your current directory.
+>You will be shown everything inside your current directory.
 
-    ![Screen shot ls](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/contents.png?raw=true "ls")
+>![Screen shot ls](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/contents.png?raw=true "ls")
 
 ---
 
 **4.** Create a new folder inside your current directory by using the following command.
 
-    *`mkdir testfolder`*
+>*`mkdir testfolder`*
 
-    Let's check the contents of our current directory again by inputting the *`ls`* command once again.
+>Let's check the contents of our current directory again by inputting the *`ls`* command once again.
 
-    *`ls`*
+>*`ls`*
 
-    You will see that you have successfully created a new folder called `testfolder`.
+>You will see that you have successfully created a new folder called `testfolder`.
 
-    ![Screen shot ls with testfolder](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/contents2.png?raw=true "ls")
+>![Screen shot ls with testfolder](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/contents2.png?raw=true "ls")
 
 ---
 
 **5.** Change into the `testfolder` directory with the following command.
 
-    **Note**: The input after `cd` will be the name of the directory you want to change into.
+>**Note**: The input after `cd` will be the name of the directory you want to change into.
 
-    *`cd testfolder`*
+>*`cd testfolder`*
 
-    Let's check to see which directory you are now currently in with the *`pwd`* command.
+>Let's check to see which directory you are now currently in with the *`pwd`* command.
 
-    *`pwd`*
+>*`pwd`*
 
-    You will see that you are now inside the newly created `testfolder` directory.
+>You will see that you are now inside the newly created `testfolder` directory.
 
-    ![pwd2](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/pwd2.png?raw=true "ls")
+>![pwd2](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/pwd2.png?raw=true "ls")
 
 ---
 
 **6.** Change back to the previous directory with the following command.
 
-    **Note**: By adding *`../`*, you can jump back up one parent directory.
+>**Note**: By adding *`../`*, you can jump back up one parent directory.
 
-    *`cd ../`*
+>*`cd ../`*
 
-    You will see you have returned back to the previous directory that you were in.
+>You will see you have returned back to the previous directory that you were in.
 
-    ![Screen shot pwd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/pwd.png?raw=true "pwd")
+>![Screen shot pwd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/pwd.png?raw=true "pwd")
 
 ---
 
