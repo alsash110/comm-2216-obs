@@ -83,5 +83,3 @@ The following instruction set will show you how to:
 By reaching the end of this instruction set, you will have successfully learned how to view, search for, and kill any process.
 
 You can see that finding and ending processes can be done through the terminal and without much of a hassle. Just be sure that whenever you do decide to kill a process that you ensure that the process id is correct.
-
----
