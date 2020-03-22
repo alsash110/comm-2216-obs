@@ -101,7 +101,7 @@ The `-l` switch is used to format the display so its easy to read.
 
 ### `cd`
 
-The `cd` command is used to "change directory". Issuing the command without any arguments or with the `~` argument results in changing to your _home directory_.
+The `cd` command is used to "change directories". Issuing the command without any arguments or with the `~` argument results in changing to your _home directory_.
 
 You can pass `cd` a relative path or an absolute path as the argument. Relative path means you want to go in to a sub-directory. Heres an example:
 
@@ -116,3 +116,9 @@ You can also pass `.` or `..` as an argument. `cd .` means you want to change to
 ---
 
 ## Summary
+
+* Commands are instructions to perform tasks in Linux. You can specify options (switches) and pass arguments to commands but they differ from each command.
+
+* The three most commonly used commands to navigate the file system in Linux are: `pwd`, `ls`, and `cd`.
+
+The next section will cover how to look up a commands functionality, the _manual_ page or _man pages_.
