@@ -75,17 +75,17 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 **1.** Open up your terminal by right-clicking on your desktop and clicking `Open Terminal`.
 
-    ![Terminal open](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/term.png?raw=true "terminal")
+>![Terminal open](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/term.png?raw=true "terminal")
 
 **2.** Input the following command into your terminal to display your current directory.
 
-    **Note**: Linux directories behave similar to folders. In the background, directories are actually a special type of file used to store information about other files. It's contents are controlled by the Linux operating system and it includes things such as name, permission, type, size, and so on.
+>**Note**: Linux directories behave similar to folders. In the background, directories are actually a special type of file used to store information about other files. It's contents are controlled by the Linux operating system and it includes things such as name, permission, type, size, and so on.
 
-    *`pwd`*
+>*`pwd`*
 
-    You should be able to see exactly which directory you are currently in.
+>You should be able to see exactly which directory you are currently in.
 
-    ![Screen shot pwd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/pwd.png?raw=true "pwd")
+>![Screen shot pwd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/pwd.png?raw=true "pwd")
 
 **3.** Display the contents inside your current directory by inputting the following command.
 
