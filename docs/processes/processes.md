@@ -72,7 +72,7 @@ The following instruction set will show you how to:
 >```
 
 
-4. Input the *`pgrep`* command once more to test if the process did in fact stop.
+**4.** Input the *`pgrep`* command once more to test if the process did in fact stop.
 
 >```
 >pgrep processname
