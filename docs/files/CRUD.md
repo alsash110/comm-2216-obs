@@ -56,7 +56,9 @@ This instruction set will go over Linux commands that allows you to perform CRUD
 
 **3.** Enter the following command to read the contents of our file.
 
->*`cat test.txt`*
+>```
+>cat test.txt
+>```
 
 >You will notice that nothing happened. That's because nothing has been input into the `test.txt` file!
 
@@ -65,18 +67,24 @@ This instruction set will go over Linux commands that allows you to perform CRUD
 
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" } Ensure that *`>`* is added to the command this time to be able to insert text into the file.
 
->*`cat > test.txt`*
+>```
+>cat > test.txt
+>```
 
 >You will be prompted with an empty space to insert some text.
 
 >Enter in some text of your choice and hit return. I chose to enter the following text.
 
->*`I am a test line in my test file`*
+>```
+>I am a test line in my test file
+>```
 
 
 **5.** Enter the *`cat`* command once again to check the contents.
 
->*`cat test.txt`*
+>```
+>cat test.txt
+>```
 
 >You will see that we did indeed modify the contents of the `test.txt` file.
 
@@ -87,12 +95,16 @@ This instruction set will go over Linux commands that allows you to perform CRUD
 
 >**Note**: When using the *`mv`* command to rename a file, enter the current file and then the new name.
 
->*`mv test.txt newname.txt`*
+>```
+>mv test.txt newname.txt
+>```
 
 
 **7.** Check your current directory again to see that the file name has been changed.
 
->*`ls`*
+>```
+>ls
+>```
 
 >You will notice that `test.txt` does not exist and has been renamed to `newname.txt`.
 
@@ -103,14 +115,20 @@ This instruction set will go over Linux commands that allows you to perform CRUD
 
 >**Note**: Use the *`mkdir`* command to create a new directory. You may notice that the *`mv`* command is used here again but this time the command is used to move a file into a different directory by entering the file name and then the directory name.
 
->*`mkdir myfolder`*
+>```
+>mkdir myfolder
+>```
 
->*`mv newname.txt myfolder`*
+>```
+>mv newname.txt myfolder
+>```
 
 
 **9.** Check the contents of the directory `myfolder` that you just created.
 
->*`ls myfolder`*
+>```
+>ls myfolder
+>```
 
 >You should notice that `newname.txt` did indeed move inside of the `myfolder` directory.
 
@@ -121,8 +139,13 @@ This instruction set will go over Linux commands that allows you to perform CRUD
 
 >**Note**: You may use the *`rm`* command to delete a file and *`rmdir`* to delete a directory. You need to first delete the contents before being able to delete the directory.
 
->*`rm newname.txt`*
->*`rmdir myfolder`*
+>```
+>rm newname.txt
+>```
+
+>```
+>rmdir myfolder
+>```
 
 >You will see that you have removed the directory and the contents.
 
