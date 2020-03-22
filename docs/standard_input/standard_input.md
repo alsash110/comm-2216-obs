@@ -2,11 +2,9 @@
 layout: default
 title: Standard IO
 nav_order: 7
-has_children: true
+has_children: false
 permalink: /docs/standard_input
 ---
-
-<!-- {: .fs-6 .fw-300 } -->
 
 # Standard IO
 {: .no_toc }
