@@ -65,7 +65,8 @@ The following instruction set will show you how to:
 
 **3.** Input the ```kill``` command along with the *`processid`* to stop your desired process.
 
->![Caution icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/caution.png?raw=true "Caution"){: style="float: left" } Ensure you input the correct process id or you may accidentally kill an essential process.
+>![Caution icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/caution.png?raw=true "Caution"){: style="float: left" } 
+>>Ensure you input the correct process id or you may accidentally kill an essential process.
 
 >```
 >kill processid
