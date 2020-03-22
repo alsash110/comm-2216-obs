@@ -29,7 +29,7 @@ Linux is a free, multi user operating system that is secure, customizable, and s
 ## Is This Guide for You
 This guide is for beginner Linux users who has some basic computer knowledge.
 
-There are many comprehensive Linux documents out there, but those can be overwhelming. This guide is meant to provide a simpler way by teaching you only the basic Linux concepts and commands. By the end of this guide, you will have learned how to use the command line to:
+There are many comprehensive Linux documents out there, but those can be overwhelming. This guide is meant to provide you with simple instructions and teach you basic, essential Linux concepts and commands. By the end of this guide, you will have learned how to use the command line to:
 
 * navigate through your Linux system,
 * create and modify user accounts,
@@ -55,7 +55,7 @@ To follow along with this document, you will need the following:
 ## Why learn Linux
 Linux is used everywhere and it is not going away any time soon. At its core, Linux is a free software used to control all types of hardware. The internet is built on Linux, phones are running on linux, even your smart appliances are using Linux.
 
-If you are planing to have a career related to technology, it is guaranteed that you will be interacting with Linux. With this in mind, familiarizing your self with Linux is beneficial.
+If you are planning to have a career related to technology, it is guaranteed that you will be interacting with Linux at some point. With this in mind, familiarizing your self with Linux can be beneficial.
 
 ---
 
@@ -67,15 +67,15 @@ The basic building blocks remains the same so all distributions of Linux still r
 ---
 
 ## Brief History
-Linus Torvalds created Linux in 1991 when he was 21. It started out as a _Kernel_, the lowest level of code _interfacing_ with hardware.
+Linus Torvalds created Linux in 1991 at the age of 21. Linux started out as a _Kernel_, the lowest level of code _interfacing_ with hardware.
 
 In 1992, the _Linux Kernel_ was bundled together with _GNUs_ (GNU’s Not Unix) software packages and published under the _GNU General Public Licence_. This made GNU/Linux a legally free, fully featured operating system.
 
 ---
 
 ## Conclusion
-The idea of a free, reliable, customizable, and secure operating system is too good to overlook. Many users switched Linux to remove themselves from propriety software, others out of curiosity. Anyone who works to the tech industry will also heavily use Linux.
+The idea of a free, reliable, customizable, and secure operating system is too good to overlook. Many users have switched Linux to remove themselves from propriety software or just out of curiosity. Anyone who works in the tech industry will also heavily rely on the use of Linux.
 
-With that in mind, let's get started.
+With that in mind, let's get started on teaching you some of the essentials. We recommend that you start with [navigating through the file system.](https://dl90.github.io/linux-basics/docs/navigating)
 
 ![Linux mascot](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/tux.png?raw=true "Tux"){: .d-flex style="justify-content: center"}
