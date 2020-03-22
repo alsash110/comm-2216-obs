@@ -54,6 +54,7 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 
 >![Root user](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/files/rootuser.png?raw=true "Root user")
 <br />
+<br />
 
 **2.** Enter the following command to read the contents of our file.
 
