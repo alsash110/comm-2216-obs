@@ -128,6 +128,7 @@ There are a number of commands we can use to navigate the Linux file system in t
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
 >> The input after `cd` will be the name of the directory you want to change into.
 
+
 >```
 >cd testfolder
 >```
