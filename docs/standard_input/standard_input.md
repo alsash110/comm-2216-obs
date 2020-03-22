@@ -2,11 +2,9 @@
 layout: default
 title: Standard IO
 nav_order: 7
-has_children: true
+has_children: false
 permalink: /docs/standard_input
 ---
-
-<!-- {: .fs-6 .fw-300 } -->
 
 # Standard IO
 {: .no_toc }
@@ -33,19 +31,28 @@ A simplified explanation is the standard output from a command can be ‘piped�
 ## The `>` Operator
 
 The `>` operator takes the _stdout_ from  `ls -la`  and writes it to a newly created file called `list.txt` in your current directory.
-The `>` command is formatted as `command > filename`
+
+The `>` command is formatted as `command > filename`.
+
+1. Try this new operator by inputting the following in a terminal:
 
 >> *`ls -la > list.txt`*  >-->  **[Enter]**
 
+The results may not be exactly the same but it should look something like this:
+
 ![Screen shot of ls -la > list.txt](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdout_1.png?raw=true ">")
 
-We can see that the contents of the file is exactly the same as the terminal output of  ls -la. An interesting note is that the contents of list.txt actually contains the file list.txt itself.
+We can see that the contents of the file is exactly the same as the terminal output of *`ls -la`*.
+
+An interesting note is that the contents of *`list.txt`* actually contains the text `list.txt` itself.
 
 ---
 
 ## The `>>` Operator
 
 The `>>` operator _appends_ the stdout to an existing file while the `>` always creates (overwrites) a file.
+
+2. Try the `>>` operator by inputting:
 
 >> *`pwd >> list.txt`*  >-->  **[Enter]**
 
@@ -58,6 +65,10 @@ If you reopen the file, the stdout of `pwd` is appended to the end of the file.
 ## The `|` Operator
 
 The `|` is another operator that takes Standard Output from the left side and ‘pipes’ it as the Standard Input to the right side.
+
+The command is formatted as `command  |  command`
+
+3. Try using the 'pipe' operator:
 
 >> *`ls /etc | less`*  >-->  **[Enter]**
 
@@ -73,7 +84,7 @@ To exit, press **[q]**.
 
 We can redirect _stdin_ as well with the `<` operator.
 
-If you haven’t deleted the file `list.txt` or _changed directories_, if you run:
+4. If you haven’t deleted the file `list.txt` or _changed directories_, if you run:
 
 >> *`wc < list.txt`*  >-->  **[Enter]**
 
@@ -91,21 +102,23 @@ It _redirects_ the _stdout_ form the _right side_ as the _stdin_ on the _left_.
 
 ---
 
-## Another Example of `|` Operator
+## Use case of `|` Operator
 
-I have a file text file named `rockyou.txt`. It contains a list of the most common passwords used online.
+Imagine you have a text file named `rockyou.txt`. It contains a list of the most common passwords used online.
+
+Heres what the first few lines looks like:
 
 ![Screen shot of less rockyou.txt](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdin_2.png?raw=true "rockyou.txt")
 
-I can search the list to see if my password is on the list by using this command.
+You can search the list to see if my password is on the list by using the `grep` command.
 
 >> *`cat rockyou.txt | grep aaabbbcccddd`*  >-->  **[Enter]**
 
-The command is formatted as `command  |  command`
-
 ![Screen shot of cat rockyou.txt `|` grep aaabbbcccddd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdin_3.png?raw=true "`|`")
 
-Yes, *`aaabbbcccddd`* is in it and so it is a terrible password.
+The `grep` command returns all matching results if it is found.
+
+You received a result back, this tells you *`aaabbbcccddd`* is in the list of common passwords and we should not use it.
 
 ---
 
@@ -120,7 +133,9 @@ It makes no sense to pipe something to a command if the command does not take a 
 
 ## File Descriptor
 
-A File Descriptor is a number used to represent stdin, stdout, and stderr.
+A _File Descriptor_ is non negative a number used to represent stdin, stdout, and stderr associated with open files. This is how the operating system identifies and keeps track of inputs and outputs to files.
+
+This guild will not go in to further details on this topic.
 
 | type   | file descriptor |
 | :----- | :-------------- |
@@ -131,3 +146,9 @@ A File Descriptor is a number used to represent stdin, stdout, and stderr.
 ---
 
 ## Conclusion
+
+You should have a better understanding of how Linux handles user input and output in the _terminal_.
+
+Learning about the piping (*`|`*) and redirecting (*`>`*, *`>>`*, *`<`*) operators adds a lot more functionality to commands and allows for _command chaining_. This is where the command line becomes a very powerful tool.
+
+This is the conclusion of this guild but don't let that stop you from learning more.
