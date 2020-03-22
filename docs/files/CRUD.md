@@ -82,7 +82,6 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 >I am a test line in my test file
 >```
 <br />
-<br />
 
 **4.** Enter the `cat` command once again to check the contents.
 
