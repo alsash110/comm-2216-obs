@@ -28,6 +28,14 @@ Using the CLI also introduces additional functionalities that may have been over
 
 ---
 
+## Directories
+
+Linux directories behave similar to folders. In the background, directories are actually a special type of file used to store information about other files. It's contents are controlled by the Linux operating system and it includes things such as name, permission, type, size, and so on.
+
+The home directory for common users are located in `/Users` while the _root user_ is stored in a separate `/root` directory. If you are wondering what the difference is between common users and the _root user_, it will be covered in a separate section.
+
+---
+
 ## What are Commands
 
 Commands are instructions the operating system uses to perform specific tasks. It provides a _layer of abstraction_ and makes it easier for users to use a computer without the need to know how things work.
