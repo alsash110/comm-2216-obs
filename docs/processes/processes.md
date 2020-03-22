@@ -48,7 +48,8 @@ The following instruction set will show you how to:
 
 >![Screen shot of ps aux output](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/processes/ps_aux_1.png?raw=true "ps aux output")
 >![Screen shot of ps aux output](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/processes/ps_aux_2.png?raw=true "ps aux output")
-
+<br />
+<br />
 
 **2.** Input the ```pgrep``` command and your process name to obtain the *`processid`* of your process.
 
@@ -61,7 +62,8 @@ The following instruction set will show you how to:
 >**Note**: The id of a process is different every time you start a process. If the process name exists, you will be able to see the id of your process, as shown below.
 
 >![Screen shot of pgrep firefox output](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/processes/pgrep-firefox.png?raw=true "pgrep firefox output")
-
+<br />
+<br />
 
 **3.** Input the ```kill``` command along with the *`processid`* to stop your desired process.
 
@@ -71,7 +73,8 @@ The following instruction set will show you how to:
 >```
 >kill processid
 >```
-
+<br />
+<br />
 
 **4.** Input the ```pgrep``` command along with the same *`processname`* once more to test if the process did in fact stop.
 
@@ -82,6 +85,7 @@ The following instruction set will show you how to:
 >If the process did get stopped, there should be no output for that specific process.
 
 >![Screen shot of no pgrep firefox output](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/processes/pgrep-firefox-killed.png?raw=true "no pgrep firefox output")
+<br />
 
 By reaching the end of this instruction set, you will have successfully learned how to view, search for, and kill any process.
 
