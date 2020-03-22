@@ -92,10 +92,6 @@ This instruction set will show you how to:
 
 >![Screen shot of root directory](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/users/sudo-ss.png?raw=true "Root directory contents")
 
----
-
-## Conclusion
-
-You have successfully created a new user and assigned sudo privileges to that user account once you are able to use the `sudo` command to display the list of contents at the root.
+You now have successfully created a new user and assigned sudo privileges to that user account once you are able to use the `sudo` command to display the list of contents at the root.
 
 You may also find use for creating multiple new user accounts on your system for testing purposes or to have a clean slate to create or modify files in that account.

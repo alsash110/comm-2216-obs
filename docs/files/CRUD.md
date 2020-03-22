@@ -43,7 +43,7 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 >```
 
 
-**2.** Enter the following command to test if you have a created a file called *`test.txt`*.
+>Test if the *`test.txt`* file was actually created by listing the contents of our current directory with the following command.
 
 >```
 >ls
@@ -54,7 +54,7 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 >![Root user](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/files/rootuser.png?raw=true "Root user")
 
 
-**3.** Enter the following command to read the contents of our file.
+**2.** Enter the following command to read the contents of our file.
 
 >```
 >cat test.txt
@@ -63,7 +63,7 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 >You will notice that nothing happened. That's because nothing has been input into the *`test.txt`* file!
 
 
-**4.** Insert some text into your newly created file using the following command.
+**3.** Insert some text into your newly created file using the following command.
 
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" } Ensure that *`>`* is added to the command this time to be able to insert text into the file.
 
@@ -80,7 +80,7 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 >```
 
 
-**5.** Enter the `cat` command once again to check the contents.
+**4.** Enter the `cat` command once again to check the contents.
 
 >```
 >cat test.txt
@@ -91,7 +91,7 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 >![Inserted text into test.txt](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/files/insert-text.png?raw=true "test.txt has contents")
 
 
-**6.** Input the following command to rename our *`test.txt`* file into *`newname.txt`*.
+**5.** Input the following command to rename our *`test.txt`* file into *`newname.txt`*.
 
 >**Note**: When using the `mv` command to rename a file, enter the current file and then the new name.
 
@@ -99,8 +99,7 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 >mv test.txt newname.txt
 >```
 
-
-**7.** Check your current directory again to see that the file name has been changed.
+>Check your current directory again to see that the file name has been changed.
 
 >```
 >ls
@@ -111,20 +110,23 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 >![Renamed .txt file](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/files/renamed.png?raw=true "Renamed .txt file.")
 
 
-**8.** Move your *`newname.txt`* file to a different directory with the following commands.
+**6.** Move your *`newname.txt`* file to a different directory with the following commands.
 
 >**Note**: Use the `mkdir` command to create a new directory. You may notice that the `mv` command is used here again but this time the command is used to move a file into a different directory by entering the file name and then the directory name.
+
+>Create a new directory first before moving the *`newname.txt`* file.
 
 >```
 >mkdir myfolder
 >```
 
+> Move *`newname.txt`* inside the new directory *`myfolder`*.
+
 >```
 >mv newname.txt myfolder
 >```
 
-
-**9.** Check the contents of the directory *`myfolder`* that you just created.
+>Check the contents of the directory *`myfolder`* that you just created.
 
 >```
 >ls myfolder
@@ -135,24 +137,24 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 >![Moved .txt file](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/files/moved.png?raw=true "Moved .txt file.")
 
 
-**10.** Remove the *`newname.txt`* file and the *`myfolder`* directory using the `rm` command.
+**7.** Remove the *`newname.txt`* file and the *`myfolder`* directory using the `rm` command.
 
->**Note**: You may use the `rm` command to delete a file and `rmdir` to delete a directory. You need to first delete the contents before being able to delete the directory.
+>![Caution icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/caution.png?raw=true "Caution"){: style="float: left" } You need to first delete the contents before being able to delete the directory.
+
+>Remove *`newname.txt`* from the *`myfolder`* directory by stating the directory and the file you want to remove with the following command.
 
 >```
->rm newname.txt
+>rm myfolder/newname.txt
 >```
+
+>Remove the *`myfolder`* directory completely with the following command.
 
 >```
 >rmdir myfolder
 >```
 
->You will see that you have removed the directory and the contents.
+>You will see that you have completely removed both the directory and its contents using the `ls` command. You should no longer see both the created .txt file and directory.
+
+>As you've noticed by now, you were able to do these things without the use of your mouse or a graphical user interface. You should be able to easily use these commands for your own future use in Linux when the need to create new file types and directories arise.
 
 ---
-
-### Conclusion
-
-By reaching the end of this set of instructions, you have successfully created, read, modified, moved, and deleted files using the terminal. You will no longer see both the created .txt file and folder.
-
-As you've noticed by now, you were able to do these things without the use of your mouse or a graphical user interface. You should be able to easily use these commands for your own future use in Linux when the need to create new file types and directories arise.
