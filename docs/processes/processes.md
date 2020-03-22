@@ -49,7 +49,6 @@ The following instruction set will show you how to:
 >![Screen shot of ps aux output](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/processes/ps_aux_1.png?raw=true "ps aux output")
 >![Screen shot of ps aux output](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/processes/ps_aux_2.png?raw=true "ps aux output")
 
----
 
 **2.** Input the *`pgrep`* command and your process name.
 
@@ -63,14 +62,8 @@ The following instruction set will show you how to:
 
 >![Screen shot of pgrep firefox output](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/processes/pgrep-firefox.png?raw=true "pgrep firefox output")
 
-<<<<<<< HEAD
 
 **3.** Input the *`kill`* command along with the process id to stop your desired process.
-=======
----
-
-3. Input the *`kill`* command along with the process id to stop your desired process.
->>>>>>> cee5cbd28563ab5df6ccf13870e34da02bf7e0dd
 
 >![Caution icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/caution.png?raw=true "Caution"){: style="float: left" } Ensure you input the correct process id or you may accidentally kill an essential process.
 
@@ -78,7 +71,6 @@ The following instruction set will show you how to:
 >kill processid
 >```
 
----
 
 4. Input the *`pgrep`* command once more to test if the process did in fact stop.
 
