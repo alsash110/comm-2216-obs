@@ -35,7 +35,7 @@ This section will go over some Linux commands that allows you to perform these a
 
     You should be able to see that the file named `test.txt` exists inside your current directory.
 
-    ![Screen shot test.txt](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/files/testfile-directory.png?raw=true "test.txt exists")
+    ![Root user](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/files/rootuser.png?raw=true "Root user")
 
 
 3. Enter the following command to read the contents of our file.
