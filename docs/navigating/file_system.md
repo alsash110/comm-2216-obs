@@ -38,7 +38,9 @@ If you are familiar with Windows, _partitions_ refer to the drive letters such a
 
 We can look for it if open a new terminal and type the following:
 
->> *`ls -la /dev`*  >-->  **[Enter]**
+>```bash
+>ls -la /dev
+>```
 
 ![Screen shot of ls -la /dev/](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/file_system/sda.png?raw=true "/dev")
 

@@ -31,13 +31,17 @@ As an example, if a users has an account named Don, their _home directory_ (unle
 
 You can check your default directory path by opening a new terminal window and typing:
 
->> *`pwd`*  >-->  **[Enter]**
+>```bash
+>pwd
+>```
 
 ![Screen shot pwd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/pwd_1.png?raw=true "pwd")
 
 You can also go to your _home directory_ from anywhere by typing:
 
->> *`cd`*  >-->  **[Enter]**
+> ```bash
+>cd
+>```
 
 ![Screen shot pwd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/pwd_2.png?raw=true "cd")
 
@@ -49,7 +53,9 @@ There are two types of _paths_ in Linux, _relative path_ and _absolute path_. _R
 
 It is important to know what _path_ you are referencing when issuing a command. Open a new terminal and type:
 
->> *`ls`*  >-->  **[Enter]**
+>```bash
+>ls
+>```
 
 ![Screen shot ls](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/ls_rel.png?raw=true "ls")
 
@@ -63,7 +69,9 @@ Typically your _home directory_ is the default _path_ when you open a new termin
 
 To specify an _absolute reference_ to the `ls` command:
 
->> *`ls /users`*  >-->  **[Enter]**
+>```bash
+>ls /users
+>```
 
 ![Screen shot ls](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/ls_abs.png?raw=true "ls")
 

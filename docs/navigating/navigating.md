@@ -159,5 +159,3 @@ There are a number of commands we can use to navigate the Linux file system in t
 By reaching the end of this instruction set, you have learned how to open the terminal and input commands which allowed you to navigate through your system. 
 
 You are now able to know exactly what files are contained in your directories as well as your current directory, allowing you to easily navigate through your system.
-
----
