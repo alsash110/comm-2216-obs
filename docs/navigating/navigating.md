@@ -55,7 +55,7 @@ Below is a list of some of the most commonly used commands to navigate Linux.
 **Note**: This list is not exhaustive.
 
 | Command         | Description                                                                                             |
-| :--------       | :------------------------------------------------------------------------------------------------------ |
+| :-------------- | :------------------------------------------------------------------------------------------------------ |
 | `ls`            | "List" all visible files and folders in the current directory.                                          |
 | `pwd`           | "Print working directory" shows your current directory location.                                        |
 | `cd`            | "Change directory" to a specified directory or your home directory.                                     |
@@ -93,7 +93,11 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 **3.** Display the contents inside your current directory by inputting the following command.
 
+---
+
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" } It is important to know what _path_ you are referencing when issuing a command. The `ls` command implicitly shows the contents, such as files and directories under your current directory.
+
+---
 
 >```
 >ls
@@ -103,9 +107,13 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 >![Screen shot ls](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/contents.png?raw=true "ls")
 
-Passing the `ls` command the `-a` switch lists all hidden files as well.
+---
 
-The `-l` switch is used to format the display so its easy to read.
+![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
+>> Passing the `ls` command the `-a` switch lists all hidden files as well.
+>>The `-l` switch is used to format the display so its easy to read.
+
+---
 
 **4.** Create a new folder inside your current directory by using the following command.
 
@@ -126,7 +134,12 @@ The `-l` switch is used to format the display so its easy to read.
 
 **5.** Change into the *`testfolder`* directory with the following command.
 
->**Note**: The input after `cd` will be the name of the directory you want to change into.
+---
+
+![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
+>> The input after `cd` will be the name of the directory you want to change into.
+
+---
 
 >```
 >cd testfolder
@@ -144,7 +157,12 @@ The `-l` switch is used to format the display so its easy to read.
 
 **6.** Change back to the previous directory with the following command.
 
->**Note**: By adding `..`, you can jump back up one parent directory.
+---
+
+![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
+>> By adding `..`, you can jump back up one parent directory.
+
+---
 
 >```
 >cd ..
@@ -154,7 +172,12 @@ The `-l` switch is used to format the display so its easy to read.
 
 >![Screen shot pwd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/pwd.png?raw=true "pwd")
 
+---
+
+![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
 `cd -` returns you to your previous location, but you can only backtrack once.
+
+---
 
 ## Conclusion
 
