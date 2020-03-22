@@ -26,6 +26,7 @@ This instruction set will show you how to:
 **1.** Switch to the root user by entering the following command into your terminal.
 
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note")
+{: style="float: left" } 
 >>Ensure that you enter the command below correctly before proceeding or you will not be able to successfully complete the other steps. You will also be prompted to enter your password.
 
 >```
@@ -41,6 +42,8 @@ This instruction set will show you how to:
 >If entered correctly, the bottom left of your terminal should display root as your user.
 
 >![Screen shot of root user](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/users/rootuser.png?raw=true "Image of user on root account")
+<br />
+<br />
 
 **2.** Enter the `adduser` command below to add a new user to your Linux system.
 
@@ -49,7 +52,8 @@ This instruction set will show you how to:
 >```
 >sudo adduser newusername
 >```
-
+<br />
+<br />
 
 **3.** Set and confirm a password for the new user.
 
@@ -58,26 +62,32 @@ This instruction set will show you how to:
 >Upon successfully entering and confirming a password, the terminal will show the following message.
 
 >![password success](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/users/create2.png?raw=true "Password success")
-
+<br />
+<br />
 
 **4.** Follow and enter the prompts to set the new users information. 
 
 >**Note**: You may leave the following fields blank for default values.  
 
 >![Set user info](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/users/create3.png?raw=true "set user info")
-
+<br />
+<br />
 
 **5.** Enter the `usermod` command with the newly created username to the sudo group.
 
 >```
 >usermod -aG sudo newusername
 >```
+<br />
+<br />
 
 **6.** Enter the following command to switch to the newly created user account.
 
 >```
 >su - newusername
 >```
+<br />
+<br />
 
 **7.** Enter the following sudo command to verify that the new user has sudo privileges.
 
@@ -90,6 +100,7 @@ This instruction set will show you how to:
 >You should see the a list of contents that are normally accessible only by the root user if you correctly assigned the new user to the sudo group.
 
 >![Screen shot of root directory](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/users/sudo-ss.png?raw=true "Root directory contents")
+<br />
 
 You now have successfully created a new user and assigned sudo privileges to that user account once you are able to use the `sudo` command to display the list of contents at the root.
 
