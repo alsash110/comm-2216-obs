@@ -148,7 +148,7 @@ There are a number of commands we can use to navigate the Linux file system in t
 >> By adding `..`, you can jump back up one parent directory. Using `cd -` can also return you to your previous location, but you can only backtrack once.
 
 >```
->cd ../
+>cd ..
 >```
 
 >You will see you have returned back to the previous directory that you were in.
