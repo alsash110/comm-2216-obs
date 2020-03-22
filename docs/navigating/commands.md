@@ -29,9 +29,9 @@ We can think of them as _keywords_ that are _mapped_ to a mini program which wil
 
 Linux commands have set syntax which allows additional _options_ and _arguments_ to be passed. The syntax looks something like this:
 
->> command _options_ _arguments_
+>> _command_ [_options_] [_arguments_]
 
-There are few things we should pay attention to the command syntax:
+Things we should pay attention to:
 
 1. The command, options, and arguments must be separated by spaces.
 1. Short command options starts with `-`. They can be grouped and the order of the option switches do not matter.
@@ -43,13 +43,13 @@ Here is an example:
 
 >> `ls -la /etc`
 
-`ls` is the command, `-la` is the switch, and `/etc` is the argument. This is the same as:
+`ls` is the command, `-la` is the switch, and `/etc` is the argument.
 
->> `ls -al /etc`
+This is the same as:
 
-or
+>> `ls -al /etc` or `ls -l -a /etc` or `ls --all -l /etc`
 
->> `ls --all -l /etc`
+---
 
 ## Command Table
 
