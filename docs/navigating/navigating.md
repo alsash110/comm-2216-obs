@@ -83,7 +83,9 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 >**Note**: Linux directories behave similar to folders. In the background, directories are actually a special type of file used to store information about other files. It's contents are controlled by the Linux operating system and it includes things such as name, permission, type, size, and so on.
 
->*`pwd`*
+>```
+>pwd
+>```
 
 >You should be able to see exactly which directory you are currently in.
 
@@ -95,7 +97,9 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" } It is important to know what _path_ you are referencing when issuing a command. The `ls` command implicitly shows the contents, such as files and directories under your current directory.
 
->*`ls`*
+>```
+>ls
+>```
 
 >You will be shown everything inside your current directory.
 
@@ -105,11 +109,15 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 **4.** Create a new folder inside your current directory by using the following command.
 
->*`mkdir testfolder`*
+>```
+>mkdir testfolder
+>```
 
 >Let's check the contents of our current directory again by inputting the *`ls`* command once again.
 
->*`ls`*
+>```
+>ls
+>```
 
 >You will see that you have successfully created a new folder called `testfolder`.
 
@@ -121,11 +129,15 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 >**Note**: The input after `cd` will be the name of the directory you want to change into.
 
->*`cd testfolder`*
+>```
+>cd testfolder
+>```
 
 >Let's check to see which directory you are now currently in with the *`pwd`* command.
 
->*`pwd`*
+>```
+>pwd
+>```
 
 >You will see that you are now inside the newly created `testfolder` directory.
 
@@ -137,7 +149,9 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 >**Note**: By adding *`../`*, you can jump back up one parent directory.
 
->*`cd ../`*
+>```
+>cd ../
+>```
 
 >You will see you have returned back to the previous directory that you were in.
 
