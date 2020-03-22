@@ -129,11 +129,7 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 >mv newname.txt myfolder
 >```
 
-<<<<<<< HEAD
 >Check the contents of the directory *`myfolder`* that you just created.
-=======
-**9.** Check the contents of the directory *`myfolder`* that you just created.
->>>>>>> 26147ef2c414ecf0fd6156f55ec4e844a52247bb
 
 >```
 >ls myfolder
@@ -143,19 +139,12 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 
 >![Moved .txt file](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/files/moved.png?raw=true "Moved .txt file.")
 
-<<<<<<< HEAD
 
 **7.** Remove the *`newname.txt`* file and the *`myfolder`* directory using the `rm` command.
 
 >![Caution icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/caution.png?raw=true "Caution"){: style="float: left" } You need to first delete the contents before being able to delete the directory.
 
 >Remove *`newname.txt`* from the *`myfolder`* directory by stating the directory and the file you want to remove with the following command.
-=======
-**10.** Remove the *`newname.txt`* file and the *`myfolder`* directory using the `rm` command.
-
->![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
->>You may use the `rm` command to delete a file and `rmdir` to delete a directory. You need to first delete the contents before being able to delete the directory.
->>>>>>> 26147ef2c414ecf0fd6156f55ec4e844a52247bb
 
 >```
 >rm myfolder/newname.txt
@@ -169,10 +158,6 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 
 >You will see that you have completely removed both the directory and its contents using the `ls` command. You should no longer see both the created .txt file and directory.
 
-<<<<<<< HEAD
 >As you've noticed by now, you were able to do these things without the use of your mouse or a graphical user interface. You should be able to easily use these commands for your own future use in Linux when the need to create new file types and directories arise.
-=======
-## Conclusion
->>>>>>> 26147ef2c414ecf0fd6156f55ec4e844a52247bb
 
 ---
