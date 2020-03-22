@@ -2,11 +2,9 @@
 layout: default
 title: Users, Groups, and Privileges
 nav_order: 4
-has_children: true
+has_children: false
 permalink: /docs/users
 ---
-
-{: .fs-6 .fw-300 }
 
 # Creating New Users Using the Command Line
 {: .no_toc }

@@ -93,7 +93,13 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 **3.** Display the contents inside your current directory by inputting the following command.
 
->![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" } It is important to know what _path_ you are referencing when issuing a command. The `ls` command implicitly shows the contents, such as files and directories under your current directory.
+---
+
+>![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" } 
+
+>>It is important to know what _path_ you are referencing when issuing a command. The `ls` command implicitly shows the contents, such as files and directories under your current directory.
+
+--
 
 >```
 >ls
@@ -151,6 +157,8 @@ There are a number of commands we can use to navigate the Linux file system in t
 >You will see you have returned back to the previous directory that you were in.
 
 >![Screen shot pwd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/pwd.png?raw=true "pwd")
+
+
 
 By reaching the end of this instruction set, you have learned how to open the terminal and input commands which allowed you to navigate through your system. 
 
