@@ -3,7 +3,7 @@ layout: default
 title: Standard IO
 nav_order: 7
 has_children: false
-permalink: /docs/standard_input
+permalink: /docs/standard_io
 ---
 
 # Standard IO
@@ -118,14 +118,12 @@ You can search the list to see if my password is on the list by using the `grep`
 
 The `grep` command returns all matching results if it is found.
 
-You received a result back, this tells you *`aaabbbcccddd`* is in the list of common passwords and we should not use it.
+You received a result back, this tells you *`aaabbbcccddd`* is in the list of common passwords and you should not use it.
 
 ---
 
 ![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
 >> One important consideration when using the `|` operator is the command used on the _left_ side must output a  _stdout_. Likewise, the command on the _right_ side must be able to accept a _stdin_.
-
----
 
 It makes no sense to pipe something to a command if the command does not take a stdin, and vice versa.
 
