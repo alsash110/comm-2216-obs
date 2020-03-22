@@ -97,12 +97,6 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 **3.** Display the contents inside your current directory by inputting the following command.
 
----
-
->![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" } 
-
----
-
 >```
 >ls
 >```
@@ -169,7 +163,7 @@ There are a number of commands we can use to navigate the Linux file system in t
 ---
 
 >```
->cd ../
+>cd ..
 >```
 
 >You will see you have returned back to the previous directory that you were in.
