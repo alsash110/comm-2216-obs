@@ -54,7 +54,7 @@ This instruction set will go over Linux commands that allows you to perform CRUD
 
     *`cat test.txt`*
 
-    You will notice that nothing happened. That's because we did not input anything into our `test.txt` file!
+    You will notice that nothing happened. That's because nothing has been input into our `test.txt` file!
 
 
 4. Insert some text into your newly created file using the following command.
