@@ -117,7 +117,7 @@ You can also pass `.` or `..` as an argument. `cd .` means you want to change to
 
 ## Summary
 
-* Commands are instructions to perform tasks in Linux. You can specify options (switches) and pass arguments to commands but they differ from each command.
+* Commands are instructions to perform tasks in Linux. You can specify options (switches) and pass arguments to commands but they differ between each command.
 
 * The three most commonly used commands to navigate the file system in Linux are: `pwd`, `ls`, and `cd`.
 
