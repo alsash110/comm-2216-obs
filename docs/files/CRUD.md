@@ -142,8 +142,10 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 
 **7.** Remove the *`newname.txt`* file and the *`myfolder`* directory using the `rm` command.
 
->![Caution icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/caution.png?raw=true "Caution"){: style="float: left" } You need to first delete the contents before being able to delete the directory.
+>![Caution icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/caution.png?raw=true "Caution"){: style="float: left" } 
+>>You need to first delete the contents before being able to delete the directory.
 
+<br />
 >Remove *`newname.txt`* from the *`myfolder`* directory by stating the directory and the file you want to remove with the following command.
 
 >```
