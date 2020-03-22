@@ -65,7 +65,8 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 
 **4.** Insert some text into your newly created file using the following command.
 
->![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" } Ensure that *`>`* is added to the command this time to be able to insert text into the file.
+>![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
+>>Ensure that *`>`* is added to the command this time to be able to insert text into the file.
 
 >```
 >cat > test.txt
@@ -93,7 +94,8 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 
 **6.** Input the following command to rename our *`test.txt`* file into *`newname.txt`*.
 
->**Note**: When using the `mv` command to rename a file, enter the current file and then the new name.
+>![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
+>>When using the `mv` command to rename a file, enter the current file and then the new name.
 
 >```
 >mv test.txt newname.txt
@@ -113,7 +115,8 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 
 **8.** Move your *`newname.txt`* file to a different directory with the following commands.
 
->**Note**: Use the `mkdir` command to create a new directory. You may notice that the `mv` command is used here again but this time the command is used to move a file into a different directory by entering the file name and then the directory name.
+>![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
+>>Use the `mkdir` command to create a new directory. You may notice that the `mv` command is used here again but this time the command is used to move a file into a different directory by entering the file name and then the directory name.
 
 >```
 >mkdir myfolder
@@ -122,7 +125,6 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 >```
 >mv newname.txt myfolder
 >```
-
 
 **9.** Check the contents of the directory *`myfolder`* that you just created.
 
@@ -134,10 +136,10 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 
 >![Moved .txt file](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/files/moved.png?raw=true "Moved .txt file.")
 
-
 **10.** Remove the *`newname.txt`* file and the *`myfolder`* directory using the `rm` command.
 
->**Note**: You may use the `rm` command to delete a file and `rmdir` to delete a directory. You need to first delete the contents before being able to delete the directory.
+>![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
+>>You may use the `rm` command to delete a file and `rmdir` to delete a directory. You need to first delete the contents before being able to delete the directory.
 
 >```
 >rm newname.txt
@@ -151,7 +153,7 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 
 ---
 
-### Conclusion
+## Conclusion
 
 By reaching the end of this set of instructions, you have successfully created, read, modified, moved, and deleted files using the terminal. You will no longer see both the created .txt file and folder.
 

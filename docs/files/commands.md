@@ -7,7 +7,7 @@ nav_order: 1
 
 {: .fs-6 .fw-300 }
 
-## Common File Commands
+# Common File Commands
 {: .no_toc }
 
 ---
@@ -18,6 +18,4 @@ nav_order: 1
 {:toc}
 
 ---
-
-### File Creation
 
