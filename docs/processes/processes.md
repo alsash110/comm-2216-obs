@@ -68,6 +68,6 @@ The following instruction set will show you how to:
 
 ### Conclusion
 
-You have learned the commands to show, search for, and stop any processes that are running in your system. 
+Once you are able to find a process id, kill the process, and see that it is in fact stopped, you have successfully learned how to view, search for, and kill any process.
 
 You can see that finding and ending processes can be done through the terminal and without much of a hassle. Just be sure that whenever you do decide to kill a process that you ensure that the process id is correct.

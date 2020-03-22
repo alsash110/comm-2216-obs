@@ -32,7 +32,7 @@ This instruction set will show you how to:
 
     If entered correctly, the bottom left of your terminal should display root as your user.
 
-    ![Screen shot of root user](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/users/sudo-ss.png?raw=true "Image of user on root account")
+    ![Screen shot of root user](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/users/rootuser.png?raw=true "Image of user on root account")
 
 
 2. Enter the *`adduser`* command below to add a new user to your Linux system. 
@@ -98,8 +98,6 @@ This instruction set will show you how to:
 
 ### Conclusion
 
-Creating and modifying users is made extremely convenient through the use of the terminal and a few commands. 
+You have successfully created a new user and assigned sudo privileges to that user account once you are able to use the *`sudo`* command to display the list of contents at the root.
 
-You have successfully created a new user and assigned sudo privileges to that user by reaching the end of this instruction set. 
-
-You may find use for creating multiple new user account son your system for testing purposes or to have a clean slate to create or modify files in that account.
+You may also find use for creating multiple new user accounts on your system for testing purposes or to have a clean slate to create or modify files in that account.

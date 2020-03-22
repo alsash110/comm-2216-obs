@@ -53,6 +53,8 @@ This instruction set will go over Linux commands that allows you to perform CRUD
 
 4. Insert some text into your newly created file using the following command.
 
+    ![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" } Ensure that *`>`* is added to the command this time to be able to insert text into the file.
+
     *`cat > test.txt`*
 
     You will be prompted with an empty space to insert some text.
@@ -105,7 +107,7 @@ This instruction set will go over Linux commands that allows you to perform CRUD
     
 10. Remove the `newname.txt` file and the `myfolder` directory using the *`rm`* command.
 
-    **Note**: You may use the *`rm`* command to delete a file and *`rmdir`* to delete a directory. You need to first delete the contents before being able to delete the directory
+    **Note**: You may use the *`rm`* command to delete a file and *`rmdir`* to delete a directory. You need to first delete the contents before being able to delete the directory.
 
     *`rm newname.txt`*
     *`rmdir myfolder`*
@@ -116,10 +118,9 @@ This instruction set will go over Linux commands that allows you to perform CRUD
 
 ### Conclusion
 
-By reaching the end of this set of instructions, you have successfully created, read, modified, moved, and deleted files using the terminal. 
+By reaching the end of this set of instructions, you have successfully created, read, modified, moved, and deleted files using the terminal. You will no longer see both the created .txt file and folder.
 
 As you've noticed by now, you were able to do these things without the use of your mouse or a graphical user interface. You should be able to easily use these commands for your own future use in Linux when the need to create new file types and directories arise. 
-
 
 
 
