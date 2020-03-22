@@ -7,7 +7,7 @@ nav_order: 1
 
 {: .fs-6 .fw-300 }
 
-## Linux Process States
+# Linux Process States
 {: .no_toc }
 
 This section covers the four main states of a Linux _process_.
@@ -32,13 +32,13 @@ Here is an example of what some of these processes look like:
 
 ---
 
-### Running/Runnable
+## Running/Runnable
 
 A _running state_ means the process is currently active and is performing operations using systems CPU. A _runnable state_ means the process is ready to run and is waiting to use the CPU. Both of these are represented with the letter `R` under processes state column `S` in Linux.
 
 ---
 
-### Sleeping
+## Sleeping
 
 A _sleeping state_ means the process is waiting for resources that it does not have. Since it can not run, its access to the CPU is freed to make way for other processes. Once it receives the resources, the _Linux scheduler_ will put it in a runnable state.
 
@@ -52,12 +52,18 @@ Newer versions of Linux following 4.15.12 introduces the _Idle State_ which repr
 
 ---
 
-### Stopped
+## Stopped
 
 A _stopped state_ means the process has exited or is terminated. Stopped processes release their resources but are kept in the process table until its parent process closes it.
 
 ---
 
-### Zombie
+## Zombie
 
 A _zombie state_ means the process has stopped but it’s parent process did not close it. This is usually caused by the parent process either terminating before it’s child processes or bugs within the parent process itself. These processes are represented with the letter ‘Z’ and can not be killed normally.
+
+---
+
+## Summary
+
+Knowing how to identify what state a process is in and understating what that means can be helpful when troubleshooting issues caused by a program.
