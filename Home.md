@@ -17,7 +17,7 @@ permalink: /
 * [x] 5 sets of instructions
 * [x] Glossary
 * [x] Troubleshooting guide
-* [o] README.md for repository
+* [ ] README.md for repository
 
 ---
 
