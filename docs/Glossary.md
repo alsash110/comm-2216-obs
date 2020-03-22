@@ -8,6 +8,8 @@ permalink: /docs/glossary
 
 # Glossary
 
+---
+
 **Background process**: A process that runs independently and does not tie up the terminal.
 
 **Command-line interface**: An interface used to process commands to a computer program in the form of lines of text.
