@@ -2,13 +2,13 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
+description: "Landing page"
 permalink: /
 ---
 
-## Home
+# Home
 
-### Due March 5th for peer review, March 15 for submission
+## Due March 5th for peer review, March 15 for submission
 
 Checklist:
 - Topographical conventions

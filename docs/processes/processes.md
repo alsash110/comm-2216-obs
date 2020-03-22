@@ -20,19 +20,19 @@ Processes usually terminate after you exit. However, this is not always the case
 
 ---
 
+### Table of contents
+{: .no_toc .text-delta }
+* TOC
+{:toc}
+
+---
+
 ## Display, Search, and Kill Processes Using the Terminal
 
 The following instruction set will show you how to:
 * view processes using the *`ps`* command,
 * search for a specific process, and
 * _kill_ processes using your terminal.
-
----
-
-### Table of contents
-{: .no_toc .text-delta }
-* TOC
-{:toc}
 
 ---
 
@@ -74,7 +74,7 @@ The following instruction set will show you how to:
 
 ---
 
-### Conclusion
+## Conclusion
 
 Once you are able to find a process id, kill the process, and see that it is in fact stopped, you have successfully learned how to view, search for, and kill any process.
 

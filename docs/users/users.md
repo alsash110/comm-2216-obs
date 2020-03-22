@@ -8,7 +8,8 @@ permalink: /docs/users
 
 {: .fs-6 .fw-300 }
 
-## Creating New Users Using the Command Line
+# Creating New Users Using the Command Line
+{: .no_toc }
 
 ---
 While using Linux you may want to create new user accounts for a number of different reasons.
@@ -24,7 +25,7 @@ This instruction set will show you how to:
 
 ---
 
-### Table of contents
+## Table of contents
 {: .no_toc .text-delta }
 * TOC
 {:toc}
@@ -41,7 +42,7 @@ This instruction set will show you how to:
 
     ![Screen shot of root user](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/users/rootuser.png?raw=true "Image of user on root account")
 
-2. Enter the *`adduser`* command below to add a new user to your Linux system. 
+2. Enter the *`adduser`* command below to add a new user to your Linux system.
 
     **Note**: Replace newusername with the user you want to create.
 
@@ -98,7 +99,7 @@ This instruction set will show you how to:
 
 ---
 
-### Conclusion
+## Conclusion
 
 You have successfully created a new user and assigned sudo privileges to that user account once you are able to use the *`sudo`* command to display the list of contents at the root.
 

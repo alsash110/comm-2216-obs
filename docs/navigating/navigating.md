@@ -28,7 +28,7 @@ Using the CLI also introduces additional functionalities that may have been over
 
 ---
 
-### What are Commands
+## What are Commands
 
 Commands are instructions the operating system uses to perform specific tasks. It provides a _layer of abstraction_ and makes it easier for users to use a computer without the need to know how things work.
 
@@ -48,7 +48,7 @@ Things we should pay attention to:
 
 ---
 
-### Command Table
+## Command Table
 
 Below is a list of some of the most commonly used commands to navigate Linux.
 
@@ -67,7 +67,7 @@ Below is a list of some of the most commonly used commands to navigate Linux.
 
 ---
 
-### Using Commands To Navigate Your System
+## Using Commands To Navigate Your System
 
 There are a number of commands we can use to navigate the Linux file system in the terminal. This instruction set will use some of the commands in the list above and teach you to be more familiar with navigating through your Linux system with the terminal.
 
@@ -135,7 +135,7 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 ---
 
-### Conclusion
+## Conclusion
 
 By reaching the end of this instruction set, you have learned how to open the terminal and input commands which allowed you to navigate through your system. 
 

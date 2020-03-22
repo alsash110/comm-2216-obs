@@ -8,11 +8,9 @@ permalink: /docs/standard_input
 
 {: .fs-6 .fw-300 }
 
-## Standard Input
+# Standard Input
 
 ---
-
-### Introduction
 
 Terminal and terminal emulators are software a user interfaces with to issue commands to the shell. The shell then parses the commands and sends it to the kernel.
 
@@ -32,7 +30,7 @@ A simplified explanation is the standard output from a command can be â€˜pipedâ€
 ---
 
 
-### The `>` Operator
+## The `>` Operator
 
 The `>` operator takes the _stdout_ from  `ls -la`  and writes it to a newly created file called `list.txt` in your current directory.
 The `>` command is formatted as `command > filename`
