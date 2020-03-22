@@ -85,7 +85,7 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 ### `pwd`
 
-The `pwd` command is used to identify your current location. It returns the full path of where your terminal is currently in relative to the directory structure.
+The `pwd` command is used to identify your current location. It returns the full path of where your terminal is currently in, relative to the directory structure.
 
 ---
 
