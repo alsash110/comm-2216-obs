@@ -1,14 +1,15 @@
 ---
 layout: default
-title: Standard Input
+title: Standard IO
 nav_order: 7
 has_children: true
 permalink: /docs/standard_input
 ---
 
-{: .fs-6 .fw-300 }
+<!-- {: .fs-6 .fw-300 } -->
 
-# Standard Input
+# Standard IO
+{: .no_toc }
 
 ---
 
@@ -28,7 +29,6 @@ A simplified explanation is the standard output from a command can be ‘piped�
 {:toc}
 
 ---
-
 
 ## The `>` Operator
 
@@ -67,6 +67,10 @@ Piping something to `less` is rather pointless but it serves as a demonstration 
 
 To exit, press **[q]**.
 
+---
+
+## The `<` Operator
+
 We can redirect _stdin_ as well with the `<` operator.
 
 If you haven’t deleted the file `list.txt` or _changed directories_, if you run:
@@ -82,7 +86,8 @@ It _redirects_ the _stdout_ form the _right side_ as the _stdin_ on the _left_.
 
 ---
 
-Note, the  `|`  operator is one direction and is always from left to right.
+![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
+>> The  `|`  operator is one direction and is always from left to right.
 
 ---
 
@@ -104,6 +109,25 @@ Yes, *`aaabbbcccddd`* is in it and so it is a terrible password.
 
 ---
 
-One important consideration when using the `|` operator is the command used on the _left_ side must output a  _stdout_. Likewise, the command on the _right_ side must be able to accept a _stdin_.
+![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
+>> One important consideration when using the `|` operator is the command used on the _left_ side must output a  _stdout_. Likewise, the command on the _right_ side must be able to accept a _stdin_.
+
+---
 
 It makes no sense to pipe something to a command if the command does not take a stdin, and vice versa.
+
+---
+
+## File Descriptor
+
+A File Descriptor is a number used to represent stdin, stdout, and stderr.
+
+| type   | file descriptor |
+| :----- | :-------------- |
+| stdin  | 0               |
+| stdout | 1               |
+| stderr | 2               |
+
+---
+
+## Conclusion

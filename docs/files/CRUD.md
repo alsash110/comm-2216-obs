@@ -40,6 +40,7 @@ This instruction set will go over Linux commands that allows you to perform CRUD
 
 >*`touch test.txt`*
 
+---
 
 **2.** Enter the following command to test if you have a created a file called `test.txt`.
 
@@ -49,6 +50,7 @@ This instruction set will go over Linux commands that allows you to perform CRUD
 
 >![Root user](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/files/rootuser.png?raw=true "Root user")
 
+---
 
 **3.** Enter the following command to read the contents of our file.
 
@@ -56,6 +58,7 @@ This instruction set will go over Linux commands that allows you to perform CRUD
 
 >You will notice that nothing happened. That's because nothing has been input into the `test.txt` file!
 
+---
 
 **4.** Insert some text into your newly created file using the following command.
 
@@ -69,6 +72,7 @@ This instruction set will go over Linux commands that allows you to perform CRUD
 
 >*`I am a test line in my test file`*
 
+---
 
 **5.** Enter the *`cat`* command once again to check the contents.
 
@@ -78,6 +82,7 @@ This instruction set will go over Linux commands that allows you to perform CRUD
 
 >![Inserted text into test.txt](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/files/insert-text.png?raw=true "test.txt has contents")
 
+---
 
 **6.** Input the following command to rename our `test.txt` file into `newname.txt`.
 
@@ -85,6 +90,7 @@ This instruction set will go over Linux commands that allows you to perform CRUD
 
 >*`mv test.txt newname.txt`*
 
+---
 
 **7.** Check your current directory again to see that the file name has been changed.
 
@@ -94,6 +100,7 @@ This instruction set will go over Linux commands that allows you to perform CRUD
 
 >![Renamed .txt file](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/files/renamed.png?raw=true "Renamed .txt file.")
 
+---
 
 **8.** Move your `newname.txt` file to a different directory with the following commands.
 
@@ -102,6 +109,7 @@ This instruction set will go over Linux commands that allows you to perform CRUD
 >*`mkdir myfolder`*
 >*`mv newname.txt myfolder`*
 
+---
 
 **9.** Check the contents of the directory `myfolder` that you just created.
 
@@ -111,6 +119,7 @@ This instruction set will go over Linux commands that allows you to perform CRUD
 
 >![Moved .txt file](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/files/moved.png?raw=true "Moved .txt file.")
 
+---
 
 **10.** Remove the `newname.txt` file and the `myfolder` directory using the *`rm`* command.
 
