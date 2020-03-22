@@ -27,13 +27,13 @@ Commands are instructions the operating system uses to perform specific tasks. I
 
 We can think of them as _keywords_ that are _mapped_ to a mini program which will execute when we input it into a _terminal_.
 
-Linux commands have set syntax which allows additional _options_ and _arguments_ to be passed. The syntax looks something like this:
+Linux commands have set syntax which allows additional _options_ (_switches_) and _arguments_ to be passed. The syntax looks something like this:
 
 >> _command_ [_options_] [_arguments_]
 
 Things we should pay attention to:
 
-1. The command, options, and arguments must be separated by spaces.
+1. The command, options (switch), and arguments must be separated by spaces.
 1. Short command options starts with `-`. They can be grouped and the order does not matter.
 1. Long command options starts with `--`.
 1. The command reads from left to right so _options_ and _arguments_ reference to the command on the left.
@@ -43,12 +43,14 @@ Here is an example:
 
 >> `ls -la /etc`
 
-`ls` is the command, `-la` is the switch, and `/etc` is the argument.
+`ls` is the command, `-la` is the option (switch), and `/etc` is the argument.
 
 This is the same as:
 
 >> `ls -al /etc`
->> `ls -l -a /etc` 
+
+>> `ls -l -a /etc`
+
 >> `ls --all -l /etc`
 
 ---
@@ -78,3 +80,33 @@ Heres a taste of some commands.
 ## Using Commands To Navigate
 
 There are a number of commands we can use to navigate the Linux file system in the terminal. This section will go over the most commonly used commands.
+
+### 1. `pwd`
+
+The `pwd` command is used to identify your current location. It returns the full path of where your terminal is currently in relative to the directory structure.
+
+### 1. `ls`
+
+The `ls` command is used to list all files and directories at your terminal's current location. This is useful if you want to identify and traverse in to sub-directories.
+
+Passing the `ls` command the `-a` switch lists all hidden files as well.
+
+The `-l` switch is used to format the display so its easy to read.
+
+### 1. 'cd`
+
+The `cd` command is used to "change directory". Issuing the command without any arguments or with the `~` argument results in changing to your _home directory_.
+
+You can pass `cd` a relative path or an absolute path as the argument. Relative path means you want to go in to a sub-directory. Heres an example:
+
+![Screen shot cd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/commands/cd_rel.png?raw=true "cd")
+
+You can also pass `.` or `..` as an argument. `cd .` means you want to change to your current directory (so you didn't go anywhere). `cd ..` means you want to change to your locations parent directory. Heres an example:
+
+![Screen shot cd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/commands/cd_bck.png?raw=true "cd")
+
+`cd -` returns you to your previous location, but you can only backtrack once.
+
+---
+
+## Summary
