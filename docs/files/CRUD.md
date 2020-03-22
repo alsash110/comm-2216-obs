@@ -24,19 +24,19 @@ permalink: /docs/files
 
 If you are in the technical field, often times you will need to create new files to work with. By being familiar with how to create and manipulate files in the terminal, you may save yourself a bit of hassle and time. 
 
-_CRUD_ is an acronym that stands for _create_, _read_, _update_, and _delete_. These are the most basic actions that can be performed on files.
+_CRUD_ is an acronym that stands for create, read, update, and delete. These are the most basic actions that can be performed on files.
 
 ---
 
 ## CRUD Instructions
 
-This instruction set will go over Linux commands that allows you to perform _CRUD_ actions directly in the terminal. You will be using the `touch` command to _create_ new files, the `cat` command to _read_ and _update_ files, and the `rm` command to _delete_ unwanted files.
+This instruction set will go over Linux commands that allows you to perform _CRUD_ actions directly in the terminal. You will be using the `touch` command to create new files, the `cat` command to read and update files, and the `rm` command to delete unwanted files.
 
- You will also learn how to _copy_ and _move_ files using the `mv` command.
+ You will also learn how to copy and move files using the `mv` command.
 
 ---
 
-**1.** Input the following command into your terminal to _create_ a new file.
+**1.** Input the following command into your terminal to create a new file.
 
 >```
 >touch test.txt
@@ -54,7 +54,7 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 >![Root user](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/files/rootuser.png?raw=true "Root user")
 
 
-**3.** Enter the following command to _read_ the contents of our file.
+**3.** Enter the following command to read the contents of our file.
 
 >```
 >cat test.txt
@@ -91,9 +91,9 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 >![Inserted text into test.txt](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/files/insert-text.png?raw=true "test.txt has contents")
 
 
-**6.** Input the following command to _rename_ our *`test.txt`* file into *`newname.txt`*.
+**6.** Input the following command to rename our *`test.txt`* file into *`newname.txt`*.
 
->**Note**: When using the `mv` command to _rename_ a file, enter the current file and then the new name.
+>**Note**: When using the `mv` command to rename a file, enter the current file and then the new name.
 
 >```
 >mv test.txt newname.txt
@@ -113,7 +113,7 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 
 **8.** Move your *`newname.txt`* file to a different directory with the following commands.
 
->**Note**: Use the `mkdir` command to _create_ a new directory. You may notice that the `mv` command is used here again but this time the command is used to _move_ a file into a different directory by entering the file name and then the directory name.
+>**Note**: Use the `mkdir` command to create a new directory. You may notice that the `mv` command is used here again but this time the command is used to move a file into a different directory by entering the file name and then the directory name.
 
 >```
 >mkdir myfolder
@@ -130,14 +130,14 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 >ls myfolder
 >```
 
->You should notice that *`newname.txt`* did indeed _move_ inside of the *`myfolder`* directory.
+>You should notice that *`newname.txt`* did indeed move inside of the *`myfolder`* directory.
 
 >![Moved .txt file](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/files/moved.png?raw=true "Moved .txt file.")
 
 
 **10.** Remove the *`newname.txt`* file and the *`myfolder`* directory using the `rm` command.
 
->**Note**: You may use the `rm` command to _delete_ a file and `rmdir` to delete a directory. You need to first _delete_ the contents before being able to _delete_ the directory.
+>**Note**: You may use the `rm` command to delete a file and `rmdir` to delete a directory. You need to first delete the contents before being able to delete the directory.
 
 >```
 >rm newname.txt
