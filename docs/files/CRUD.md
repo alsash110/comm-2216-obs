@@ -159,5 +159,3 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 >You will see that you have completely removed both the directory and its contents using the `ls` command. You should no longer see both the created .txt file and directory.
 
 >As you've noticed by now, you were able to do these things without the use of your mouse or a graphical user interface. You should be able to easily use these commands for your own future use in Linux when the need to create new file types and directories arise.
-
----
