@@ -41,14 +41,12 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 >```
 >touch test.txt
 >```
-<br />
 
 >Test if the *`test.txt`* file was actually created by listing the contents of our current directory with the following command.
 
 >```
 >ls
 >```
-<br />
 
 >You should be able to see that the file named *`test.txt`* exists inside your current directory.
 
@@ -77,7 +75,6 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 >```
 >cat > test.txt
 >```
-<br />
 
 >You will be prompted with an empty space to insert some text. Enter in some text of your choice and hit return. I chose to enter the following text.
 
@@ -85,13 +82,13 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 >I am a test line in my test file
 >```
 <br />
+<br />
 
 **4.** Enter the `cat` command once again to check the contents.
 
 >```
 >cat test.txt
 >```
-<br />
 
 >You will see that we did indeed modify the contents of the *`test.txt`* file.
 
@@ -110,14 +107,12 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 >```
 >mv test.txt newname.txt
 >```
-<br />
 
 >Check your current directory again to see that the file name has been changed.
 
 >```
 >ls
 >```
-<br />
 
 >You will notice that *`test.txt`* does not exist and has been renamed to *`newname.txt`*.
 
@@ -138,21 +133,18 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 >```
 >mkdir myfolder
 >```
-<br />
 
 > Move *`newname.txt`* inside the new directory *`myfolder`*.
 
 >```
 >mv newname.txt myfolder
 >```
-<br />
 
 >Check the contents of the directory *`myfolder`* that you just created.
 
 >```
 >ls myfolder
 >```
-<br />
 
 >You should notice that *`newname.txt`* did indeed move inside of the *`myfolder`* directory.
 
@@ -173,7 +165,6 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 >```
 >rm myfolder/newname.txt
 >```
-<br />
 
 >Remove the *`myfolder`* directory completely with the following command.
 

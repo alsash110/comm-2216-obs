@@ -76,6 +76,8 @@ There are a number of commands we can use to navigate the Linux file system in t
 **1.** Open up your terminal by right-clicking on your desktop and clicking *`Open Terminal`*.
 
 >![Terminal open](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/term.png?raw=true "terminal")
+<br />
+<br />
 
 **2.** Input the following command into your terminal to display your current directory.
 
@@ -91,7 +93,8 @@ There are a number of commands we can use to navigate the Linux file system in t
 >You should be able to see exactly which directory you are currently in.
 
 >![Screen shot pwd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/pwd.png?raw=true "pwd")
-
+<br />
+<br />
 
 **3.** Display the contents inside your current directory by inputting the following command.
 
@@ -106,7 +109,8 @@ There are a number of commands we can use to navigate the Linux file system in t
 >You will be shown everything inside your current directory.
 
 >![Screen shot ls](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/contents.png?raw=true "ls")
-
+<br />
+<br />
 
 **4.** Create a new folder inside your current directory by using the following command.
 
@@ -123,7 +127,8 @@ There are a number of commands we can use to navigate the Linux file system in t
 >You will see that you have successfully created a new folder called *`testfolder`*.
 
 >![Screen shot ls with testfolder](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/contents2.png?raw=true "ls")
-
+<br />
+<br />
 
 **5.** Change into the *`testfolder`* directory with the following command.
 
@@ -144,6 +149,8 @@ There are a number of commands we can use to navigate the Linux file system in t
 >You will see that you are now inside the newly created *`testfolder`* directory.
 
 >![pwd2](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/pwd2.png?raw=true "ls")
+<br />
+<br />
 
 **6.** Change back to the previous directory with the following command.
 
@@ -158,6 +165,8 @@ There are a number of commands we can use to navigate the Linux file system in t
 >You will see you have returned back to the previous directory that you were in.
 
 >![Screen shot pwd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/pwd.png?raw=true "pwd")
+<br />
+<br />
 
 By reaching the end of this instruction set, you have learned how to open the terminal and input commands which allowed you to navigate through your system. 
 
