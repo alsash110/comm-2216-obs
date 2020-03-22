@@ -75,15 +75,10 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 >![Terminal open](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/term.png?raw=true "terminal")
 
-
 **2.** Input the following command into your terminal to display your current directory.
-
----
 
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
 >> Linux directories behave similar to folders. In the background, directories are actually a special type of file used to store information about other files. It's contents are controlled by the Linux operating system and it includes things such as name, permission, type, size, and so on.
-
----
 
 >```
 >pwd
@@ -96,11 +91,9 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 **3.** Display the contents inside your current directory by inputting the following command.
 
----
 
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" } It is important to know what _path_ you are referencing when issuing a command. The `ls` command implicitly shows the contents, such as files and directories under your current directory.
 
----
 
 >```
 >ls
@@ -110,13 +103,9 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 >![Screen shot ls](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/contents.png?raw=true "ls")
 
----
-
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
 >> Passing the `ls` command the `-a` switch lists all hidden files as well.
 >>The `-l` switch is used to format the display so its easy to read.
-
----
 
 **4.** Create a new folder inside your current directory by using the following command.
 
@@ -137,12 +126,8 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 **5.** Change into the *`testfolder`* directory with the following command.
 
----
-
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
 >> The input after `cd` will be the name of the directory you want to change into.
-
----
 
 >```
 >cd testfolder
@@ -160,12 +145,8 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 **6.** Change back to the previous directory with the following command.
 
----
-
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
 >> By adding `..`, you can jump back up one parent directory.
-
----
 
 >```
 >cd ..
@@ -175,12 +156,8 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 >![Screen shot pwd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/pwd.png?raw=true "pwd")
 
----
-
-![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
+>![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
 `cd -` returns you to your previous location, but you can only backtrack once.
-
----
 
 ## Conclusion
 
