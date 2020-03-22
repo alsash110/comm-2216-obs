@@ -50,7 +50,7 @@ The following instruction set will show you how to:
 >![Screen shot of ps aux output](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/processes/ps_aux_2.png?raw=true "ps aux output")
 
 
-**2.** Input the ```pgrep``` command and your process name.
+**2.** Input the ```pgrep``` command and your process name to obtain the *`processid`* of your process.
 
 >**Note**: Replace processname with a keyword to search for your process name.
 
@@ -63,7 +63,7 @@ The following instruction set will show you how to:
 >![Screen shot of pgrep firefox output](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/processes/pgrep-firefox.png?raw=true "pgrep firefox output")
 
 
-**3.** Input the ```kill``` command along with the process id to stop your desired process.
+**3.** Input the ```kill``` command along with the *`processid`* to stop your desired process.
 
 >![Caution icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/caution.png?raw=true "Caution"){: style="float: left" } Ensure you input the correct process id or you may accidentally kill an essential process.
 
@@ -72,20 +72,18 @@ The following instruction set will show you how to:
 >```
 
 
-**4.** Input the ```pgrep``` command once more to test if the process did in fact stop.
+**4.** Input the ```pgrep``` command along with the same *`processname`* once more to test if the process did in fact stop.
 
 >```
 >pgrep processname
 >```
 
->If the process did get stopped, there should be no output.
+>If the process did get stopped, there should be no output for that specific process.
 
 >![Screen shot of no pgrep firefox output](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/processes/pgrep-firefox-killed.png?raw=true "no pgrep firefox output")
 
----
-
-## Conclusion
-
-Once you are able to find a process id, kill the process, and see that it is in fact stopped, you have successfully learned how to view, search for, and kill any process.
+By reaching the end of this instruction set, you will have successfully learned how to view, search for, and kill any process.
 
 You can see that finding and ending processes can be done through the terminal and without much of a hassle. Just be sure that whenever you do decide to kill a process that you ensure that the process id is correct.
+
+---

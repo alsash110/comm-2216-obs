@@ -50,10 +50,12 @@ Things we should pay attention to:
 
 ## Command Table
 
-Below is a list of some of the most commonly used commands to navigate Linux. This list is not exhaustive.
+Below is a list of some of the most commonly used commands to navigate Linux.
+
+**Note**: This list is not exhaustive.
 
 | Command         | Description                                                                                             |
-| :-------------- | :------------------------------------------------------------------------------------------------------ |
+| :--------       | :------------------------------------------------------------------------------------------------------ |
 | `ls`            | "List" all visible files and folders in the current directory.                                          |
 | `pwd`           | "Print working directory" shows your current directory location.                                        |
 | `cd`            | "Change directory" to a specified directory or your home directory.                                     |
@@ -97,7 +99,7 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 ---
 
->![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" } It is important to know what _path_ you are referencing when issuing a command. The `ls` command implicitly shows the contents, such as files and directories under your current directory.
+>![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" } 
 
 ---
 
@@ -167,7 +169,7 @@ There are a number of commands we can use to navigate the Linux file system in t
 ---
 
 >```
->cd ..
+>cd ../
 >```
 
 >You will see you have returned back to the previous directory that you were in.
@@ -186,3 +188,5 @@ There are a number of commands we can use to navigate the Linux file system in t
 By reaching the end of this instruction set, you have learned how to open the terminal and input commands which allowed you to navigate through your system. 
 
 You are now able to know exactly what files are contained in your directories as well as your current directory, allowing you to easily navigate through your system.
+
+---
