@@ -77,7 +77,6 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 >![Terminal open](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/term.png?raw=true "terminal")
 
----
 
 **2.** Input the following command into your terminal to display your current directory.
 
@@ -91,7 +90,6 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 >![Screen shot pwd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/pwd.png?raw=true "pwd")
 
----
 
 **3.** Display the contents inside your current directory by inputting the following command.
 
@@ -105,7 +103,6 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 >![Screen shot ls](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/contents.png?raw=true "ls")
 
----
 
 **4.** Create a new folder inside your current directory by using the following command.
 
@@ -123,7 +120,6 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 >![Screen shot ls with testfolder](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/contents2.png?raw=true "ls")
 
----
 
 **5.** Change into the *`testfolder`* directory with the following command.
 
@@ -143,7 +139,6 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 >![pwd2](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/pwd2.png?raw=true "ls")
 
----
 
 **6.** Change back to the previous directory with the following command.
 
@@ -157,7 +152,6 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 >![Screen shot pwd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/pwd.png?raw=true "pwd")
 
----
 
 ## Conclusion
 
