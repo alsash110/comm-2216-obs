@@ -95,7 +95,9 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 >![Inserted text into test.txt](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/files/insert-text.png?raw=true "test.txt has contents")
 <br />
 
+
 **5.** Input the following command to rename our *`test.txt`* file into *`newname.txt`*.
+<br />
 <br />
 
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
