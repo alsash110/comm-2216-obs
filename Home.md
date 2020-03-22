@@ -8,21 +8,23 @@ permalink: /
 
 # Home
 
-## Due March 5th for peer review, March 15 for submission
+---
 
-Checklist:
-- Topographical conventions
-- Introduction section
-- 5 sets of instructions
-- Glossary
-- Troubleshooting guide
-- README.md for repository
+### Checklist:
+[*] Topographical conventions
+[*] Introduction section
+[x] 5 sets of instructions
+[x] Glossary
+[x] Troubleshooting guide
+[] README.md for repository
 
-Instructions must include:
-- Main heading
-- Brief overview
-- Subheadings
-- Graphics
-- Separate blocks of instruction steps
-- Notes, explanations and warnings as needed
-- Conclusion
+---
+
+### Instructions must include:
+[x] Main heading
+[x] Brief overview
+[x] Subheadings
+[x] Graphics
+[x] Separate blocks of instruction steps
+[x] Notes, explanations and warnings as needed
+[x] Conclusion
