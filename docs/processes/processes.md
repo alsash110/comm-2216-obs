@@ -8,7 +8,7 @@ permalink: /docs/processes
 
 {: .fs-6 .fw-300 }
 
-## Processes
+# Processes
 
 ---
 
@@ -24,6 +24,7 @@ This section will show you how to:
 * _kill_ processes.
 
 ---
+<<<<<<< HEAD
 
 1. Open up your terminal.
 
@@ -62,3 +63,5 @@ This section will show you how to:
     If the process did get stopped, there should be no output.
 
     ![Screen shot of no pgrep firefox output](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/processes/pgrep-firefox-killed.png?raw=true "no pgrep firefox output")
+=======
+>>>>>>> 01de088e96aecfaf51de893fa66a71713bbde687

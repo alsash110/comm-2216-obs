@@ -7,7 +7,7 @@ nav_order: 2
 
 {: .fs-6 .fw-300 }
 
-## How to View Processes
+# How to View Processes
 {: .no_toc }
 
 ---
@@ -21,12 +21,13 @@ nav_order: 2
 
 The two most common commands used to view processes are the process status `ps` and the `top` command. The difference between the two is that `ps` takes a snapshot while `top` continuously updates its list of processes.
 
-
 The `pgrep` command searches specifically for the process id `PID` of a process.
+
 This is a very useful command if you know what the process is called and want to quickly identify each _process id_ associated with it.
+
 ---
 
-### The `ps` Command
+## The `ps` Command
 
 1. Open up your terminal.
 
@@ -62,3 +63,7 @@ This is a very useful command if you know what the process is called and want to
     If the process did get stopped, there should be no output.
 
     ![Screen shot of no pgrep firefox output](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/processes/pgrep-firefox-killed.png?raw=true "no pgrep firefox output")
+
+---
+
+## The `top` Command

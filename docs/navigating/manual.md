@@ -2,7 +2,7 @@
 layout: default
 title: Manual
 parent: Navigating the File System
-nav_order: 5
+nav_order: 4
 ---
 
 {: .fs-6 .fw-300 }
