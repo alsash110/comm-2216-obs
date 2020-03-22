@@ -74,7 +74,6 @@ The following instruction set will show you how to:
 >kill processid
 >```
 <br />
-<br />
 
 **4.** Input the ```pgrep``` command along with the same *`processname`* once more to test if the process did in fact stop.
 
@@ -85,6 +84,7 @@ The following instruction set will show you how to:
 >If the process did get stopped, there should be no output for that specific process.
 
 >![Screen shot of no pgrep firefox output](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/processes/pgrep-firefox-killed.png?raw=true "no pgrep firefox output")
+<br />
 <br />
 
 By reaching the end of this instruction set, you will have successfully learned how to view, search for, and kill any process.

@@ -53,7 +53,6 @@ This instruction set will show you how to:
 >sudo adduser newusername
 >```
 <br />
-<br />
 
 **3.** Set and confirm a password for the new user.
 
@@ -79,14 +78,12 @@ This instruction set will show you how to:
 >usermod -aG sudo newusername
 >```
 <br />
-<br />
 
 **6.** Enter the following command to switch to the newly created user account.
 
 >```
 >su - newusername
 >```
-<br />
 <br />
 
 **7.** Enter the following sudo command to verify that the new user has sudo privileges.
@@ -100,6 +97,7 @@ This instruction set will show you how to:
 >You should see the a list of contents that are normally accessible only by the root user if you correctly assigned the new user to the sudo group.
 
 >![Screen shot of root directory](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/users/sudo-ss.png?raw=true "Root directory contents")
+<br />
 <br />
 
 You now have successfully created a new user and assigned sudo privileges to that user account once you are able to use the `sudo` command to display the list of contents at the root.
