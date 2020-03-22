@@ -40,11 +40,11 @@ Linux commands have set syntax which allows additional _options_ and _arguments_
 
 Things we should pay attention to:
 
-- The command, options, and arguments must be separated by spaces.
-- Short command options starts with `-`. They can be grouped and the order does not matter.
-- Long command options starts with `--`.
-- The command reads from left to right so _options_ and _arguments_ reference to the command on the left.
-- The type of _options_ available and _arguments_ accepted will depend on the command.
+* The command, options, and arguments must be separated by spaces.
+* Short command options starts with `-`. They can be grouped and the order does not matter.
+* Long command options starts with `--`.
+* The command reads from left to right so _options_ and _arguments_ reference to the command on the left.
+* The type of _options_ available and _arguments_ accepted will depend on the command.
 
 ---
 
@@ -77,6 +77,8 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 >![Terminal open](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/term.png?raw=true "terminal")
 
+---
+
 **2.** Input the following command into your terminal to display your current directory.
 
 >**Note**: Linux directories behave similar to folders. In the background, directories are actually a special type of file used to store information about other files. It's contents are controlled by the Linux operating system and it includes things such as name, permission, type, size, and so on.
@@ -87,6 +89,8 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 >![Screen shot pwd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/pwd.png?raw=true "pwd")
 
+---
+
 **3.** Display the contents inside your current directory by inputting the following command.
 
     ![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" } It is important to know what _path_ you are referencing when issuing a command. The `ls` command implicitly shows the contents, such as files and directories under your current directory.
@@ -96,6 +100,8 @@ There are a number of commands we can use to navigate the Linux file system in t
     You will be shown everything inside your current directory.
 
     ![Screen shot ls](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/contents.png?raw=true "ls")
+
+---
 
 **4.** Create a new folder inside your current directory by using the following command.
 
@@ -108,6 +114,8 @@ There are a number of commands we can use to navigate the Linux file system in t
     You will see that you have successfully created a new folder called `testfolder`.
 
     ![Screen shot ls with testfolder](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/contents2.png?raw=true "ls")
+
+---
 
 **5.** Change into the `testfolder` directory with the following command.
 
@@ -122,6 +130,8 @@ There are a number of commands we can use to navigate the Linux file system in t
     You will see that you are now inside the newly created `testfolder` directory.
 
     ![pwd2](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/pwd2.png?raw=true "ls")
+
+---
 
 **6.** Change back to the previous directory with the following command.
 
