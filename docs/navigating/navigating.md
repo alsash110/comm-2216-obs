@@ -79,6 +79,7 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 **2.** Input the following command into your terminal to display your current directory.
 
+
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
 >> Linux directories behave similar to folders. In the background, directories are actually a special type of file used to store information about other files. It's contents are controlled by the Linux operating system and it includes things such as name, permission, type, size, and so on.
 
@@ -93,6 +94,9 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 **3.** Display the contents inside your current directory by inputting the following command.
 
+>![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
+>> Passing the `ls` command the `-a` switch lists all hidden files as well.
+
 >```
 >ls
 >```
@@ -101,9 +105,6 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 >![Screen shot ls](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/contents.png?raw=true "ls")
 
->![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
->> Passing the `ls` command the `-a` switch lists all hidden files as well.
->>The `-l` switch is used to format the display so its easy to read.
 
 **4.** Create a new folder inside your current directory by using the following command.
 
@@ -144,7 +145,7 @@ There are a number of commands we can use to navigate the Linux file system in t
 **6.** Change back to the previous directory with the following command.
 
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
->> By adding `..`, you can jump back up one parent directory.
+>> By adding `..`, you can jump back up one parent directory. Using `cd -` can also return you to your previous location, but you can only backtrack once.
 
 >```
 >cd ../
@@ -153,8 +154,6 @@ There are a number of commands we can use to navigate the Linux file system in t
 >You will see you have returned back to the previous directory that you were in.
 
 >![Screen shot pwd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/pwd.png?raw=true "pwd")
-
-## Conclusion
 
 By reaching the end of this instruction set, you have learned how to open the terminal and input commands which allowed you to navigate through your system. 
 
