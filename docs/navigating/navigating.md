@@ -50,9 +50,7 @@ Things we should pay attention to:
 
 ## Command Table
 
-Below is a list of some of the most commonly used commands to navigate Linux.
-
-**Note**: This list is not exhaustive.
+Below is a list of some of the most commonly used commands to navigate Linux. This list is not exhaustive.
 
 | Command         | Description                                                                                             |
 | :-------------- | :------------------------------------------------------------------------------------------------------ |
@@ -80,7 +78,12 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 **2.** Input the following command into your terminal to display your current directory.
 
->**Note**: Linux directories behave similar to folders. In the background, directories are actually a special type of file used to store information about other files. It's contents are controlled by the Linux operating system and it includes things such as name, permission, type, size, and so on.
+---
+
+>![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
+>> Linux directories behave similar to folders. In the background, directories are actually a special type of file used to store information about other files. It's contents are controlled by the Linux operating system and it includes things such as name, permission, type, size, and so on.
+
+---
 
 >```
 >pwd
@@ -109,7 +112,7 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 ---
 
-![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
+>![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
 >> Passing the `ls` command the `-a` switch lists all hidden files as well.
 >>The `-l` switch is used to format the display so its easy to read.
 
@@ -136,7 +139,7 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 ---
 
-![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
+>![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
 >> The input after `cd` will be the name of the directory you want to change into.
 
 ---
@@ -159,7 +162,7 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 ---
 
-![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
+>![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
 >> By adding `..`, you can jump back up one parent directory.
 
 ---
