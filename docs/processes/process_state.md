@@ -10,6 +10,8 @@ nav_order: 1
 ## Linux Process States
 {: .no_toc }
 
+This section covers the four main states of a Linux _process_.
+
 ---
 
 ### Table of Contents
