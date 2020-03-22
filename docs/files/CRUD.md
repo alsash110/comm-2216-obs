@@ -38,13 +38,16 @@ This instruction set will go over Linux commands that allows you to perform CRUD
 
 **1.** Input the following command into your terminal to create a new file.
 
->*`touch test.txt`*
-
+    ```
+    touch test.txt
+    ```
 ---
 
 **2.** Enter the following command to test if you have a created a file called `test.txt`.
 
->*`ls`*
+```
+>ls
+```
 
 >You should be able to see that the file named `test.txt` exists inside your current directory.
 
@@ -107,6 +110,7 @@ This instruction set will go over Linux commands that allows you to perform CRUD
 >**Note**: Use the *`mkdir`* command to create a new directory. You may notice that the *`mv`* command is used here again but this time the command is used to move a file into a different directory by entering the file name and then the directory name.
 
 >*`mkdir myfolder`*
+
 >*`mv newname.txt myfolder`*
 
 ---
