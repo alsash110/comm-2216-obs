@@ -24,6 +24,13 @@ This instruction set will show you how to:
 
 ---
 
+### Table of contents
+{: .no_toc .text-delta }
+* TOC
+{:toc}
+
+---
+
 1. Switch to the root user by entering the following command into your terminal.
 
     ![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note") Ensure that you enter the command below correctly before proceeding or you will not be able to successfully complete the other steps. You will also be prompted to enter your password.
@@ -33,7 +40,6 @@ This instruction set will show you how to:
     If entered correctly, the bottom left of your terminal should display root as your user.
 
     ![Screen shot of root user](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/users/rootuser.png?raw=true "Image of user on root account")
-
 
 2. Enter the *`adduser`* command below to add a new user to your Linux system. 
 
@@ -47,12 +53,11 @@ This instruction set will show you how to:
     [sudo] password for currentuser:
     ```
 
-
 3. Set and confirm a password for the new user.
 
     ```
     Enter new UNIX password:
-    Retype new UNIX password: 
+    Retype new UNIX password:
     ```
 
     Upon successfully creating a new user, the terminal will show the following message.
@@ -60,7 +65,6 @@ This instruction set will show you how to:
     ```
     passwd: password updated successfully
     ```
-
 
 4. Follow and enter the prompts to set the new users information. You may leave the following fields blank for default values.  
 
@@ -74,16 +78,13 @@ This instruction set will show you how to:
     Is the information correct? [Y/n]
     ```
 
-
 5. Enter the *`usermod`* command with the newly created username to the sudo group.
 
     *`usermod -aG sudo newusername`*
 
-
 6. Enter the following command to switch to the newly created user account.
 
     *`su - newusername`*
-
 
 7. Enter the following sudo command to verify that the new user has sudo privileges.
 
@@ -95,6 +96,7 @@ This instruction set will show you how to:
 
     ![Screen shot of root directory](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/users/sudo-ss.png?raw=true "Root directory contents")
 
+---
 
 ### Conclusion
 

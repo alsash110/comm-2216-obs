@@ -13,11 +13,18 @@ permalink: /docs/navigating
 
 ---
 
-Navigating through a computer system without a  graphical user interface, _GUI_, can seem daunting. The good news is, most if not all modern distributions of Linux includes a GUI. 
+Navigating through a computer system without a  graphical user interface, _GUI_, can seem daunting. The good news is, most if not all modern distributions of Linux includes a GUI.
 
 The goal of this section is to explain and show you that navigating Linux through the _CLI_ (command-line interface) is not difficult. With enough practice, you may find that using the _CLI_ to navigate through a computer is sometimes easier and even quicker.
 
 Using the CLI also introduces additional functionalities that may have been overlooked in a _GUI_. To use the Linux _CLI_, we will be using an application called _terminal_.
+
+---
+
+### Table of contents
+{: .no_toc .text-delta }
+* TOC
+{:toc}
 
 ---
 
@@ -53,13 +60,8 @@ Below is a list of some of the most commonly used commands to navigate Linux.
 | `pwd`           | "Print working directory" shows your current directory location.                                        |
 | `cd`            | "Change directory" to a specified directory or your home directory.                                     |
 | `open`          | "Open" a specified file, application, or directory.                                                     |
-| `stat`          | Display information about a file or folder.                                                             |
 | `clear`         | "Clear" your terminal screen.                                                                           |
 | `exit`          | "Exits" a terminal or a terminal session.                                                               |
-| `whoami`        | Displays who you are.                                                                                   |
-| `who`           | Displays who's logged in.                                                                               |
-| `last`          | Lists user login history.                                                                               |
-| `bc`            | Launch a terminal calculator.                                                                           |
 | `history`       | Lists a "history" of issued commands.                                                                   |
 | **[Up Arrow]**  | Scrolls through most recent command.                                                                    |
 
@@ -82,7 +84,7 @@ There are a number of commands we can use to navigate the Linux file system in t
     *`pwd`*
 
     You should be able to see exactly which directory you are currently in.
-    
+
     ![Screen shot pwd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/pwd.png?raw=true "pwd")
 
 3. Display the contents inside your current directory by inputting the following command.
@@ -94,7 +96,6 @@ There are a number of commands we can use to navigate the Linux file system in t
     You will be shown everything inside your current directory.
 
     ![Screen shot ls](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/contents.png?raw=true "ls")
-
 
 4. Create a new folder inside your current directory by using the following command.
 

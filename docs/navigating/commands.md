@@ -32,13 +32,6 @@ Linux commands have set syntax which allows additional _options_ (_switches_) an
 
 Things we should pay attention to:
 
-<<<<<<< HEAD
-- The command, options, and arguments must be separated by spaces.
-- Short command options starts with `-`. They can be grouped and the order does not matter.
-- Long command options starts with `--`.
-- The command reads from left to right so _options_ and _arguments_ reference to the command on the left.
-- The type of _options_ available and _arguments_ accepted will depend on the command.
-=======
 1. The command, options (switch), and arguments must be separated by spaces.
 1. Short command options starts with `-`. They can be grouped and the order does not matter.
 1. Long command options starts with `--`.
@@ -58,7 +51,6 @@ This is the same as:
 >> `ls -l -a /etc`
 
 >> `ls --all -l /etc`
->>>>>>> 01de088e96aecfaf51de893fa66a71713bbde687
 
 ---
 
@@ -147,11 +139,6 @@ There are a number of commands we can use to navigate the Linux file system in t
 
     *`cd ../`*
 
-<<<<<<< HEAD
-    You will see you have returned back to the previous directory that you were in.
-    
-    ![Screen shot pwd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/pwd.png?raw=true "pwd")
-=======
 There are a number of commands we can use to navigate the Linux file system in the terminal. This section will go over the most commonly used commands.
 
 ---
@@ -195,4 +182,3 @@ You can also pass `.` or `..` as an argument. `cd .` means you want to change to
 * The three most commonly used commands to navigate the file system in Linux are: `pwd`, `ls`, and `cd`.
 
 The next section will cover how to look up a commands functionality, the _manual_ page or _man pages_.
->>>>>>> 01de088e96aecfaf51de893fa66a71713bbde687

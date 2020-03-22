@@ -28,6 +28,12 @@ This instruction set will go over Linux commands that allows you to perform CRUD
 
 ---
 
+### Table of contents
+{: .no_toc .text-delta }
+* TOC
+{:toc}
+
+---
 
 1. Input the following command into your terminal to create a new file.
 
@@ -121,6 +127,4 @@ This instruction set will go over Linux commands that allows you to perform CRUD
 By reaching the end of this set of instructions, you have successfully created, read, modified, moved, and deleted files using the terminal. You will no longer see both the created .txt file and folder.
 
 As you've noticed by now, you were able to do these things without the use of your mouse or a graphical user interface. You should be able to easily use these commands for your own future use in Linux when the need to create new file types and directories arise. 
-
-
 
