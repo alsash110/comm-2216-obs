@@ -81,11 +81,15 @@ Heres a taste of some commands.
 
 There are a number of commands we can use to navigate the Linux file system in the terminal. This section will go over the most commonly used commands.
 
-### 1. `pwd`
+---
+
+### `pwd`
 
 The `pwd` command is used to identify your current location. It returns the full path of where your terminal is currently in relative to the directory structure.
 
-### 1. `ls`
+---
+
+### `ls`
 
 The `ls` command is used to list all files and directories at your terminal's current location. This is useful if you want to identify and traverse in to sub-directories.
 
@@ -93,7 +97,9 @@ Passing the `ls` command the `-a` switch lists all hidden files as well.
 
 The `-l` switch is used to format the display so its easy to read.
 
-### 1. 'cd`
+---
+
+### `cd`
 
 The `cd` command is used to "change directory". Issuing the command without any arguments or with the `~` argument results in changing to your _home directory_.
 
