@@ -2,7 +2,7 @@
 layout: default
 title: Navigating the File System
 nav_order: 3
-has_children: true
+has_children: false
 permalink: /docs/navigating
 ---
 

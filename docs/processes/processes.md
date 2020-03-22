@@ -2,7 +2,7 @@
 layout: default
 title: Processes
 nav_order: 6
-has_children: true
+has_children: false
 permalink: /docs/processes
 ---
 
