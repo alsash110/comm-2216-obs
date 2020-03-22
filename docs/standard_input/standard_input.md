@@ -86,7 +86,8 @@ It _redirects_ the _stdout_ form the _right side_ as the _stdin_ on the _left_.
 
 ---
 
-Note, the  `|`  operator is one direction and is always from left to right.
+![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
+>> The  `|`  operator is one direction and is always from left to right.
 
 ---
 
@@ -109,7 +110,9 @@ Yes, *`aaabbbcccddd`* is in it and so it is a terrible password.
 ---
 
 ![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
-One important consideration when using the `|` operator is the command used on the _left_ side must output a  _stdout_. Likewise, the command on the _right_ side must be able to accept a _stdin_.
+>> One important consideration when using the `|` operator is the command used on the _left_ side must output a  _stdout_. Likewise, the command on the _right_ side must be able to accept a _stdin_.
+
+---
 
 It makes no sense to pipe something to a command if the command does not take a stdin, and vice versa.
 
