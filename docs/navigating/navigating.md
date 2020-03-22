@@ -103,6 +103,9 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 >![Screen shot ls](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/contents.png?raw=true "ls")
 
+Passing the `ls` command the `-a` switch lists all hidden files as well.
+
+The `-l` switch is used to format the display so its easy to read.
 
 **4.** Create a new folder inside your current directory by using the following command.
 
@@ -139,19 +142,19 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 >![pwd2](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/pwd2.png?raw=true "ls")
 
-
 **6.** Change back to the previous directory with the following command.
 
->**Note**: By adding `../`, you can jump back up one parent directory.
+>**Note**: By adding `..`, you can jump back up one parent directory.
 
 >```
->cd ../
+>cd ..
 >```
 
 >You will see you have returned back to the previous directory that you were in.
 
 >![Screen shot pwd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/pwd.png?raw=true "pwd")
 
+`cd -` returns you to your previous location, but you can only backtrack once.
 
 ## Conclusion
 
