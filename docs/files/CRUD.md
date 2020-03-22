@@ -63,12 +63,14 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 
 >You will notice that nothing happened. That's because nothing has been input into the *`test.txt`* file!
 <br />
+<br />
 
 **3.** Insert some text into your newly created file using the following command.
 <br />
 
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
 >>Ensure that *`>`* is added to the command this time to be able to insert text into the file.
+<br />
 <br />
 
 >```
@@ -94,14 +96,14 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 
 >![Inserted text into test.txt](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/files/insert-text.png?raw=true "test.txt has contents")
 <br />
-
+<br />
 
 **5.** Input the following command to rename our *`test.txt`* file into *`newname.txt`*.
-<br />
 <br />
 
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
 >>When using the `mv` command to rename a file, enter the current file and then the new name.
+<br />
 <br />
 
 >```
@@ -120,12 +122,14 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 
 >![Renamed .txt file](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/files/renamed.png?raw=true "Renamed .txt file.")
 <br />
+<br />
 
 **6.** Move your *`newname.txt`* file to a different directory with the following commands.
 <br />
 
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
 >>Use the `mkdir` command to create a new directory. You may notice that the `mv` command is used here again but this time the command is used to move a file into a different directory by entering the file name and then the directory name.
+<br />
 <br />
 
 >Create a new directory first before moving the *`newname.txt`* file.
@@ -152,6 +156,7 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 >You should notice that *`newname.txt`* did indeed move inside of the *`myfolder`* directory.
 
 >![Moved .txt file](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/files/moved.png?raw=true "Moved .txt file.")
+<br />
 <br />
 
 **7.** Remove the *`newname.txt`* file and the *`myfolder`* directory using the `rm` command.
