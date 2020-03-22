@@ -29,20 +29,26 @@ Linux is a free, multi user operating system that is secure, customizable, and s
 ## Is This Guide for You
 This guide is for beginner Linux users who has some basic computer knowledge.
 
-There are many comprehensive Linux documents out there, but those can be overwhelming. This guide is meant to provide a simpler way by teaching you only the basic Linux concepts and commands. By the end of this guide, you will have learned how to:
+There are many comprehensive Linux documents out there, but those can be overwhelming. This guide is meant to provide a simpler way by teaching you only the basic Linux concepts and commands. By the end of this guide, you will have learned how to use the command line to:
 
-* install and run Linux on a virtual machine, (TODO or delete)
+* navigate through your Linux system,
 * create and modify user accounts,
-* show and close processes,
-* use the command line, and
+* manipulate files and folders,
+* show and close processes, and
 * understand and use standard output.
 
 ---
 
 ## Prerequisites
-To follow along with this document, you should have access to a computer.
 
-If you have Linux installed _locally_ or in a _virtual machine_, great. Alternatively, browser based terminals such as [Bellard's Linux emulator](https://bellard.org/jslinux/ "Browser Linux emulator") or [Copy.sh's Linux emulator](https://copy.sh/v86/ "Browser Linux emulator") is another way to access Linux without installing anything.
+To follow along with this document, you will need the following:
+
+**Note**: If you have Linux installed _locally_ or in a _virtual machine_, great. Alternatively, browser based terminals such as [Bellard's Linux emulator](https://bellard.org/jslinux/ "Browser Linux emulator") or [Copy.sh's Linux emulator](https://copy.sh/v86/ "Browser Linux emulator") is another way to access Linux without installing anything.    
+
+- access to a computer with a keyboard and mouse,
+- any version of Linux installed,
+- an internet connection, and
+- a general understanding of basic computer tasks.
 
 ---
 

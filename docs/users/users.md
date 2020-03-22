@@ -13,13 +13,14 @@ permalink: /docs/users
 ---
 While using Linux you may want to create new user accounts for a number of different reasons.
 
-This walkthrough will introduce you to the *`adduser`*, *`moduser`*, and some *`sudo`* commands.
+You may create as many users as you like as well as assigning certain privileges to those users.
 
-This section will show you how to:
+This instruction set will introduce you to the *`adduser`*, *`moduser`*, and some *`sudo`* commands.
+
+This instruction set will show you how to:
 - able to add new users,
 - assign privilege groups, and 
 - switch between different user accounts in your Linux system.
-
 
 ---
 
@@ -93,3 +94,12 @@ This section will show you how to:
     You should see the a list of contents that are normally accessible only by the root user if you correctly assigned the new user to the sudo group.
 
     ![Screen shot of root directory](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/users/sudo-ss.png?raw=true "Root directory contents")
+
+
+### Conclusion
+
+Creating and modifying users is made extremely convenient through the use of the terminal and a few commands. 
+
+You have successfully created a new user and assigned sudo privileges to that user by reaching the end of this instruction set. 
+
+You may find use for creating multiple new user account son your system for testing purposes or to have a clean slate to create or modify files in that account.

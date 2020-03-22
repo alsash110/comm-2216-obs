@@ -18,11 +18,16 @@ If you are in the technical field, often times you will need to create new files
 
 _CRUD_ is an acronym that stands for create, read, update, and delete. These are the most basic actions that can be performed on files.
 
-This section will go over some Linux commands that allows you to perform these actions directly in the terminal. We will be using the `touch` command to create new files, the `cat` command to read and update files, and the `rm` command to delete unwanted files.
+---
 
- We will also cover how to copy and move files using the *`mv`* command.
+### CRUD Instructions
+
+This instruction set will go over Linux commands that allows you to perform CRUD actions directly in the terminal. You will be using the `touch` command to create new files, the `cat` command to read and update files, and the `rm` command to delete unwanted files.
+
+ You will also learn how to copy and move files using the *`mv`* command.
 
 ---
+
 
 1. Input the following command into your terminal to create a new file.
 
@@ -36,6 +41,7 @@ This section will go over some Linux commands that allows you to perform these a
     You should be able to see that the file named `test.txt` exists inside your current directory.
 
     ![Root user](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/files/rootuser.png?raw=true "Root user")
+
 
 
 3. Enter the following command to read the contents of our file.
@@ -106,7 +112,13 @@ This section will go over some Linux commands that allows you to perform these a
 
     You will see that you have removed the directory and the contents.
 
+---
 
+### Conclusion
+
+By reaching the end of this set of instructions, you have successfully created, read, modified, moved, and deleted files using the terminal. 
+
+As you've noticed by now, you were able to do these things without the use of your mouse or a graphical user interface. You should be able to easily use these commands for your own future use in Linux when the need to create new file types and directories arise. 
 
 
 

@@ -18,17 +18,17 @@ The two most common commands used to view your systems processes are through the
 
 Processes usually terminate after you exit. However, this is not always the case as some programs may keep some processes running even after you exit. There are also times when you may want to _kill_ some processes to free up resources or because the program froze.
 
-This section will show you how to:
+---
+### Display, Search, and Kill Processes Using the Terminal
+
+The following instruction set will show you how to:
 * view processes using the *`ps`* command,
 * search for a specific process, and
-* _kill_ processes.
+* _kill_ processes using your terminal.
 
 ---
-<<<<<<< HEAD
 
-1. Open up your terminal.
-
-2. Input the following *`ps`* command.
+1. Input the following *`ps`* command inside of your terminal.
 
     *`ps aux`*
 
@@ -40,7 +40,7 @@ This section will show you how to:
     ![Screen shot of ps aux output](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/processes/ps_aux_2.png?raw=true "ps aux output")
 
 
-3. Input the *`pgrep`* command and your process name.
+2. Input the *`pgrep`* command and your process name.
 
     **Note**: Replace processname with a keyword to search for your process name.
 
@@ -50,18 +50,24 @@ This section will show you how to:
 
     ![Screen shot of pgrep firefox output](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/processes/pgrep-firefox.png?raw=true "pgrep firefox output")
 
-4. Input the *`kill`* command along with the process id to stop your desired process.
+3. Input the *`kill`* command along with the process id to stop your desired process.
 
     ![Caution icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/caution.png?raw=true "Caution"){: style="float: left" } Ensure you input the correct process id or you may accidentally kill an essential process.
     
     *`kill processid`*
 
-5. Input the *`pgrep`* command once more to test if the process did in fact stop.
+4. Input the *`pgrep`* command once more to test if the process did in fact stop.
 
     *`pgrep processname`*
 
     If the process did get stopped, there should be no output.
 
     ![Screen shot of no pgrep firefox output](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/processes/pgrep-firefox-killed.png?raw=true "no pgrep firefox output")
-=======
->>>>>>> 01de088e96aecfaf51de893fa66a71713bbde687
+
+---
+
+### Conclusion
+
+You have learned the commands to show, search for, and stop any processes that are running in your system. 
+
+You can see that finding and ending processes can be done through the terminal and without much of a hassle. Just be sure that whenever you do decide to kill a process that you ensure that the process id is correct.

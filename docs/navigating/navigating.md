@@ -65,7 +65,7 @@ Below is a list of some of the most commonly used commands to navigate Linux.
 
 ---
 
-### Using Commands To Navigate
+### Using Commands To Navigate Your System
 
 There are a number of commands we can use to navigate the Linux file system in the terminal. This instruction set will use some of the commands in the list above and teach you to be more familiar with navigating through your Linux system with the terminal.
 
@@ -132,3 +132,10 @@ There are a number of commands we can use to navigate the Linux file system in t
 
     ![Screen shot pwd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/pwd.png?raw=true "pwd")
 
+---
+
+### Conclusion
+
+By reaching the end of this instruction set, you have learned how to open the terminal and input commands which allowed you to navigate through your system. 
+
+You are now able to know exactly what files are contained in your directories as well as your current directory, allowing you to easily navigate through your system.
