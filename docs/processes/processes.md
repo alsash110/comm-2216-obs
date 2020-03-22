@@ -20,13 +20,6 @@ Processes usually terminate after you exit. However, this is not always the case
 
 ---
 
-### Table of contents
-{: .no_toc .text-delta }
-* TOC
-{:toc}
-
----
-
 ## Display, Search, and Kill Processes Using the Terminal
 
 The following instruction set will show you how to:

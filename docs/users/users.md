@@ -6,7 +6,7 @@ has_children: false
 permalink: /docs/users
 ---
 
-# Creating New Users Using the Command Line
+# User Accounts on Linux
 {: .no_toc }
 
 ---
@@ -14,7 +14,11 @@ While using Linux you may want to create new user accounts for a number of diffe
 
 You may create as many users as you like as well as assigning certain privileges to those users.
 
-This instruction set will introduce you to the `adduser`, `moduser`, and some `sudo` commands.
+You will be introduced to the `adduser`, `moduser`, and some `sudo` commands.
+
+---
+
+## Creating New Users and Assigning Groups
 
 This instruction set will show you how to:
 - able to add new users,
