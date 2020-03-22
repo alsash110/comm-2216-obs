@@ -16,7 +16,7 @@ While using Linux you may want to create new user accounts for a number of diffe
 
 You may create as many users as you like as well as assigning certain privileges to those users.
 
-This instruction set will introduce you to the *`adduser`*, *`moduser`*, and some *`sudo`* commands.
+This instruction set will introduce you to the `adduser`, `moduser`, and some `sudo` commands.
 
 This instruction set will show you how to:
 - able to add new users,
@@ -33,7 +33,7 @@ This instruction set will show you how to:
 >sudo su -
 >```
 
->**Note**: You will also be prompted to enter your password if this is your first time using a *`sudo`* command in a session.
+>**Note**: You will also be prompted to enter your password if this is your first time using a `sudo` command in a session.
 
 >Enter your current users password if prompted.
 
@@ -43,7 +43,7 @@ This instruction set will show you how to:
 
 >![Screen shot of root user](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/users/rootuser.png?raw=true "Image of user on root account")
 
-**2.** Enter the *`adduser`* command below to add a new user to your Linux system.
+**2.** Enter the `adduser` command below to add a new user to your Linux system.
 
 >**Note**: Replace newusername with the user you want to create.
 
@@ -68,7 +68,7 @@ This instruction set will show you how to:
 >![Set user info](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/users/create3.png?raw=true "set user info")
 
 
-**5.** Enter the *`usermod`* command with the newly created username to the sudo group.
+**5.** Enter the `usermod` command with the newly created username to the sudo group.
 
 >```
 >usermod -aG sudo newusername
@@ -96,6 +96,6 @@ This instruction set will show you how to:
 
 ## Conclusion
 
-You have successfully created a new user and assigned sudo privileges to that user account once you are able to use the *`sudo`* command to display the list of contents at the root.
+You have successfully created a new user and assigned sudo privileges to that user account once you are able to use the `sudo` command to display the list of contents at the root.
 
 You may also find use for creating multiple new user accounts on your system for testing purposes or to have a clean slate to create or modify files in that account.

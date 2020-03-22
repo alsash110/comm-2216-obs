@@ -73,7 +73,7 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 ---
 
-**1.** Open up your terminal by right-clicking on your desktop and clicking `Open Terminal`.
+**1.** Open up your terminal by right-clicking on your desktop and clicking *`Open Terminal`*.
 
 >![Terminal open](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/term.png?raw=true "terminal")
 
@@ -113,19 +113,19 @@ There are a number of commands we can use to navigate the Linux file system in t
 >mkdir testfolder
 >```
 
->Let's check the contents of our current directory again by inputting the *`ls`* command once again.
+>Let's check the contents of our current directory again by inputting the `ls` command once again.
 
 >```
 >ls
 >```
 
->You will see that you have successfully created a new folder called `testfolder`.
+>You will see that you have successfully created a new folder called *`testfolder`*.
 
 >![Screen shot ls with testfolder](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/contents2.png?raw=true "ls")
 
 ---
 
-**5.** Change into the `testfolder` directory with the following command.
+**5.** Change into the *`testfolder`* directory with the following command.
 
 >**Note**: The input after `cd` will be the name of the directory you want to change into.
 
@@ -133,13 +133,13 @@ There are a number of commands we can use to navigate the Linux file system in t
 >cd testfolder
 >```
 
->Let's check to see which directory you are now currently in with the *`pwd`* command.
+>Let's check to see which directory you are now currently in with the `pwd` command.
 
 >```
 >pwd
 >```
 
->You will see that you are now inside the newly created `testfolder` directory.
+>You will see that you are now inside the newly created *`testfolder`* directory.
 
 >![pwd2](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/pwd2.png?raw=true "ls")
 
@@ -147,7 +147,7 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 **6.** Change back to the previous directory with the following command.
 
->**Note**: By adding *`../`*, you can jump back up one parent directory.
+>**Note**: By adding `../`, you can jump back up one parent directory.
 
 >```
 >cd ../
