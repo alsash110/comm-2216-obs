@@ -34,7 +34,7 @@ Linux commands have set syntax which allows additional _options_ and _arguments_
 Things we should pay attention to:
 
 1. The command, options, and arguments must be separated by spaces.
-1. Short command options starts with `-`. They can be grouped and the order of the option switches do not matter.
+1. Short command options starts with `-`. They can be grouped and the order does not matter.
 1. Long command options starts with `--`.
 1. The command reads from left to right so _options_ and _arguments_ reference to the command on the left.
 1. The type of _options_ available and _arguments_ accepted will depend on the command.
@@ -47,7 +47,9 @@ Here is an example:
 
 This is the same as:
 
->> `ls -al /etc` or `ls -l -a /etc` or `ls --all -l /etc`
+>> `ls -al /etc`
+>> `ls -l -a /etc` 
+>> `ls --all -l /etc`
 
 ---
 
@@ -70,6 +72,8 @@ Heres a taste of some commands.
 | `bc`            | Launch a terminal calculator.                                                                           |
 | `history`       | Lists a "history" of issued commands.                                                                   |
 | **[Up Arrow]**  | Scrolls through most recent command.                                                                    |
+
+---
 
 ## Using Commands To Navigate
 
