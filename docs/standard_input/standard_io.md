@@ -34,9 +34,11 @@ The `>` operator takes the _stdout_ from  `ls -la`  and writes it to a newly cre
 
 The `>` command is formatted as `command > filename`.
 
-1. Try this new operator by inputting the following in a terminal:
+1. Input the following in a terminal to test out the `>` operator:
 
->> *`ls -la > list.txt`*  >-->  **[Enter]**
+>```
+>ls -la > list.txt
+>```
 
 The results may not be exactly the same but it should look something like this:
 
@@ -52,9 +54,11 @@ An interesting note is that the contents of *`list.txt`* actually contains the t
 
 The `>>` operator _appends_ the stdout to an existing file while the `>` always creates (overwrites) a file.
 
-2. Try the `>>` operator by inputting:
+2. Input the following command to append a new line to `list.txt` with the `>>` operator:
 
->> *`pwd >> list.txt`*  >-->  **[Enter]**
+>```
+>pwd >> list.txt
+>```
 
 ![Screen shot of pwd >> list.txt](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdout_2.png?raw=true ">>")
 
@@ -66,11 +70,20 @@ If you reopen the file, the stdout of `pwd` is appended to the end of the file.
 
 The `|` is another operator that takes Standard Output from the left side and ‘pipes’ it as the Standard Input to the right side.
 
+---
+
+![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
+>> The  `|`  operator is strictly single directional and always 'pipes' from left to right.
+
+---
+
 The command is formatted as `command  |  command`
 
-3. Try using the 'pipe' operator:
+3. Input the following command to test the 'pipe' operator:
 
->> *`ls /etc | less`*  >-->  **[Enter]**
+>```
+>ls /etc | less
+>```
 
 Piping something to `less` is rather pointless but it serves as a demonstration of how to use `|` to _pipe_ the stdout from one command to the stdin of another.
 
@@ -84,9 +97,11 @@ To exit, press **[q]**.
 
 We can redirect _stdin_ as well with the `<` operator.
 
-4. If you haven’t deleted the file `list.txt` or _changed directories_, if you run:
+4. If you haven’t deleted the file `list.txt` or _changed directories_, execute the following command:
 
->> *`wc < list.txt`*  >-->  **[Enter]**
+>```
+>```wc < list.txt
+>```
 
 ![Screen shot of wc < list.txt](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdin_1.png?raw=true "<")
 
@@ -95,14 +110,7 @@ You will get a word count of the list.txt file.
 The  `<`  operator is the same as the  `>`  operator but reversed.
 It _redirects_ the _stdout_ form the _right side_ as the _stdin_ on the _left_.
 
----
-
-![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
->> The  `|`  operator is one direction and is always from left to right.
-
----
-
-## Use case of `|` Operator
+## Hypothetical Use cases of the `|` Operator
 
 Imagine you have a text file named `rockyou.txt`. It contains a list of the most common passwords used online.
 
@@ -110,9 +118,11 @@ Heres what the first few lines looks like:
 
 ![Screen shot of less rockyou.txt](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdin_2.png?raw=true "rockyou.txt")
 
-You can search the list to see if my password is on the list by using the `grep` command.
+You can search through the document to see if your password is on the list by using the `grep` command.
 
->> *`cat rockyou.txt | grep aaabbbcccddd`*  >-->  **[Enter]**
+>```
+>cat rockyou.txt | grep aaabbbcccddd
+>```
 
 ![Screen shot of cat rockyou.txt `|` grep aaabbbcccddd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdin_3.png?raw=true "`|`")
 
