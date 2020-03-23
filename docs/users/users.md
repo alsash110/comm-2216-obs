@@ -26,7 +26,7 @@ You are going to learn the `adduser`, `moduser`, and some `sudo` commands.
 ## Creating New Users and Assigning Groups
 
 This instruction set shows you how to:
-- able to add new users,
+- add new users,
 - assign privilege groups, and
 - switch between different user accounts in your Linux system.
 

@@ -68,7 +68,7 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 <br />
 
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
->>Ensure that you add *`>`* to the command this time to be able to insert text into the file.
+>>Ensure that you add *`>>`* to the command this time to be able to insert text into the file.
 <br />
 <br />
 
@@ -79,7 +79,7 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 >You will be prompted with an empty space to insert some text. Enter in some text of your choice and hit **[return]**. I will enter the following text into my file.
 
 >```
->I am a test line in my test file
+>I am a test line.
 >```
 <br />
 
