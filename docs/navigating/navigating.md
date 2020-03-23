@@ -13,11 +13,11 @@ permalink: /docs/navigating
 
 ---
 
-Navigating through a computer system without a  graphical user interface, _GUI_, can seem daunting. The good news is, most if not all modern distributions of Linux includes a GUI.
+Navigating through a computer system without a graphical user interface, _GUI_, can seem daunting. The good news is, most, if not all modern distributions of Linux includes a GUI.
 
 The goal of this section is to explain and show you that navigating Linux through the _CLI_ (command-line interface) is not difficult. With enough practice, you may find that using the _CLI_ to navigate through a computer is sometimes easier and even quicker.
 
-Using the CLI also introduces additional functionalities that may have been overlooked in a _GUI_. To use the Linux _CLI_, we will be using an application called _terminal_.
+Using the CLI also introduces additional functionalities that may have been overlooked in a _GUI_. To use the Linux _CLI_, you will use an application called the _terminal_.
 
 ---
 
@@ -30,17 +30,17 @@ Using the CLI also introduces additional functionalities that may have been over
 
 ## Directories
 
-Linux directories behave similar to folders. In the background, directories are actually a special type of file used to store information about other files. It's contents are controlled by the Linux operating system and it includes things such as name, permission, type, size, and so on.
+Linux directories behave similar to folders. In the background, directories are actually a special type of file used to store information about other files. Contents are controlled by the Linux operating system and contents includes things such as name, permission, type, size, and so on.
 
-The home directory for common users are located in `/Users` while the _root user_ is stored in a separate `/root` directory. If you are wondering what the difference is between common users and the _root user_, it will be covered in a separate section.
+The home directory for common users is located in `/Users` while the _root user_ is stored in a separate `/root` directory.
 
 ---
 
 ## What are Commands
 
-Commands are instructions the operating system uses to perform specific tasks. It provides a _layer of abstraction_ and makes it easier for users to use a computer without the need to know how things work.
+Commands are instructions the operating system uses to perform specific tasks. Instructions provides a _layer of abstraction_ and makes using a computer easy without the need to know how things work.
 
-We can think of them as _keywords_ that are _mapped_ to a mini program which will execute when we input it into a _terminal_.
+We can think of commands as _keywords_ that are _mapped_ to a mini program which execute when we input _keywords_ into a _terminal_.
 
 Linux commands have set syntax which allows additional _options_ and _arguments_ to be passed. The syntax looks something like this:
 
@@ -58,7 +58,7 @@ Things we should pay attention to:
 
 ## Command Table
 
-Below is a list of some of the most commonly used commands to navigate Linux.
+Below is a list of some common Linux commands.
 
 **Note**: This list is not exhaustive.
 
@@ -91,7 +91,7 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
->> Linux directories behave similar to folders. In the background, directories are actually a special type of file used to store information about other files. It's contents are controlled by the Linux operating system and it includes things such as name, permission, type, size, and so on.
+>> Linux directories behave similar to folders. In the background, directories are actually a special type of file used to store information about other files. The contents are controlled by the Linux operating system and includes things such as name, permission, type and size.
 <br />
 
 >```
@@ -104,17 +104,17 @@ There are a number of commands we can use to navigate the Linux file system in t
 <br />
 <br />
 
-**3.** Display the contents inside your current directory by inputting the following command.
+**3.** Display the contents inside your current directory with the following command.
 
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
->> Passing the `ls` command the `-a` switch lists all hidden files as well.
+>> Using the `ls` command with the `-a` switch lists all hidden files as well.
 
 <br />
 >```
 >ls
 >```
 
->You will be shown everything inside your current directory.
+>You can see a list of everything inside your current directory.
 
 >![Screen shot ls](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/contents.png?raw=true "ls")
 <br />
@@ -126,7 +126,7 @@ There are a number of commands we can use to navigate the Linux file system in t
 >mkdir testfolder
 >```
 
->Let's check the contents of our current directory again by inputting the `ls` command once again.
+>Check the contents of your current directory again by inputting the `ls` command again.
 
 >```
 >ls
@@ -141,20 +141,20 @@ There are a number of commands we can use to navigate the Linux file system in t
 **5.** Change into the *`testfolder`* directory with the following command.
 
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
->> The input after `cd` will be the name of the directory you want to change into.
+>> The input after `cd` is the name of the directory you want to change into.
 
 <br />
 >```
 >cd testfolder
 >```
 
->Let's check to see which directory you are now currently in with the `pwd` command.
+>Check to see which directory you are now currently in with the `pwd` command.
 
 >```
 >pwd
 >```
 
->You will see that you are now inside the newly created *`testfolder`* directory.
+>You will see that you are now inside the *`testfolder`* directory.
 
 >![pwd2](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/pwd2.png?raw=true "ls")
 <br />
@@ -170,13 +170,13 @@ There are a number of commands we can use to navigate the Linux file system in t
 >cd ..
 >```
 
->You will see you have returned back to the previous directory that you were in.
+>You can see you have returned back to the previous directory that you were in.
 
 >![Screen shot pwd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/pwd.png?raw=true "pwd")
 <br />
 <br />
 
-By reaching the end of this instruction set, you have learned how to open the terminal and input commands which allowed you to navigate through your system. 
+By reaching the end of this instruction set, you now know how to open the terminal and input commands which allowed you to navigate through your system. 
 
 You are now able to know exactly what files are contained in your directories as well as your current directory, allowing you to easily navigate through your system.
 

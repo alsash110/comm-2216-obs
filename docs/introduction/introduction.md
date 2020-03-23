@@ -13,7 +13,7 @@ permalink: /docs/Introduction
 
 ---
 
-The purpose of this document is to help you get started with using Linux. The sections in this document will introduce you to some basic concepts and commands.
+The purpose of this document is to help you get started with using Linux. The sections in this document introduce you to some basic concepts and commands.
 
 Linux is a free, multi user operating system that is secure, customizable, and stable. These factors have lead to the wide adoption of Linux in industry and it now forms the backbone of the internet.
 
@@ -27,9 +27,9 @@ Linux is a free, multi user operating system that is secure, customizable, and s
 ---
 
 ## Is This Guide for You
-This guide is for beginner Linux users who has some basic computer knowledge.
+This guide is for beginner Linux users with some basic computer knowledge.
 
-There are many comprehensive Linux documents out there, but those can be overwhelming. This guide is meant to provide you with simple instructions and teach you basic, essential Linux concepts and commands. By the end of this guide, you will have learned how to use the command line to:
+There are many comprehensive Linux documents out there, but those can be overwhelming. This guide is meant to provide you with simple instructions and teach you basic, essential Linux concepts and commands. By the end of this guide, you will learn how to use the command line to:
 
 * navigate through your Linux system,
 * create and modify user accounts,
@@ -43,7 +43,7 @@ There are many comprehensive Linux documents out there, but those can be overwhe
 
 To follow along with this document, you will need the following:
 
-**Note**: If you have Linux installed _locally_ or in a _virtual machine_, great. Alternatively, browser based terminals such as [Bellard's Linux emulator](https://bellard.org/jslinux/ "Browser Linux emulator") or [Copy.sh's Linux emulator](https://copy.sh/v86/ "Browser Linux emulator") is another way to access Linux without installing anything.    
+**Note**: You can install Linux _locally_ or in a _virtual machine_. Alternatively, browser based terminals such as [Bellard's Linux emulator](https://bellard.org/jslinux/ "Browser Linux emulator") or [Copy.sh's Linux emulator](https://copy.sh/v86/ "Browser Linux emulator") is another way to access Linux without installing anything.    
 
 - access to a computer with a keyboard and mouse,
 - any version of Linux installed,
@@ -53,16 +53,17 @@ To follow along with this document, you will need the following:
 ---
 
 ## Why learn Linux
-Linux is used everywhere and it is not going away any time soon. At its core, Linux is a free software used to control all types of hardware. The internet is built on Linux, phones are running on linux, even your smart appliances are using Linux.
+Linux sees use everywhere and Linux is not going away any time soon. Linux is a free software used to control all types of hardware. Linux builds the internet, phones run on Linux, and even your smart appliances use Linux.
 
-If you are planning to have a career related to technology, it is guaranteed that you will be interacting with Linux at some point. With this in mind, familiarizing your self with Linux can be beneficial.
+If you plan to have a career related to technology, you will interact with Linux at some point. With this in mind, we want you to familiarize your self with Linux as this can be beneficial.
 
 ---
 
 ## Works on all versions
+
 The concepts and commands covered in this document will work with any _Linux distributions_. A _Linux distribution_ is a collection of software bundled with the _Linux Kernel_. These bundles contain a set of features and settings for a particular purpose.
 
-The basic building blocks remains the same so all distributions of Linux still retains its main characteristics.
+The basic building blocks remains the same so all distributions of Linux still retains the main characteristics.
 
 ---
 
@@ -74,7 +75,7 @@ In 1992, the _Linux Kernel_ was bundled together with _GNUs_ (GNU’s Not Unix) 
 ---
 
 ## Conclusion
-The idea of a free, reliable, customizable, and secure operating system is too good to overlook. Many users have switched Linux to remove themselves from propriety software or just out of curiosity. Anyone who works in the tech industry will also heavily rely on the use of Linux.
+The idea of a free, reliable, customizable, and secure operating system is too good to overlook. Many users switch to Linux to remove themselves from propriety software or just out of curiosity. Anyone who works in the tech industry also heavily rely on the use of Linux.
 
 With that in mind, let's get started on teaching you some of the essentials. We recommend that you start with [navigating through the file system.](https://dl90.github.io/linux-basics/docs/navigating)
 

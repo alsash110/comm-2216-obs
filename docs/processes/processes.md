@@ -12,17 +12,17 @@ permalink: /docs/processes
 
 ---
 
-A _process_ represents something running on your computer. They are classified into two types, _foreground processes_ and _background processes_. _Foreground processes_ are interactive and require some type of input. Launching a _foreground process_ ties up the terminal so you can not issue new terminal commands until the processes terminates. _Background processes_ can run independently and do not tie up the terminal.
+A _process_ represents something running on your computer. Processes are classified into two types, _foreground processes_ and _background processes_. _Foreground processes_ are interactive and require some type of input. Launching a _foreground process_ ties up the terminal so you can not issue new terminal commands until the processes terminates. _Background processes_ can run independently and do not tie up the terminal.
 
-The two most common commands used to view your systems processes are through the ```ps aux``` and ```top``` commands. The difference between the two is that ```ps aux``` takes a snapshot of current processes while ```top``` continuously updates the list of processes.
+The two most common commands you can use to view your systems processes are the ```ps aux``` and ```top``` commands. The difference between the two is that ```ps aux``` takes a snapshot of current processes while ```top``` continuously updates the list of processes.
 
-Processes usually terminate after you exit. However, this is not always the case as some programs may keep some processes running even after you exit. There are also times when you may want to _kill_ some processes to free up resources or because the program froze.
+Processes usually terminate after you exit. This is not always the case as some programs may keep some processes running even after you exit. There are also times when you may want to _kill_ some processes to free up resources or because the program froze.
 
 ---
 
 ## Display, Search, and Kill Processes Using the Terminal
 
-The following instruction set will show you how to:
+The following instruction set shows you how to:
 * view processes using the ```ps``` command,
 * search for a specific process, and
 * _kill_ processes using your terminal.
@@ -35,7 +35,7 @@ The following instruction set will show you how to:
 >ps aux
 >```
 
->**Note**: Using ```aux``` displays a lot more information given, we can see the different _users_, _process id_ `PID`, _state_ `STAT`, when the processes started, and the _root directory_ or _alias_ where the processes were loaded from.
+>**Note**: The ```aux``` command displays a lot more information. We can see the different _users_, _process id_ `PID`, _state_ `STAT`, when the processes started, and the _root directory_ or _alias_ where the processes are loaded in from.
 
 >You should be able to see a list of all processes running on your machine.
 
@@ -74,14 +74,14 @@ The following instruction set will show you how to:
 >pgrep processname
 >```
 
->If the process did get stopped, there should be no output for that specific process.
+>If the process was killed, there should be no output for that specific process.
 
 >![Screen shot of no pgrep firefox output](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/processes/pgrep-firefox-killed.png?raw=true "no pgrep firefox output")
 <br />
 <br />
 
-By reaching the end of this instruction set, you will have successfully learned how to view, search for, and kill any process.
+You now have successfully learned how to view, search for, and kill any process.
 
 You can see that finding and ending processes can be done through the terminal and without much of a hassle. Just be sure that whenever you do decide to kill a process that you ensure that the process id is correct.
 
-You've now learned most of the essentials and basics to Linux and commands. We recommend you learn how they work at a slightly deeper level with a concept called [standard IO.](https://dl90.github.io/linux-basics/docs/standard_io)
+You know most of the essentials and basics to Linux and commands at this point. We recommend you learn how they work at a slightly deeper level with a concept called [standard IO.](https://dl90.github.io/linux-basics/docs/standard_io)

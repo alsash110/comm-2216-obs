@@ -30,7 +30,7 @@ _CRUD_ is an acronym that stands for create, read, update, and delete. These are
 
 ## CRUD Instructions
 
-This instruction set will go over Linux commands that allows you to perform _CRUD_ actions directly in the terminal. You will be using the `touch` command to create new files, the `cat` command to read and update files, and the `rm` command to delete unwanted files.
+This instruction set will go over Linux commands that allows you to perform _CRUD_ actions directly in the terminal. You will use the `touch` command to create new files, the `cat` command to read and update files, and the `rm` command to delete unwanted files.
 
  You will also learn how to copy and move files using the `mv` command.
 
@@ -42,25 +42,25 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 >touch test.txt
 >```
 
->Test if the *`test.txt`* file was actually created by listing the contents of our current directory with the following command.
+>Test if the *`test.txt`* file is inside the directory with the following command.
 
 >```
 >ls
 >```
 
->You should be able to see that the file named *`test.txt`* exists inside your current directory.
+>You can see that the file named *`test.txt`* exists inside your current directory.
 
 >![Root user](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/files/rootuser.png?raw=true "Root user")
 <br />
 <br />
 
-**2.** Enter the following command to read the contents of our file.
+**2.** Enter the following command to read the contents of the file.
 
 >```
 >cat test.txt
 >```
 
->You will notice that nothing happened. That's because nothing has been input into the *`test.txt`* file!
+>You will notice that there is no output. That's because nothing was input into the *`test.txt`* file!
 <br />
 <br />
 
@@ -68,7 +68,7 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 <br />
 
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
->>Ensure that *`>`* is added to the command this time to be able to insert text into the file.
+>>Ensure that you add *`>`* to the command this time to be able to insert text into the file.
 <br />
 <br />
 
@@ -76,7 +76,7 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 >cat > test.txt
 >```
 
->You will be prompted with an empty space to insert some text. Enter in some text of your choice and hit return. I chose to enter the following text.
+>You will be prompted with an empty space to insert some text. Enter in some text of your choice and hit **[return]**. I will enter the following text into my file.
 
 >```
 >I am a test line in my test file
@@ -99,7 +99,7 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 <br />
 
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
->>When using the `mv` command to rename a file, enter the current file and then the new name.
+>>When using the `mv` command to rename a file, enter the current file name and then the new name.
 <br />
 <br />
 
@@ -107,7 +107,7 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 >mv test.txt newname.txt
 >```
 
->Check your current directory again to see that the file name has been changed.
+>Check your current directory again to see that the file name change.
 
 >```
 >ls
@@ -127,7 +127,7 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 <br />
 <br />
 
->Create a new directory first before moving the *`newname.txt`* file.
+>Create a new directory to move the *`newname.txt`* file inside.
 
 >```
 >mkdir myfolder
@@ -139,7 +139,7 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 >mv newname.txt myfolder
 >```
 
->Check the contents of the directory *`myfolder`* that you just created.
+>Check the contents of the directory *`myfolder`*.
 
 >```
 >ls myfolder
@@ -172,7 +172,7 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 >```
 <br />
 
-You will see that you have completely removed both the directory and its contents using the `ls` command. You should no longer see both the created .txt file and directory.
+You will see that you have completely removed both the directory and the contents using the `ls` command. You should no longer see both the .txt file and directory.
 
 As you've noticed by now, you were able to do these things without the use of your mouse or a graphical user interface. You should be able to easily use these commands for your own future use in Linux when the need to create new file types and directories arise.
 

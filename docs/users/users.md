@@ -14,13 +14,13 @@ While using Linux you may want to create new user accounts for a number of diffe
 
 You may create as many users as you like as well as assigning certain privileges to those users.
 
-You will be introduced to the `adduser`, `moduser`, and some `sudo` commands.
+You are going to learn  the `adduser`, `moduser`, and some `sudo` commands.
 
 ---
 
 ## Creating New Users and Assigning Groups
 
-This instruction set will show you how to:
+This instruction set shows you how to:
 - able to add new users,
 - assign privilege groups, and 
 - switch between different user accounts in your Linux system.
@@ -45,7 +45,7 @@ This instruction set will show you how to:
 
 >![Root password](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/users/pass.png?raw=true "root password")
 
->If entered correctly, the bottom left of your terminal should display root as your user.
+>If entered correctly, the bottom left of your terminal will display root as your user.
 
 >![Screen shot of root user](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/users/rootuser.png?raw=true "Image of user on root account")
 <br />
@@ -64,7 +64,7 @@ This instruction set will show you how to:
 
 >![setpassword user](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/users/create1.png?raw=true "password set for new user")
 
->Upon successfully entering and confirming a password, the terminal will show the following message.
+>The terminal will show the following message once you input a password.
 
 >![password success](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/users/create2.png?raw=true "Password success")
 <br />
@@ -94,19 +94,19 @@ This instruction set will show you how to:
 
 **7.** Enter the following sudo command to verify that the new user has sudo privileges.
 
->**Note**: You will be asked for your password the very first time you run a sudo command in a session. Enter your current password when prompted.
+>**Note**: The very first time you run a sudo command in a session, a password prompt will show up. Enter your current users password when prompted.
 
 >```
 >sudo ls -la /root
 >```
 
->You should see the a list of contents that are normally accessible only by the root user if you correctly assigned the new user to the sudo group.
+>You can see the a list of contents that are normally accessible only by the root user once you assign the new user to the sudo group.
 
 >![Screen shot of root directory](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/users/sudo-ss.png?raw=true "Root directory contents")
 <br />
 <br />
 
-You now have successfully created a new user and assigned sudo privileges to that user account once you are able to use the `sudo` command to display the list of contents at the root.
+Once you are able to use the `sudo` command to display the list of contents at the root, the user belongs to the sudo group.
 
 You may also find use for creating multiple new user accounts on your system for testing purposes or to have a clean slate to create or modify files in that account.
 
