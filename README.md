@@ -29,6 +29,8 @@ We were both unfamiliar with the concept of writing documentation with markdown 
 
 Markdown provided us with an easy-to-read and easy-to-write text format that is universally used on many platforms. Since we are learning to become web-developers, markdown allows us to integrate code, command inputs, and HTML into our documents.
 
+We learned and implemented the use of headings, font weights, lists, indentation, breaks, code blocks, tables, and integrating links and images in our guide.
+
 #### Using VS Code
 
 The main program we used to read and write was VS Code. We were introduced to VS Code at the very beginning of the full-stack web development program at BCIT which made using VS Code a clear choice. 
