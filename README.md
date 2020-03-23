@@ -41,6 +41,12 @@ To further aid us in writing our guide, we decided to use a styleguide by [GNOME
 
 Using a style guide allowed us to collaborate on a group project more easily since there were clear rules on how our document should be written, effectively lowering chances of potential arguments between us.
 
+#### Using a Theme
+
+We opted to use one of the free themes from Jekyll to allow us to change the style and look of the guide. We chose the current theme due to the themes clean and professional look. 
+
+To incorporate the Jekyll theme, we had to fork the Just the Docs theme and configured the yaml file to allow us to make all necessary code changes to the forked repository.
+
 #### Learning Best Practices For Web Writing
 
 To make our guide more easily readable, we relied heavily on the use of _chunking_. Chunking is a method of presenting information by splitting concepts into smaller "chunks" to allow readers to read and understand much more easily.
