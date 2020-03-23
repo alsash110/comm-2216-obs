@@ -11,17 +11,15 @@ permalink: /docs/users
 
 ---
 
-There are two types of user accounts in Linux, regular user and _root user_. Linux system starts with _one root user_ (User Id 0) and additional users are created following the initial setup. Linux can support up to 4294967296 users, each with their own home directory and permissions. This means one user can not access another users files, unless they are the root user. These permissions can be altered through _user permissions_, _group permissions_, as well as _file permissions_.
+There are two types of user accounts in Linux, regular users and the _root user_.
+
+Linux operating system supports _one root user_ (User Id 0) with additional users created following the initial setup. Linux can support up to 4294967296 users, each with their own home directory and permissions. By default, one user can not access another users files, unless they are the root user. These permissions can be altered through _user permissions_, _group permissions_, as well as _file permissions_.
 
 The _root user_ has full privileges over the system so care must be taken when you are doing anything with the root user account.
 
-This section goes over the steps to create a new regular user.
+This section goes over how to create a new user and assigning certain privileges to those users.
 
-While using Linux you may want to create new user accounts for a number of different reasons.
-
-You may create as many users as you like as well as assigning certain privileges to those users.
-
-You are going to learn  the `adduser`, `moduser`, and some `sudo` commands.
+You are going to learn the `adduser`, `moduser`, and some `sudo` commands.
 
 ---
 
