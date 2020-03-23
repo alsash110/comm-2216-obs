@@ -110,6 +110,8 @@ You can see a word count of the list.txt file.
 The  `<`  operator is the same as the  `>`  operator but reversed.
 The `<`> operator _redirects_ the _stdout_ from the _right side_ as the _stdin_ on the _left_.
 
+---
+
 ## Hypothetical Use Cases for the `|` Operator
 
 Imagine you have a text file named `rockyou.txt`. The file contains a list of the most common passwords used online.
