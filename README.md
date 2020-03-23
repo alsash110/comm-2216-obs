@@ -37,7 +37,7 @@ The main program we used to read and write was VS Code. We were introduced to VS
 
 #### Using a Style Guide
 
-To further aid us in writing our guide, we decided to use a styleguide by [GNOME.](https://developer.gnome.org/gdp-style-guide/2.32/) The GNOME Documentation Style Guide provides users with clear and concise writing. We believe that this is extremely important when creating an instruction guide as it allows us to easily convey to a reader why they should use the guide and what they are going to learn from the guide. 
+To further aid us in writing our guide, we decided to use a styleguide by [GNOME.](https://developer.gnome.org/gdp-style-guide/2.32/) The GNOME Documentation Style Guide provides users with clear and concise writing. We believe that this is extremely important when creating an instruction guide as a style guide allows us to easily convey to a reader why they should use the guide and what they are going to learn from the guide. 
 
 Using a style guide allowed us to collaborate on a group project more easily since there were clear rules on how our document should be written, effectively lowering chances of potential arguments between us.
 
@@ -62,7 +62,7 @@ We learned that working in a group is extremely different than working alone on 
 
 Due to working together on this project for a month, we came to learn how the other person works and were able to easily come to agreement with each other. 
 
-Working as a group for a project was extremely beneficial to everyone involved and taught us better interpersonal skills. This project made us realize how nice it is to work as a group and we enjoyed being able to work collectively as a team to create something that we are both proud of. We are looking forward to working on a project together if we are ever given the chance to.
+Working as a group for a project was extremely beneficial to everyone involved and taught us better interpersonal skills. This project made us realize how nice working together as a group was and we enjoyed being able to work collectively as a team to create something that we are both proud of. We are looking forward to working on a project together if we are ever given the chance to.
 
 Thank you for reading our basics to Linux guide and we hope that you learned something by following through our instructions.
 
