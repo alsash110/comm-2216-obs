@@ -19,7 +19,7 @@ We kept in close contact with each other on Slack to be able to communicate effe
 
 
 ### How We Created Our Guide
-To finish our guide, we used many different applications, documentations, and concepts. We had to learn a wide array of concepts as well as implementing programs and concepts we already knew.
+To finish our guide, we used many different applications, documentations, and concepts. We had to learn a wide array of concepts as well as implement programs and concepts we already knew.
 
 #### Using Markdown
 
