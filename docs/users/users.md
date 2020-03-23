@@ -10,6 +10,13 @@ permalink: /docs/users
 {: .no_toc }
 
 ---
+
+There are two types of user accounts in Linux, regular user and _root user_. Linux system starts with _one root user_ (User Id 0) and additional users are created following the initial setup. Linux can support up to 4294967296 users, each with their own home directory and permissions. This means one user can not access another users files, unless they are the root user. These permissions can be altered through _user permissions_, _group permissions_, as well as _file permissions_.
+
+The _root user_ has full privileges over the system so care must be taken when you are doing anything with the root user account.
+
+This section goes over the steps to create a new regular user.
+
 While using Linux you may want to create new user accounts for a number of different reasons.
 
 You may create as many users as you like as well as assigning certain privileges to those users.
@@ -22,15 +29,14 @@ You are going to learn  the `adduser`, `moduser`, and some `sudo` commands.
 
 This instruction set shows you how to:
 - able to add new users,
-- assign privilege groups, and 
+- assign privilege groups, and
 - switch between different user accounts in your Linux system.
 
 ---
 
 **1.** Switch to the root user by entering the following command into your terminal.
 
->![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note")
-{: style="float: left" } 
+>![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
 >>Ensure that you enter the command below correctly before proceeding or you will not be able to successfully complete the other steps. You will also be prompted to enter your password.
 <br />
 <br />

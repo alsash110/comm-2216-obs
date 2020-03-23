@@ -34,7 +34,7 @@ The `>` operator takes the _stdout_ from  `ls -la`  and writes to a newly create
 
 The `>` command format is `command > filename`.
 
-1. Input the following in a terminal to test out the `>` operator:
+**1.** Input the following in a terminal to test out the `>` operator:
 
 >```
 >ls -la > list.txt
@@ -54,7 +54,7 @@ An interesting note is that the contents of *`list.txt`* actually contains the t
 
 The `>>` operator _appends_ the stdout to a file while the `>` always overwrites a file.
 
-2. Input the following command to append a new line to `list.txt` with the `>>` operator:
+**2.** Input the following command to append a new line to `list.txt` with the `>>` operator:
 
 >```
 >pwd >> list.txt
@@ -79,7 +79,7 @@ The `|` is another operator that takes standard output from the left side and �
 
 The command is formatted as `command  |  command`
 
-3. Input the following command to test the 'pipe' operator:
+**3.** Input the following command to test the 'pipe' operator:
 
 >```
 >ls /etc | less
@@ -97,7 +97,7 @@ To exit, press **[q]**.
 
 We can redirect _stdin_ as well with the `<` operator.
 
-4. If you haven’t deleted the file `list.txt` or _changed directories_, execute the following command:
+**4.** If you haven’t deleted the file `list.txt` or _changed directories_, execute the following command:
 
 >```
 >wc < list.txt
