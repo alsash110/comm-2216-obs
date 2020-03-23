@@ -12,6 +12,8 @@ permalink: /docs/glossary
 
 **Background process**: A process that runs independently and does not tie up the terminal.
 
+**Command Chaining**: A method of combining several different commands to execute in succession to produce an output.
+
 **Command-line interface**: An interface used to process commands to a computer program in the form of lines of text.
 
 **Foreground process**: A process that is interactive and requires some type of input.
@@ -31,3 +33,5 @@ permalink: /docs/glossary
 **Sudo**: A utility for Linux-based systems that provides an efficient way to give users permission to perform root-level system commands. Sudo keeps a log of all commands and arguments.
 
 **Terminal**: Provides the user with a text-based interface for typing in commands.
+
+**Virtual Machine**: An emulated computer system running on top of your operating system.
