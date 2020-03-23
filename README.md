@@ -45,7 +45,7 @@ Using a style guide allowed us to collaborate on a group project more easily sin
 
 To make our guide more easily readable, we relied heavily on the use of _chunking_. Chunking is a method of presenting information by splitting concepts into smaller "chunks" to allow readers to read and understand much more easily.
 
-To further readability, we opted to use a typography standard which helps readers know the difference between `command inputs and user inputs`, *`console outputs`*, _key terms_, and **[keystrokes]** and convey more importance towards parts which these were included.
+To further readability, we opted to use a typography standard which helps readers know the difference between `command inputs and user inputs`, *`console outputs`*, _key terms_, and **[keystrokes]** to convey more importance towards parts which these were included.
 
 We also wanted to divert more attention to important information by implementing icons so readers know to read and follow our instruction carefully. 
 
