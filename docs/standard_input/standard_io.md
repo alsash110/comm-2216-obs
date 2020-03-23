@@ -100,7 +100,7 @@ We can redirect _stdin_ as well with the `<` operator.
 4. If you haven’t deleted the file `list.txt` or _changed directories_, execute the following command:
 
 >```
->```wc < list.txt
+>wc < list.txt
 >```
 
 ![Screen shot of wc < list.txt](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdin_1.png?raw=true "<")
