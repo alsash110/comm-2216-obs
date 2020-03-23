@@ -83,3 +83,5 @@ The following instruction set will show you how to:
 By reaching the end of this instruction set, you will have successfully learned how to view, search for, and kill any process.
 
 You can see that finding and ending processes can be done through the terminal and without much of a hassle. Just be sure that whenever you do decide to kill a process that you ensure that the process id is correct.
+
+You've now learned most of the essentials and basics to Linux and commands. We recommend you learn how they work at a slightly deeper level with a concept called [standard IO.](https://dl90.github.io/linux-basics/docs/standard_io)

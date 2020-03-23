@@ -109,3 +109,5 @@ This instruction set will show you how to:
 You now have successfully created a new user and assigned sudo privileges to that user account once you are able to use the `sudo` command to display the list of contents at the root.
 
 You may also find use for creating multiple new user accounts on your system for testing purposes or to have a clean slate to create or modify files in that account.
+
+Now that you are able to create new users and assign privileges to those users, we recommend that you learn how to [create, modify, and delete files.](https://dl90.github.io/linux-basics/docs/files)
