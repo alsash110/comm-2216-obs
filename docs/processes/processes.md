@@ -28,8 +28,13 @@ The following instruction set shows you how to:
 * _kill_ processes using your terminal.
 
 ---
+**Note**: To follow along with this guide, I have opened up Firefox, but you may open any other program or have a desired program you want to kill.
 
-**1.** Input the following ```ps``` command inside of your terminal.
+**1.** Open up the Firefox browser that comes with your Linux system.
+<br />
+<br />
+
+**2.** Open your terminal and input the following ```ps``` command.
 
 >```
 >ps aux
@@ -44,9 +49,9 @@ The following instruction set shows you how to:
 <br />
 <br />
 
-**2.** Input the ```pgrep``` command and your process name to obtain the *`processid`* of your process.
+**3.** Input the ```pgrep``` command and your process name to obtain the *`processid`* of your process.
 
->**Note**: Replace processname with a keyword to search for your process name.
+>**Note**: Replace processname with a keyword to search for your process name. 
 
 >```
 >pgrep processname
@@ -58,7 +63,7 @@ The following instruction set shows you how to:
 <br />
 <br />
 
-**3.** Input the ```kill``` command along with the *`processid`* to stop your desired process.
+**4.** Input the ```kill``` command along with the *`processid`* to stop your desired process.
 
 >![Caution icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/caution.png?raw=true "Caution"){: style="float: left" } 
 >>Ensure you input the correct process id or you may accidentally kill an essential process.
@@ -68,7 +73,7 @@ The following instruction set shows you how to:
 >```
 <br />
 
-**4.** Input the ```pgrep``` command along with the same *`processname`* once more to test if the process did in fact stop.
+**5.** Input the ```pgrep``` command along with the same *`processname`* once more to test if the process did in fact stop.
 
 >```
 >pgrep processname
