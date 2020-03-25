@@ -50,23 +50,51 @@ You will be guided through this instruction set to make use of stdin and stdout.
 
 ### The `>` Operator
 
-The `>` operator takes the _stdout_ from  `ls -la`  and writes to a newly created file called `list.txt` in your current directory.
+The `>` operator takes the _stdout_ from  `ls -la`  and writes to a new file called `mylist.txt` in your current directory.
 
 The `>` command format is `command > filename`.
 
-**1.** Input the following in a terminal to test out the `>` operator:
+**1.**: Input the following command into your terminal to show the contents of the current directory.
 
 >```
->ls -la > list.txt
+>ls -la
+>```
+<br />
+<br />
+
+>![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
+>> **Note**: The results you get may not be exactly the same as the results shown in the screen shot below. Your current directory will most likely contain different files and directories.
+
+>![contents](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/std1.png?raw=true ">")
+<br />
+<br />
+
+**2.** Input the following in a terminal to test out the `>` operator.
+
+>This command will write the contents of your directory to a text file that you name *`mylist.txt`*.
+
+>```
+>ls -la > mylist.txt
+>```
+<br />
+
+>Look at the contents of *`list.txt`* with the following command.
+
+>```
+>cat mylist.txt
 >```
 
->The results may not be exactly the same but you will see the below.
+>You will see that the contents inside *`mylist.txt`* are identical to the output of the *`ls -la`* command.
 
->![Screen shot of ls -la > list.txt](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdout_1.png?raw=true ">")
+> **Contents of the *`mylist.txt`* file.**
+>![contents](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/std2.png?raw=true ">")
+>Input the *`ls -la`* command to see the contents of your current directory. 
 
->You can see that the contents of the file is exactly the same as the terminal output of *`ls -la`*.
+> **Output from the *`ls -la`* command**
+>![contents](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/std1.png?raw=true ">")
 
->An interesting note is that the contents of *`list.txt`* actually contains the text `list.txt` itself.
+
+>An interesting note is that the contents of *`mylist.txt`* actually contains the text `mylist.txt` itself.
 <br />
 <br />
 
@@ -74,19 +102,26 @@ The `>` command format is `command > filename`.
 
 The `>>` operator _appends_ the stdout to a file while the `>` always overwrites a file.
 
-**2.** Input the following command to append a new line to `list.txt` with the `>>` operator:
+**3.** Input the following command to append a new line to `list.txt` with the `>>` operator:
 
 >```
 >pwd >> list.txt
 >```
-
->![Screen shot of pwd >> list.txt](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdout_2.png?raw=true ">>")
+<br />
 
 >Reopen the file to see that the stdout of `pwd` is appended to the end of the file.
+
+>```
+>cat mylist.txt
+>```
+
+> You will see that your current working directory has been appended to the bottom of *`mylist.txt`*.
+
+>![Screen shot of pwd >> list.txt](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/std3.png?raw=true ">>")
 <br />
 <br />
 
-#### The `|` Operator
+### The `|` Operator
 
 The `|` is another operator that takes standard output from the left side and ‘pipes’ the left as the standard input to the right side.
 
@@ -97,7 +132,7 @@ The `|` is another operator that takes standard output from the left side and �
 
 The command is formatted as `command  |  command`
 
-**3.** Input the following command to test the 'pipe' operator:
+**4.** Input the following command to test the 'pipe' operator:
 
 >```
 >ls /etc | less
@@ -111,28 +146,27 @@ The command is formatted as `command  |  command`
 <br />
 <br />
 
-## The `<` Operator
+### The `<` Operator
 
 We can redirect _stdin_ as well with the `<` operator.
 
-**4.** If you haven’t deleted the file `list.txt` or _changed directories_, execute the following command:
+>The  `<`  operator is the same as the  `>`  operator but reversed.
+>The `<` operator _redirects_ the _stdout_ from the _right side_ as the _stdin_ on the _left_.
+
+**4.** Execute the following command to see the word count of the *`mylist.txt`* file.
 
 >```
 >wc < list.txt
 >```
+You can see a word count of the *`mylist.txt`* file.
 
->![Screen shot of wc < list.txt](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdin_1.png?raw=true "<")
-
->You can see a word count of the list.txt file.
-
->The  `<`  operator is the same as the  `>`  operator but reversed.
->The `<`> operator _redirects_ the _stdout_ from the _right side_ as the _stdin_ on the _left_.
+>![Screen shot of wc < list.txt](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/std4.png?raw=true "<")
 <br />
 <br />
 
-#### Hypothetical Use Cases for the `|` Operator
+### Hypothetical Use Cases for the `|` Operator
 
-Imagine you have a text file named `rockyou.txt`. The file contains a list of the most common passwords used online.
+I have a text file named `rockyou.txt`. The file contains a massive list of the most common passwords used online.
 
 >Here's what the first few lines looks like:
 
@@ -150,7 +184,7 @@ Imagine you have a text file named `rockyou.txt`. The file contains a list of th
 
 >You will receive an output which shows you that *`aaabbbcccddd`* is in the list of common passwords and you should not use it.
 
->[Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
+>![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
 >> **Note**: One important consideration when you use the `|` operator is the command used on the _left_ side must output a _stdout_. Likewise, the command on the _right_ side must be able to accept a _stdin_.
 <br />
 
