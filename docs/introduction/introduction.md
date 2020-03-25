@@ -2,7 +2,7 @@
 layout: default
 title: Introduction
 nav_order: 2
-has_children: true
+has_children: false
 permalink: /docs/Introduction
 ---
 
@@ -27,6 +27,7 @@ Linux is a free, multi user operating system that is secure, customizable, and s
 ---
 
 ## Is This Guide for You
+
 This guide is for beginner Linux users with some basic computer knowledge.
 
 There are many comprehensive Linux documents out there, but those can be overwhelming. This guide is meant to provide you with simple instructions and teach you basic, essential Linux concepts and commands. By the end of this guide, you will learn how to use the command line to:
@@ -52,6 +53,13 @@ To follow along with this document, you will need the following:
 
 ---
 
+## Brief History
+Linus Torvalds created Linux in 1991 at the age of 21. Linux started out as a _Kernel_, the lowest level of code _interfacing_ with hardware.
+
+In 1992, the _Linux Kernel_ was bundled together with _GNUs_ (GNU’s Not Unix) software packages and published under the _GNU General Public Licence_. This made GNU/Linux a legally free, fully featured operating system.
+
+---
+
 ## Why learn Linux
 Linux sees use everywhere and Linux is not going away any time soon. Linux is a free software used to control all types of hardware. Linux builds the internet, phones run on Linux, and even your smart appliances use Linux.
 
@@ -67,10 +75,24 @@ The basic building blocks remains the same so all distributions of Linux still r
 
 ---
 
-## Brief History
-Linus Torvalds created Linux in 1991 at the age of 21. Linux started out as a _Kernel_, the lowest level of code _interfacing_ with hardware.
+## Typographical Conventions
 
-In 1992, the _Linux Kernel_ was bundled together with _GNUs_ (GNU’s Not Unix) software packages and published under the _GNU General Public Licence_. This made GNU/Linux a legally free, fully featured operating system.
+These instructions use the following typographic conventions.
+
+
+| Convention                           | Typeface                  | Examples                                                    |
+| :----------------------------------- | :------------------------ | :---------------------------------------------------------- |
+| Command line commands and user input | ```Light```                 | ```pwd```, ```ls```, ```cd```, ```sudo```                           |
+| Specific keystrokes                  | **[Bold]**                | **[Enter]**, **[Esc]**, **[Ctrl]**, **[F4]**                |
+| Console output                       | *`code`*                    | *`/c/Users/Don/Desktop`*                                      |
+| Key terms and emphasis               | _Italics_                 | _Root user_, _Kernel_, _Pathname_                           |
+
+
+![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
+>> **Note**: This is a note icon which indicates please pay attention to the following.
+
+![Caution icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/caution.png?raw=true "Caution"){: style="float: left" }
+>> **Caution**: This a caution icon which indicates please be careful with the following.
 
 ---
 

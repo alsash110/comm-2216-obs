@@ -31,7 +31,7 @@ This instruction set shows you how to:
 
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note")
 {: style="float: left" } 
->>Ensure that you enter the command below correctly before proceeding or you will not be able to successfully complete the other steps. You will also be prompted to enter your password.
+>> **Note**: Ensure that you enter the command below correctly before proceeding or you will not be able to successfully complete the other steps. You will also be prompted to enter your password.
 <br />
 <br />
 

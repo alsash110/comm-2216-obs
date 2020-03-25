@@ -28,13 +28,31 @@ A simplified explanation is the standard output from a command can be ‘piped�
 
 ---
 
-## The `>` Operator
+#### File Descriptor
+
+A _File Descriptor_ is non negative a number used to represent stdin, stdout, and stderr associated with open files. This is how the operating system identifies and keeps track of inputs and outputs to files.
+
+This guide does not go in to further details on this topic but shows you the base concept.
+
+| type   | file descriptor |
+| :----- | :-------------- |
+| stdin  | 0               |
+| stdout | 1               |
+| stderr | 2               |
+
+---
+
+You will be guided through this instruction set to make use of stdin and stdout. At the end of the set, you will have a deeper understanding of how these processes work.
+
+---
+
+#### The `>` Operator
 
 The `>` operator takes the _stdout_ from  `ls -la`  and writes to a newly created file called `list.txt` in your current directory.
 
 The `>` command format is `command > filename`.
 
-1. Input the following in a terminal to test out the `>` operator:
+**1.** Input the following in a terminal to test out the `>` operator:
 
 >```
 >ls -la > list.txt
@@ -44,17 +62,17 @@ The results may not be exactly the same but you will see the below.
 
 ![Screen shot of ls -la > list.txt](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdout_1.png?raw=true ">")
 
-We can see that the contents of the file is exactly the same as the terminal output of *`ls -la`*.
+You can see that the contents of the file is exactly the same as the terminal output of *`ls -la`*.
 
 An interesting note is that the contents of *`list.txt`* actually contains the text `list.txt` itself.
+<br />
+<br />
 
----
-
-## The `>>` Operator
+#### The `>>` Operator
 
 The `>>` operator _appends_ the stdout to a file while the `>` always overwrites a file.
 
-2. Input the following command to append a new line to `list.txt` with the `>>` operator:
+**2.** Input the following command to append a new line to `list.txt` with the `>>` operator:
 
 >```
 >pwd >> list.txt
@@ -63,23 +81,22 @@ The `>>` operator _appends_ the stdout to a file while the `>` always overwrites
 ![Screen shot of pwd >> list.txt](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdout_2.png?raw=true ">>")
 
 Reopen the file to see that the stdout of `pwd` is appended to the end of the file.
+<br />
+<br />
 
----
-
-## The `|` Operator
+#### The `|` Operator
 
 The `|` is another operator that takes standard output from the left side and ‘pipes’ the left as the standard input to the right side.
 
----
 
-![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
->> The  `|`  operator is strictly single directional and always 'pipes' from left to right.
+>![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
+>> **Note**: The  `|`  operator is strictly single directional and always 'pipes' from left to right.
+<br />
 
----
 
 The command is formatted as `command  |  command`
 
-3. Input the following command to test the 'pipe' operator:
+**3.** Input the following command to test the 'pipe' operator:
 
 >```
 >ls /etc | less
@@ -90,14 +107,14 @@ Piping something to `less` is rather pointless but serves as a demonstration of 
 ![Screen shot of ls /etc `|` less](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdout_3.png?raw=true "`|`")
 
 To exit, press **[q]**.
-
----
+<br />
+<br />
 
 ## The `<` Operator
 
 We can redirect _stdin_ as well with the `<` operator.
 
-4. If you haven’t deleted the file `list.txt` or _changed directories_, execute the following command:
+**4.** If you haven’t deleted the file `list.txt` or _changed directories_, execute the following command:
 
 >```
 >```wc < list.txt
@@ -109,8 +126,10 @@ You can see a word count of the list.txt file.
 
 The  `<`  operator is the same as the  `>`  operator but reversed.
 The `<`> operator _redirects_ the _stdout_ from the _right side_ as the _stdin_ on the _left_.
+<br />
+<br />
 
-## Hypothetical Use Cases for the `|` Operator
+#### Hypothetical Use Cases for the `|` Operator
 
 Imagine you have a text file named `rockyou.txt`. The file contains a list of the most common passwords used online.
 
@@ -130,33 +149,16 @@ The `grep` command returns all matching results if the file is found.
 
 You will receive an output which shows you that *`aaabbbcccddd`* is in the list of common passwords and you should not use it.
 
----
-
-![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
->> One important consideration when you use the `|` operator is the command used on the _left_ side must output a _stdout_. Likewise, the command on the _right_ side must be able to accept a _stdin_.
+>[Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
+>> **Note**: One important consideration when you use the `|` operator is the command used on the _left_ side must output a _stdout_. Likewise, the command on the _right_ side must be able to accept a _stdin_.
+<br />
 
 Piping makes no sense if you pipe something to a command when the command does not take a stdin, and vice versa.
-
----
-
-## File Descriptor
-
-A _File Descriptor_ is non negative a number used to represent stdin, stdout, and stderr associated with open files. This is how the operating system identifies and keeps track of inputs and outputs to files.
-
-This guide does not go in to further details on this topic but shows you the base concept.
-
-| type   | file descriptor |
-| :----- | :-------------- |
-| stdin  | 0               |
-| stdout | 1               |
-| stderr | 2               |
-
----
-
-## Conclusion
+<br />
+<br />
 
 You now have a better understanding of how Linux handles user input and output in the _terminal_.
 
-Learning about the piping (*`|`*) and redirecting (*`>`*, *`>>`*, *`<`*) operators adds a lot more functionality to commands and allows for _command chaining_. This is where the command line becomes a very powerful tool.
+Pipe (*`|`*) and redirect (*`>`*, *`>>`*, *`<`*) operators add a lot more functionality to commands and allows for _command chaining_. _Command chaining_ becomes a very powerful tool by giving you more power and flexibility to your commands.
 
-This is the the last and final instruction set in our guide. We thank you for going through the complete guide and hope you leave with some new knowledge.
+This is the the last and final instruction set in our guide. We thank you for going through the complete guide and hope you leave with some new valuable knowledge.

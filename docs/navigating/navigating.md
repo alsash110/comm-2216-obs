@@ -91,7 +91,7 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
->> Linux directories behave similar to folders. In the background, directories are actually a special type of file used to store information about other files. The contents are controlled by the Linux operating system and includes things such as name, permission, type and size.
+>> **Note**: Linux directories behave similar to folders. In the background, directories are actually a special type of file used to store information about other files. The contents are controlled by the Linux operating system and includes things such as name, permission, type and size.
 <br />
 
 >```
@@ -107,7 +107,7 @@ There are a number of commands we can use to navigate the Linux file system in t
 **3.** Display the contents inside your current directory with the following command.
 
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
->> Using the `ls` command with the `-a` switch lists all hidden files as well.
+>> **Note**: Using the `ls` command with the `-a` switch lists all hidden files as well.
 
 <br />
 >```
@@ -141,7 +141,7 @@ There are a number of commands we can use to navigate the Linux file system in t
 **5.** Change into the *`testfolder`* directory with the following command.
 
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
->> The input after `cd` is the name of the directory you want to change into.
+>>**Note**: The input after `cd` is the name of the directory you want to change into.
 
 <br />
 >```
@@ -163,7 +163,7 @@ There are a number of commands we can use to navigate the Linux file system in t
 **6.** Change back to the previous directory with the following command.
 
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
->> By adding `..`, you can jump back up one parent directory. Using `cd -` can also return you to your previous location, but you can only backtrack once.
+>> **Note**: By adding `..`, you can jump back up one parent directory. Using `cd -` can also return you to your previous location, but you can only backtrack once.
 
 <br />
 >```

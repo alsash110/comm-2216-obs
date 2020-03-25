@@ -68,7 +68,7 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 <br />
 
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
->>Ensure that you add *`>`* to the command this time to be able to insert text into the file.
+>> **Note**: Ensure that you add *`>`* to the command this time to be able to insert text into the file.
 <br />
 <br />
 
@@ -99,7 +99,7 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 <br />
 
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
->>When using the `mv` command to rename a file, enter the current file name and then the new name.
+>> **Note**: When using the `mv` command to rename a file, enter the current file name and then the new name.
 <br />
 <br />
 
@@ -123,7 +123,7 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 <br />
 
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
->>Use the `mkdir` command to create a new directory. You may notice that the `mv` command is used here again but this time the command is used to move a file into a different directory by entering the file name and then the directory name.
+>> **Note**: Use the `mkdir` command to create a new directory. You may notice that the `mv` command is used here again but this time the command is used to move a file into a different directory by entering the file name and then the directory name.
 <br />
 <br />
 
@@ -155,7 +155,7 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 <br />
 
 >![Caution icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/caution.png?raw=true "Caution"){: style="float: left" } 
->>You need to first delete the contents before being able to delete the directory.
+>> **Caution**: You need to first delete the contents before being able to delete the directory.
 <br />
 <br />
 
