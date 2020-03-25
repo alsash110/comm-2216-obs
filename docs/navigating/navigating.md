@@ -54,6 +54,9 @@ Things we should pay attention to:
 * The command reads from left to right so _options_ and _arguments_ reference to the command on the left.
 * The type of _options_ available and _arguments_ accepted will depend on the command.
 
+>![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
+>> You can find the full information about a command by using the `man` command. The syntax is `man [command]`.
+
 ---
 
 ## Command Table

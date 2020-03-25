@@ -79,7 +79,7 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 >You will be prompted with an empty space to insert some text. Enter in some text of your choice and hit **[return]**. I will enter the following text into my file.
 
 >```
->I am a test line in my test file
+>I am a test line.
 >```
 <br />
 
