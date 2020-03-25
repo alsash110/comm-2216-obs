@@ -28,7 +28,7 @@ A simplified explanation is the standard output from a command can be â€˜pipedâ€
 
 ---
 
-#### File Descriptor
+## File Descriptor
 
 A _File Descriptor_ is non negative a number used to represent stdin, stdout, and stderr associated with open files. This is how the operating system identifies and keeps track of inputs and outputs to files.
 
@@ -42,11 +42,13 @@ This guide does not go in to further details on this topic but shows you the bas
 
 ---
 
+## Using Standard IO
+
 You will be guided through this instruction set to make use of stdin and stdout. At the end of the set, you will have a deeper understanding of how these processes work.
 
 ---
 
-#### The `>` Operator
+### The `>` Operator
 
 The `>` operator takes the _stdout_ from  `ls -la`  and writes to a newly created file called `list.txt` in your current directory.
 
@@ -58,17 +60,17 @@ The `>` command format is `command > filename`.
 >ls -la > list.txt
 >```
 
-The results may not be exactly the same but you will see the below.
+>The results may not be exactly the same but you will see the below.
 
-![Screen shot of ls -la > list.txt](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdout_1.png?raw=true ">")
+>![Screen shot of ls -la > list.txt](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdout_1.png?raw=true ">")
 
-You can see that the contents of the file is exactly the same as the terminal output of *`ls -la`*.
+>You can see that the contents of the file is exactly the same as the terminal output of *`ls -la`*.
 
-An interesting note is that the contents of *`list.txt`* actually contains the text `list.txt` itself.
+>An interesting note is that the contents of *`list.txt`* actually contains the text `list.txt` itself.
 <br />
 <br />
 
-#### The `>>` Operator
+### The `>>` Operator
 
 The `>>` operator _appends_ the stdout to a file while the `>` always overwrites a file.
 
@@ -78,9 +80,9 @@ The `>>` operator _appends_ the stdout to a file while the `>` always overwrites
 >pwd >> list.txt
 >```
 
-![Screen shot of pwd >> list.txt](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdout_2.png?raw=true ">>")
+>![Screen shot of pwd >> list.txt](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdout_2.png?raw=true ">>")
 
-Reopen the file to see that the stdout of `pwd` is appended to the end of the file.
+>Reopen the file to see that the stdout of `pwd` is appended to the end of the file.
 <br />
 <br />
 
@@ -93,7 +95,6 @@ The `|` is another operator that takes standard output from the left side and â€
 >> **Note**: The  `|`  operator is strictly single directional and always 'pipes' from left to right.
 <br />
 
-
 The command is formatted as `command  |  command`
 
 **3.** Input the following command to test the 'pipe' operator:
@@ -102,11 +103,11 @@ The command is formatted as `command  |  command`
 >ls /etc | less
 >```
 
-Piping something to `less` is rather pointless but serves as a demonstration of how to use `|` to _pipe_ the stdout from one command to the stdin of another.
+>Piping something to `less` is rather pointless but serves as a demonstration of how to use `|` to _pipe_ the stdout from one command to the stdin of another.
 
-![Screen shot of ls /etc `|` less](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdout_3.png?raw=true "`|`")
+>![Screen shot of ls /etc `|` less](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdout_3.png?raw=true "`|`")
 
-To exit, press **[q]**.
+>Press **[q]** to exit.
 <br />
 <br />
 
@@ -120,12 +121,12 @@ We can redirect _stdin_ as well with the `<` operator.
 >wc < list.txt
 >```
 
-![Screen shot of wc < list.txt](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdin_1.png?raw=true "<")
+>![Screen shot of wc < list.txt](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdin_1.png?raw=true "<")
 
-You can see a word count of the list.txt file.
+>You can see a word count of the list.txt file.
 
-The  `<`  operator is the same as the  `>`  operator but reversed.
-The `<`> operator _redirects_ the _stdout_ from the _right side_ as the _stdin_ on the _left_.
+>The  `<`  operator is the same as the  `>`  operator but reversed.
+>The `<`> operator _redirects_ the _stdout_ from the _right side_ as the _stdin_ on the _left_.
 <br />
 <br />
 
@@ -133,27 +134,27 @@ The `<`> operator _redirects_ the _stdout_ from the _right side_ as the _stdin_ 
 
 Imagine you have a text file named `rockyou.txt`. The file contains a list of the most common passwords used online.
 
-Here's what the first few lines looks like:
+>Here's what the first few lines looks like:
 
-![Screen shot of less rockyou.txt](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdin_2.png?raw=true "rockyou.txt")
+>![Screen shot of less rockyou.txt](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdin_2.png?raw=true "rockyou.txt")
 
-You can search through the document to see if your password is on the list by using the `grep` command.
+>You can search through the document to see if your password is on the list by using the `grep` command.
 
 >```
 >cat rockyou.txt | grep aaabbbcccddd
 >```
 
-![Screen shot of cat rockyou.txt `|` grep aaabbbcccddd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdin_3.png?raw=true "`|`")
+>![Screen shot of cat rockyou.txt `|` grep aaabbbcccddd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdin_3.png?raw=true "`|`")
 
-The `grep` command returns all matching results if the file is found.
+>The `grep` command returns all matching results if the file is found.
 
-You will receive an output which shows you that *`aaabbbcccddd`* is in the list of common passwords and you should not use it.
+>You will receive an output which shows you that *`aaabbbcccddd`* is in the list of common passwords and you should not use it.
 
 >[Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
 >> **Note**: One important consideration when you use the `|` operator is the command used on the _left_ side must output a _stdout_. Likewise, the command on the _right_ side must be able to accept a _stdin_.
 <br />
 
-Piping makes no sense if you pipe something to a command when the command does not take a stdin, and vice versa.
+>Piping makes no sense if you pipe something to a command when the command does not take a stdin, and vice versa.
 <br />
 <br />
 
