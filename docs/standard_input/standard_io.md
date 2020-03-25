@@ -166,7 +166,7 @@ You can see a word count of the *`mylist.txt`* file.
 
 ### Hypothetical Use Cases for the `|` Operator
 
-I have a text file named `rockyou.txt`. The file contains a massive list of the most common passwords used online.
+I have a text file named [`rockyou.txt`](https://www.kaggle.com/wjburns/common-password-list-rockyoutxt). The file contains a massive list of the most common passwords used online.
 
 >Here's what the first few lines looks like:
 
