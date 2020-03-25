@@ -167,8 +167,9 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
 >> **Note**: By adding `..`, you can jump back up one parent directory. Using `cd -` can also return you to your previous location, but you can only backtrack once.
-
 <br />
+<br />
+
 >```
 >cd ..
 >```
