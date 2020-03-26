@@ -166,27 +166,29 @@ You can see a word count of the *`mylist.txt`* file.
 
 ### Hypothetical Use Cases for the `|` Operator
 
-I have a text file named [`rockyou.txt`](https://www.kaggle.com/wjburns/common-password-list-rockyoutxt). The file contains a massive list of the most common passwords used online.
+>![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
+>> **Note**: I have a text file named *`rockyou.txt`* that contains a massive list of the most common passwords used online. If you wish to follow along with this part of the guide, [click here](https://www.kaggle.com/wjburns/common-password-list-rockyoutxt) to download the file. 
 
->Here's what the first few lines looks like:
+**1.** Open the file to what the first few lines looks like.
 
 >![Screen shot of less rockyou.txt](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdin_2.png?raw=true "rockyou.txt")
 
->You can search through the document to see if your password is on the list by using the `grep` command.
+**2.** Search through the document to see if your password is on the list by using the `grep` command in the terminal.
+
+>![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
+>> **Note**: The `grep` command returns all matching results if the file is found.
+<br />
+<br />
 
 >```
 >cat rockyou.txt | grep aaabbbcccddd
 >```
 
->![Screen shot of cat rockyou.txt `|` grep aaabbbcccddd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdin_3.png?raw=true "`|`")
-
->The `grep` command returns all matching results if the file is found.
-
 >You will receive an output which shows you that *`aaabbbcccddd`* is in the list of common passwords and you should not use it.
 
->![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
->> **Note**: One important consideration when you use the `|` operator is the command used on the _left_ side must output a _stdout_. Likewise, the command on the _right_ side must be able to accept a _stdin_.
-<br />
+>![Screen shot of cat rockyou.txt `|` grep aaabbbcccddd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdin_3.png?raw=true "`|`")
+
+>An important consideration when you use the `|` operator is that the command used on the _left_ side must output a _stdout_. Likewise, the command on the _right_ side must be able to accept a _stdin_.
 
 >Piping makes no sense if you pipe something to a command when the command does not take a stdin, and vice versa.
 <br />
