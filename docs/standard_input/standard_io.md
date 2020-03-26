@@ -13,7 +13,7 @@ permalink: /docs/standard_io
 
 Terminal and terminal emulators are software a user interfaces with to issue commands to the shell. The shell then parses the commands and sends the commands to the kernel.
 
-The terminal reads and writes information as streams. The input stream is _standard input_ (stdin) and the output stream is _standard output_ (stdout). There is also a _standard error_ (stderr) which is thrown when a problem occurs.
+The terminal reads and writes information as streams. The input stream is _standard input_ (stdin) and the output stream is _standard output_ (stdout). _Standard error_ (stderr) throws an error when a problem occurs
 
 These streams redirect to other processes but the default is the terminal. This is why after you issue a command you can see the output displayed on the terminal.
 
@@ -30,7 +30,7 @@ A simplified explanation is the standard output from a command can be â€˜pipedâ€
 
 ## File Descriptor
 
-A _File Descriptor_ is non negative a number used to represent stdin, stdout, and stderr associated with open files. This is how the operating system identifies and keeps track of inputs and outputs to files.
+A _File Descriptor_ is non-negative a number used to represent stdin, stdout, and stderr associated with open files. This is how the operating system identifies and keeps track of inputs and outputs to files.
 
 This guide does not go in to further details on this topic but shows you the base concept.
 
@@ -44,7 +44,7 @@ This guide does not go in to further details on this topic but shows you the bas
 
 ## Using Standard IO
 
-You will be guided through this instruction set to make use of stdin and stdout. At the end of the set, you will have a deeper understanding of how these processes work.
+This instruction set uses stdin and stdout to show you how these commands work. At the end of the set, you will have a deeper understanding of how these processes work.
 
 ---
 
@@ -62,7 +62,7 @@ The `>` command format is `command > filename`.
 <br />
 
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
->> **Note**: The results you get may not be exactly the same as the results shown in the screen shot below. Your current directory will most likely contain different files and directories.
+>> **Note**: The results you get may not be exactly the same as the results shown in the screenshot below. Your current directory will most likely contain different files and directories.
 
 >![contents](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/std1.png?raw=true ">")
 <br />
@@ -112,13 +112,13 @@ The `>>` operator _appends_ the stdout to a file while the `>` always overwrites
 >pwd >> list.txt
 >```
 
->Reopen the file to see that the stdout of `pwd` is appended to the end of the file.
+>Reopen the file to see that the stdout of `pwd` at the end of the file.
 
 >```
 >cat mylist.txt
 >```
 
-> You will see that your current working directory has been appended to the bottom of *`mylist.txt`*.
+> You will see that your current working directory at the bottom of *`mylist.txt`*.
 
 >![Screen shot of pwd >> list.txt](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/std3.png?raw=true ">>")
 <br />
@@ -130,11 +130,11 @@ The `|` is another operator that takes standard output from the left side and â€
 
 
 ![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
-> **Note**: The  `|`  operator is strictly single directional and always 'pipes' from left to right.
+> **Note**: The  `|`  operator goes in one direction and always 'pipes' from left to right.
 <br />
 <br />
 
-The command is formatted as `command  |  command`
+You format the command as `command  |  command`.
 
 **4.** Input the following command to test the 'pipe' operator:
 
@@ -180,7 +180,7 @@ You can see a word count of the *`mylist.txt`* file.
 **2.** Search through the document to see if your password is on the list by using the `grep` command in the terminal.
 
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
->> **Note**: The `grep` command returns matching results if the exact text is found.
+>> **Note**: If your input matches, you will see the result of the `grep` command.
 <br />
 <br />
 
@@ -201,4 +201,4 @@ You now have a better understanding of how Linux handles user input and output i
 
 Pipe (*`|`*) and redirect (*`>`*, *`>>`*, *`<`*) operators add a lot more functionality to commands and allows for _command chaining_. _Command chaining_ becomes a very powerful tool by giving you more power and flexibility to your commands.
 
-This is the the last and final instruction set in our guide. We thank you for going through the complete guide and hope you leave with some new valuable knowledge.
+This is the last and final instruction set in our guide. We thank you for going through the complete guide and hope you leave with some new valuable knowledge.

@@ -13,11 +13,11 @@ permalink: /docs/navigating
 
 ---
 
-Navigating through a computer system without a graphical user interface, _GUI_, can seem daunting. The good news is, most, if not all modern distributions of Linux includes a GUI.
+Navigating through a computer system without a graphical user interface, _GUI_ can seem daunting. The good news is, most, if not all modern distributions of Linux include a GUI.
 
 The goal of this section is to explain and show you that navigating Linux through the _CLI_ (command-line interface) is not difficult. With enough practice, you may find that using the _CLI_ to navigate through a computer is sometimes easier and even quicker.
 
-Using the CLI also introduces additional functionalities that may have been overlooked in a _GUI_. To use the Linux _CLI_, you will use an application called the _terminal_.
+Using the CLI also introduces more functionalities that you may overlook while you use a _GUI_. To use the Linux _CLI_, you will use an application called the _terminal_.
 
 ---
 
@@ -30,29 +30,29 @@ Using the CLI also introduces additional functionalities that may have been over
 
 ## Directories
 
-Linux directories behave similar to folders. In the background, directories are actually a special type of file used to store information about other files. Contents are controlled by the Linux operating system and contents includes things such as name, permission, type, size, and so on.
+Linux directories behave similarly to folders. In the background, directories are actually a special type of file used to store information about other files. The Linux operating system controls the contents. Contents include name, permission, type, size, etc.
 
-The home directory for common users is located in `/Users` while the _root user_ is stored in a separate `/root` directory.
+The home directory is under `/Users` for common users while `root` is the directory for _root user_.
 
 ---
 
 ## What are Commands
 
-Commands are instructions the operating system uses to perform specific tasks. Instructions provides a _layer of abstraction_ and makes using a computer easy without the need to know how things work.
+Commands are instructions the operating system uses to perform specific tasks. Instructions provide a _layer of abstraction_ and make using a computer easy without the need to know how things work.
 
-We can think of commands as _keywords_ that are _mapped_ to a mini program which execute when we input _keywords_ into a _terminal_.
+We can think of commands as _keywords_ that are _mapped_ to a mini-program which executes when we input _keywords_ into a _terminal_.
 
-Linux commands have set syntax which allows additional _options_ and _arguments_ to be passed. The syntax looks something like this:
+Linux commands have set syntax which allows you to pass extra _options_ and _arguments_. The syntax looks something like this:
 
 >> _command_ [_options_] [_arguments_]
 
-Things we should pay attention to:
+Things you should pay attention to:
 
-* The command, options, and arguments must be separated by spaces.
-* Short command options starts with `-`. They can be grouped and the order does not matter.
-* Long command options starts with `--`.
-* The command reads from left to right so _options_ and _arguments_ reference to the command on the left.
-* The type of _options_ available and _arguments_ accepted will depend on the command.
+* Separate commands, options, and arguments with spaces
+* Short command options start with `-`
+* Long command options start with `--`
+* The command reads from left to right so _options_ and _arguments_ reference to the command on the left
+* The type of _options_ available and _arguments_ accepted will depend on the command
 
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
 >> **Note:** You can find the full information about a command by using the `man` command. The syntax is `man [command]`.
@@ -80,7 +80,7 @@ Below is a list of some common Linux commands.
 
 ## Using Commands To Navigate Your System
 
-There are a number of commands we can use to navigate the Linux file system in the terminal. This instruction set will use some of the commands in the list above and teach you to be more familiar with navigating through your Linux system with the terminal.
+There are many commands we can use to navigate the Linux file system in the terminal. This instruction set uses some of the commands in the list above and teaches you to be more comfortable with navigating through your Linux system using the terminal.
 
 ---
 
@@ -91,11 +91,6 @@ There are a number of commands we can use to navigate the Linux file system in t
 <br />
 
 **2.** Input the following command into your terminal to display your current directory.
-
-
->![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
->> **Note**: Linux directories behave similar to folders. In the background, directories are actually a special type of file used to store information about other files. The contents are controlled by the Linux operating system and includes things such as name, permission, type and size.
-<br />
 
 >```
 >pwd
@@ -182,6 +177,6 @@ There are a number of commands we can use to navigate the Linux file system in t
 
 By reaching the end of this instruction set, you now know how to open the terminal and input commands which allowed you to navigate through your system. 
 
-You are now able to know exactly what files are contained in your directories as well as your current directory, allowing you to easily navigate through your system.
+Now you are able to see files in your directories as well as your current directory, allowing you to easily navigate through your system.
 
 The next step is to learn how to [create users and assign privileges.](https://dl90.github.io/linux-basics/docs/users)

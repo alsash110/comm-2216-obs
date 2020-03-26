@@ -11,11 +11,11 @@ permalink: /docs/users
 
 ---
 
-There are two types of user accounts in Linux, regular users and the _root user_.
+There are two types of user accounts in Linux, regular users, and the _root user_.
 
-Linux operating system supports _one root user_ (User Id 0) with additional users created following the initial setup. Linux can support up to 4294967296 users, each with their own home directory and permissions. By default, one user can not access another users files, unless they are the root user. These permissions can be altered through _user permissions_, _group permissions_, as well as _file permissions_.
+Linux operating system supports _one root user_ (User Id 0) with additional users created following the initial setup. Linux can support up to 4294967296 users, each with their own home directory and permissions. By default, one user can not access other users' files, unless they are the root user. You may assign users _user permissions_, _group permissions_, and _file permissions_.
 
-The _root user_ has full privileges over the system so care must be taken when you are doing anything with the root user account.
+You should take extra caution while you use any commands under the _root user__ as you will have full privilege over the system.
 
 This section goes over how to create a new user and assigning certain privileges to those users.
 
@@ -36,7 +36,7 @@ This instruction set shows you how to:
 
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note")
 {: style="float: left" } 
->> **Note**: Ensure that you enter the command below correctly before proceeding or you will not be able to successfully complete the other steps. You will also be prompted to enter your password.
+>> **Note**: Ensure that you enter the command below before proceeding or you will not be able to complete the other steps. You will have  to enter your password.
 <br />
 <br />
 
@@ -44,11 +44,11 @@ This instruction set shows you how to:
 >sudo su -
 >```
 
->Enter your current users password if prompted.
+>Enter your current user's password if prompted.
 
 >![Root password](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/users/pass.png?raw=true "root password")
 
->If entered correctly, the bottom left of your terminal will display root as your user.
+>The bottom left of your terminal will display root as your user.
 
 >![Screen shot of root user](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/users/rootuser.png?raw=true "Image of user on root account")
 <br />
@@ -76,7 +76,7 @@ This instruction set shows you how to:
 <br />
 <br />
 
-**4.** Follow and enter the prompts to set the new users information. 
+**4.** Follow and enter the prompts to set the new user's information. 
 
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" } 
 >> **Note**: You may leave the following fields blank for default values.  
@@ -112,7 +112,7 @@ This instruction set shows you how to:
 >sudo ls -la /root
 >```
 
->You can see the a list of contents that are normally accessible only by the root user once you assign the new user to the sudo group.
+>Once you assign the new user to the sudo group, You can see a list of contents that is accessible by the root user and sudo users.
 
 >![Screen shot of root directory](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/users/sudo-ss.png?raw=true "Root directory contents")
 <br />
@@ -120,6 +120,6 @@ This instruction set shows you how to:
 
 Once you are able to use the `sudo` command to display the list of contents at the root, the user belongs to the sudo group.
 
-You may also find use for creating multiple new user accounts on your system for testing purposes or to have a clean slate to create or modify files in that account.
+You may also find a use for creating many new user accounts on your system for testing purposes or to have a clean slate to create or modify files in that account.
 
 Now that you are able to create new users and assign privileges to those users, we recommend that you learn how to [create, modify, and delete files.](https://dl90.github.io/linux-basics/docs/files)

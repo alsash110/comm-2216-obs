@@ -24,13 +24,13 @@ permalink: /docs/files
 
 If you are in the technical field, often times you will need to create new files to work with. By being familiar with how to create and manipulate files in the terminal, you may save yourself a bit of hassle and time. 
 
-_CRUD_ is an acronym that stands for create, read, update, and delete. These are the most basic actions that can be performed on files.
+_CRUD_ is an acronym that stands for create, read, update, and delete. These are the most basic actions that you can perform on files.
 
 ---
 
 ## CRUD Instructions
 
-This instruction set will go over Linux commands that allows you to perform _CRUD_ actions directly in the terminal. You will use the `touch` command to create new files, the `cat` command to read and update files, and the `rm` command to delete unwanted files.
+This instruction set will go over Linux commands that allow you to perform _CRUD_ actions in the terminal. You will use the `touch` command to create new files, the `cat` command to read and update files, and the `rm` command to delete unwanted files.
 
  You will also learn how to copy and move files using the `mv` command.
 
@@ -64,7 +64,7 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 <br />
 <br />
 
-**3.** Insert some text into your newly created file using the following command.
+**3.** Insert some text into the new file with the following command.
 <br />
 
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
@@ -76,7 +76,7 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 >cat > test.txt
 >```
 
->You will be prompted with an empty space to insert some text. Enter in some text of your choice and hit **[return]**. I will enter the following text into my file.
+>Enter some text of your choice into the empty field and hit **[return]**. I will enter the following text into my file.
 
 >```
 >I am a test line.
@@ -89,7 +89,7 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 >cat test.txt
 >```
 
->You will see that we did indeed modify the contents of the *`test.txt`* file.
+>You will see that we did indeed change the contents of the *`test.txt`* file.
 
 >![Inserted text into test.txt](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/files/insert-text.png?raw=true "test.txt has contents")
 <br />
@@ -113,7 +113,7 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 >ls
 >```
 
->You will notice that *`test.txt`* does not exist and has been renamed to *`newname.txt`*.
+>You will notice that *`newname.txt`* exists instead of *`test.txt`*.
 
 >![Renamed .txt file](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/files/renamed.png?raw=true "Renamed .txt file.")
 <br />
@@ -123,7 +123,7 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 <br />
 
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
->> **Note**: Use the `mkdir` command to create a new directory. You may notice that the `mv` command is used here again but this time the command is used to move a file into a different directory by entering the file name and then the directory name.
+>> **Note**: You may notice here that you use the `mv` command to move a file into a different directory by entering the file name and then the directory name.
 <br />
 <br />
 
@@ -174,6 +174,6 @@ This instruction set will go over Linux commands that allows you to perform _CRU
 
 You will see that you have completely removed both the directory and the contents using the `ls` command. You should no longer see both the .txt file and directory.
 
-As you've noticed by now, you were able to do these things without the use of your mouse or a graphical user interface. You should be able to easily use these commands for your own future use in Linux when the need to create new file types and directories arise.
+As you've noticed by now, you were able to do these things without the use of your mouse or a graphical user interface. You should be able to use these commands for your own future use in Linux when the need to create new file types and directories arise.
 
 The next step is to learn how to [find processes and how to stop them.](https://dl90.github.io/linux-basics/docs/processes)

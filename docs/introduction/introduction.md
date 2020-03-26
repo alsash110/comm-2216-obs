@@ -30,7 +30,7 @@ Linux is a free, multi-user operating system that is secure, customizable, and s
 
 This guide is for beginner Linux users with some basic computer knowledge.
 
-There are many comprehensive Linux documents out there, but those can be overwhelming. This guide is meant to provide you with simple instructions and teach you basic, essential Linux concepts and commands. By the end of this guide, you will learn how to use the command line to:
+There are many comprehensive Linux documents out there, but those can be overwhelming. This guide provides you with simple instructions and teach you basic Linux concepts and commands. By the end of this guide, you will learn how to use the command line to:
 
 * navigate through your Linux system,
 * create and modify user accounts,
@@ -99,7 +99,7 @@ These instructions use the following typographic conventions.
 ---
 
 ## Conclusion
-The idea of a free, reliable, customizable, and secure operating system is too good to overlook. Many users switch to Linux to remove themselves from propriety software or just out of curiosity. Anyone who works in the tech industry also heavily rely on the use of Linux.
+The idea of a free, reliable, customizable, and secure operating system is too good to overlook. Many users switch to Linux to remove themselves from propriety software or out of curiosity. Anyone who works in the tech industry also rely on the use of Linux.
 
 With that in mind, let's get started on teaching you some of the essentials. We recommend that you start with [navigating through the file system.](https://dl90.github.io/linux-basics/docs/navigating)
 
