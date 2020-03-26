@@ -171,7 +171,12 @@ You can see a word count of the *`mylist.txt`* file.
 ### Hypothetical Use Cases for the `|` Operator
 
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
->> **Note**: I have a text file named *`rockyou.txt`* that contains a massive list of the most common passwords used online. If you wish to follow along with this part of the guide, [click here](https://www.kaggle.com/wjburns/common-password-list-rockyoutxt) to download the file. 
+>> If you wish to follow along with this part of the guide, [click here](https://www.kaggle.com/wjburns/common-password-list-rockyoutxt) to download the file. This file is larger than 130MB.
+
+I have a text file named *`rockyou.txt`* in my current directory that contains a massive list of the most common passwords used online. 
+
+>![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
+>> If you do wish to follow along, then please make sure the file is in your current directory. By default, the file saves to the *`/Download`* directory.
 
 **1.** Open the file to what the first few lines looks like.
 

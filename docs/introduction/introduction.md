@@ -26,7 +26,7 @@ Linux is a free, multi-user operating system that is secure, customizable, and s
 
 ---
 
-## Is This Guide for You
+## Is This Guide For You
 
 This guide is for beginner Linux users with some basic computer knowledge.
 
@@ -40,14 +40,24 @@ There are many comprehensive Linux documents out there, but those can be overwhe
 
 ---
 
+## Software Versions
+
+This guide uses Ubuntu version 18.04.4 LTS and Oracle VM VirtualBox version 6.1.4 on a Mac OS system. 
+
+If you do not have Linux, download the latest version of Ubuntu [here](https://ubuntu.com/download/desktop). 
+
+If you want to use a virtual machine, download the latest version of VirtualBox [here](https://www.virtualbox.org/wiki/Downloads).
+
+---
+
 ## Prerequisites
 
 To follow along with this document, you will need the following:
 
-**Note**: You can install Linux _locally_ or in a _virtual machine_. Alternatively, browser-based terminals such as [Bellard's Linux emulator](https://bellard.org/jslinux/ "Browser Linux emulator") or [Copy.sh's Linux emulator](https://copy.sh/v86/ "Browser Linux emulator") is another way to access Linux without installing anything.    
+**Note**: You can install Linux _locally_ on your hard drive or in a _virtual machine_ such as VirtualBox.    
 
 - access to a computer with a keyboard and mouse,
-- any version of Linux installed,
+- any version of Linux,
 - an internet connection, and
 - a general understanding of basic computer tasks.
 
@@ -60,14 +70,14 @@ In 1992, the _Linux Kernel_ was bundled together with _GNUs_ (GNU’s Not Unix) 
 
 ---
 
-## Why learn Linux
+## Why Learn Linux
 Linux sees use everywhere and Linux is not going away any time soon. Linux is free software you can use to control all types of hardware. Linux builds the internet, phones run on Linux, and even your smart appliances use Linux.
 
 If you plan to have a career related to technology, you will interact with Linux at some point. With this in mind, we want you to familiarize your self with Linux as this can be beneficial.
 
 ---
 
-## Works on all versions
+## Works Nn All Versions
 
 The concepts and commands you will cover in this document will work with any _Linux distribution_. A _Linux distribution_ is a collection of software bundled with the _Linux Kernel_. These bundles contain a set of features and settings for a particular purpose.
 
