@@ -29,7 +29,7 @@ The following instruction set shows you how to:
 
 ---
 ![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
->> **Note**: To follow along with this guide, I have opened up Firefox, but you may open any other program or have a desired program you want to kill.
+>> **Note**: To follow along with this instruction set, I have Firefox open, but you may open any other program or any program you want to kill.
 <br />
 <br />
 

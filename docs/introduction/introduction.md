@@ -15,7 +15,7 @@ permalink: /docs/Introduction
 
 The purpose of this document is to help you get started with using Linux. The sections in this document introduce you to some basic concepts and commands.
 
-Linux is a free, multi-user operating system that is secure, customizable, and stable. These factors to have lead to the wide adoption of Linux in industry and it now forms the backbone of the internet.
+Linux is a free, multi-user operating system that is secure, customizable, and stable. These factors to have lead to the wide adoption of Linux in industry and now forms the backbone of the internet.
 
 ---
 
