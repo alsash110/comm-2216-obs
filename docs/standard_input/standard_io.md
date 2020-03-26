@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Standard IO
-nav_order: 7
+nav_order: 6
 has_children: false
 permalink: /docs/standard_io
 ---
