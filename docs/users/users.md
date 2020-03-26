@@ -44,11 +44,6 @@ This instruction set shows you how to:
 >sudo su -
 >```
 
->![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
->> **Note**: You will also be prompted to enter your password if this is your first time using a `sudo` command in a session.
-<br />
-<br />
-
 >Enter your current users password if prompted.
 
 >![Root password](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/users/pass.png?raw=true "root password")
@@ -61,7 +56,8 @@ This instruction set shows you how to:
 
 **2.** Enter the `adduser` command below to add a new user to your Linux system.
 
->![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
+>![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note")
+{: style="float: left" }
 >> **Note**: Replace newusername with the user you want to create.
 <br />
 <br />
@@ -83,7 +79,8 @@ This instruction set shows you how to:
 
 **4.** Follow and enter the prompts to set the new users information. 
 
->![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
+>![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note")
+{: style="float: left" }
 >> **Note**: You may leave the following fields blank for default values.  
 <br />
 <br />
@@ -108,7 +105,8 @@ This instruction set shows you how to:
 
 **7.** Enter the following sudo command to verify that the new user has sudo privileges.
 
->![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
+>![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note")
+{: style="float: left" }
 >> **Note**: The very first time you run a sudo command in a session, a password prompt will show up. Enter your current users password when prompted.
 <br />
 <br />
