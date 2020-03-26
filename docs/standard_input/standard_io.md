@@ -180,9 +180,9 @@ I have a text file named [`rockyou.txt`](https://www.kaggle.com/wjburns/common-p
 
 >![Screen shot of cat rockyou.txt `|` grep aaabbbcccddd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdin_3.png?raw=true "`|`")
 
->The `grep` command returns all matching results if the file is found.
+>The `grep` command returns matching results if the exact text is found.
 
->You will receive an output which shows you that *`aaabbbcccddd`* is in the list of common passwords and you should not use it.
+>Receive an output which shows you that *`aaabbbcccddd`* is in the list of common passwords and you should not use it.
 
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
 >> **Note**: One important consideration when you use the `|` operator is the command used on the _left_ side must output a _stdout_. Likewise, the command on the _right_ side must be able to accept a _stdin_.
