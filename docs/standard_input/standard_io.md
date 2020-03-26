@@ -54,12 +54,11 @@ The `>` operator takes the _stdout_ from  `ls -la`  and writes to a new file cal
 
 The `>` command format is `command > filename`.
 
-**1.**: Input the following command into your terminal to show the contents of the current directory.
+**1.** Input the following command into your terminal to show the contents of the current directory.
 
 >```
 >ls -la
 >```
-<br />
 <br />
 
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
@@ -80,7 +79,6 @@ The `>` command format is `command > filename`.
 >```
 >ls -la > mylist.txt
 >```
-<br />
 
 >Look at the contents of *`list.txt`* with the following command.
 
@@ -90,11 +88,13 @@ The `>` command format is `command > filename`.
 
 >You will see that the contents inside *`mylist.txt`* are identical to the output of the *`ls -la`* command.
 
-> **Contents of the *`mylist.txt`* file.**
+> Contents of the *`mylist.txt`* file:
+<br />
 >![contents](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/std2.png?raw=true ">")
->Input the *`ls -la`* command to see the contents of your current directory. 
+<br />
 
-> **Output from the *`ls -la`* command**
+> Output from the *`ls -la`* command:
+<br />
 >![contents](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/std1.png?raw=true ">")
 
 
@@ -111,7 +111,6 @@ The `>>` operator _appends_ the stdout to a file while the `>` always overwrites
 >```
 >pwd >> list.txt
 >```
-<br />
 
 >Reopen the file to see that the stdout of `pwd` is appended to the end of the file.
 
