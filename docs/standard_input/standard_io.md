@@ -177,7 +177,7 @@ You can see a word count of the *`mylist.txt`* file.
 **2.** Search through the document to see if your password is on the list by using the `grep` command in the terminal.
 
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
->> **Note**: The `grep` command returns all matching results if the file is found.
+>> **Note**: The `grep` command returns matching results if the exact text is found.
 <br />
 <br />
 
@@ -186,7 +186,10 @@ You can see a word count of the *`mylist.txt`* file.
 >```
 
 >You will receive an output which shows you that *`aaabbbcccddd`* is in the list of common passwords and you should not use it.
+<<<<<<< HEAD
 
+=======
+>>>>>>> aa3a679d42dcc713916493d22d080b6abf7274c1
 >![Screen shot of cat rockyou.txt `|` grep aaabbbcccddd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdin_3.png?raw=true "`|`")
 
 >An important consideration when you use the `|` operator is that the command used on the _left_ side must output a _stdout_. Likewise, the command on the _right_ side must be able to accept a _stdin_.
