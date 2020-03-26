@@ -32,7 +32,7 @@ Using the CLI also introduces additional functionalities that may have been over
 
 Linux directories behave similar to folders. In the background, directories are actually a special type of file used to store information about other files. Contents are controlled by the Linux operating system and contents includes things such as name, permission, type, size, and so on.
 
-The home directory for common users is located in `/Users` while the _root user_ is stored in a separate `/root` directory.
+The home directory for common users is located in `/home/`[_username_] while the _root user_ is stored in a separate `/root` directory.
 
 ---
 
