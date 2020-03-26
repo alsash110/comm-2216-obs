@@ -77,7 +77,7 @@ If you plan to have a career related to technology, you will interact with Linux
 
 ---
 
-## Works Nn All Versions
+## Works On All Versions
 
 The concepts and commands you will cover in this document will work with any _Linux distribution_. A _Linux distribution_ is a collection of software bundled with the _Linux Kernel_. These bundles contain a set of features and settings for a particular purpose.
 
