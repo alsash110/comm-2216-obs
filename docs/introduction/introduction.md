@@ -15,7 +15,7 @@ permalink: /docs/Introduction
 
 The purpose of this document is to help you get started with using Linux. The sections in this document introduce you to some basic concepts and commands.
 
-Linux is a free, multi user operating system that is secure, customizable, and stable. These factors have lead to the wide adoption of Linux in industry and it now forms the backbone of the internet.
+Linux is a free, multi-user operating system that is secure, customizable, and stable. These factors have lead to the wide adoption of Linux in industry and it now forms the backbone of the internet.
 
 ---
 
@@ -69,7 +69,7 @@ If you plan to have a career related to technology, you will interact with Linux
 
 ## Works on all versions
 
-The concepts and commands covered in this document will work with any _Linux distributions_. A _Linux distribution_ is a collection of software bundled with the _Linux Kernel_. These bundles contain a set of features and settings for a particular purpose.
+The concepts and commands you will cover in this document will work with any _Linux distribution_. A _Linux distribution_ is a collection of software bundled with the _Linux Kernel_. These bundles contain a set of features and settings for a particular purpose.
 
 The basic building blocks remains the same so all distributions of Linux still retains the main characteristics.
 

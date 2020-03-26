@@ -58,18 +58,13 @@ The following instruction set shows you how to:
 **3.** Input the ```pgrep``` command and your process name to obtain the *`processid`* of your process.
 
 >![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
->> **Note**: Replace processname with a keyword to search for your process name.
+>> **Note**: Replace processname with a keyword to search for your process name. The id of a process is different every time you start a process. If the process name exists, you will be able to see the id of your process, as shown below.
 <br />
 <br />
 
 >```
 >pgrep processname
 >```
-<br />
-
->![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
->> **Note**: The id of a process is different every time you start a process. If the process name exists, you will be able to see the id of your process, as shown below.
-<br />
 <br />
 
 >![Screen shot of pgrep firefox output](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/processes/pgrep-firefox.png?raw=true "pgrep firefox output")
