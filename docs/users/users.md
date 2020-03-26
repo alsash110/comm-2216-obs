@@ -11,7 +11,7 @@ permalink: /docs/users
 
 ---
 
-There are two types of user accounts in Linux, regular users, and the _root user_.
+There are two types of user accounts in Linux: regular users, and the _root user_.
 
 Linux operating system supports _one root user_ (User Id 0) with additional users created following the initial setup. Linux can support up to 4294967296 users, each with their own home directory and permissions. By default, one user can not access other users' files, unless they are the root user. You may assign users _user permissions_, _group permissions_, and _file permissions_.
 
