@@ -18,15 +18,4 @@ permalink: /docs/troubleshooting
 | You cannot see a directory that you create |The `touch` command was mistakenly used | Verify you input the `mkdir` command
 |Can not modify contents of a file | Tried to modify non-existent file or used wrong command | Verify that `>` is part of the input when you use the `cat > filename` command
 |Could not move my file into a different directory|User tried to move file to non-existent directory or to another file| Verify that the directory exists and is not a file with an extension. Correct syntax is `mv file directory`
-{: style="width: 800px" }
-
-
-+---------------+---------------+--------------------+
-| Fruit         | Price         | Advantages         |
-+===============+===============+====================+
-| Bananas       | $1.34         | - built-in wrapper |
-|               |               | - bright color     |
-+---------------+---------------+--------------------+
-| Oranges       | $2.10         | - cures scurvy     |
-|               |               | - tasty            |
-+---------------+---------------+--------------------+
+{: style="width: 1000px" }
