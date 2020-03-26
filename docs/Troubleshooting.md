@@ -10,7 +10,7 @@ permalink: /docs/troubleshooting
 
 ---
 
-| Symptoms | Probable cause | Action |
+| <div style="width:290px">Symptoms</div> | <div style="width:290px">Probable cause</div> | <div style="width:290px">Action</div> |
 | :----------| :----------------| :--------|
 |Can not remove a directory| The directory you want to remove is not empty | Verify that the directory using `ls` then delete contents using `rm directory`|
 | Can not run `sudo` command with newly created user| User not on root user when creating and assigning group privilege | Change to root user with the command `sudo su -`|
