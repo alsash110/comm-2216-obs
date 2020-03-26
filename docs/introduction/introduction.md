@@ -15,7 +15,7 @@ permalink: /docs/Introduction
 
 The purpose of this document is to help you get started with using Linux. The sections in this document introduce you to some basic concepts and commands.
 
-Linux is a free, multi-user operating system that is secure, customizable, and stable. These factors have lead to the wide adoption of Linux in industry and it now forms the backbone of the internet.
+Linux is a free, multi-user operating system that is secure, customizable, and stable. These factors to have lead to the wide adoption of Linux in industry and it now forms the backbone of the internet.
 
 ---
 
@@ -30,7 +30,7 @@ Linux is a free, multi-user operating system that is secure, customizable, and s
 
 This guide is for beginner Linux users with some basic computer knowledge.
 
-There are many comprehensive Linux documents out there, but those can be overwhelming. This guide provides you with simple instructions and teach you basic Linux concepts and commands. By the end of this guide, you will learn how to use the command line to:
+There are many comprehensive Linux documents out there, but those can be overwhelming. This guide provides you with simple instructions and teaches you basic Linux concepts and commands. By the end of this guide, you will learn how to use the command line to:
 
 * navigate through your Linux system,
 * create and modify user accounts,
@@ -44,7 +44,7 @@ There are many comprehensive Linux documents out there, but those can be overwhe
 
 To follow along with this document, you will need the following:
 
-**Note**: You can install Linux _locally_ or in a _virtual machine_. Alternatively, browser based terminals such as [Bellard's Linux emulator](https://bellard.org/jslinux/ "Browser Linux emulator") or [Copy.sh's Linux emulator](https://copy.sh/v86/ "Browser Linux emulator") is another way to access Linux without installing anything.    
+**Note**: You can install Linux _locally_ or in a _virtual machine_. Alternatively, browser-based terminals such as [Bellard's Linux emulator](https://bellard.org/jslinux/ "Browser Linux emulator") or [Copy.sh's Linux emulator](https://copy.sh/v86/ "Browser Linux emulator") is another way to access Linux without installing anything.    
 
 - access to a computer with a keyboard and mouse,
 - any version of Linux installed,
@@ -56,12 +56,12 @@ To follow along with this document, you will need the following:
 ## Brief History
 Linus Torvalds created Linux in 1991 at the age of 21. Linux started out as a _Kernel_, the lowest level of code _interfacing_ with hardware.
 
-In 1992, the _Linux Kernel_ was bundled together with _GNUs_ (GNU’s Not Unix) software packages and published under the _GNU General Public Licence_. This made GNU/Linux a legally free, fully featured operating system.
+In 1992, the _Linux Kernel_ was bundled together with _GNUs_ (GNU’s Not Unix) software packages and published under the _GNU General Public Licence_. This made GNU/Linux a legally free, fully-featured operating system.
 
 ---
 
 ## Why learn Linux
-Linux sees use everywhere and Linux is not going away any time soon. Linux is a free software used to control all types of hardware. Linux builds the internet, phones run on Linux, and even your smart appliances use Linux.
+Linux sees use everywhere and Linux is not going away any time soon. Linux is free software you can use to control all types of hardware. Linux builds the internet, phones run on Linux, and even your smart appliances use Linux.
 
 If you plan to have a career related to technology, you will interact with Linux at some point. With this in mind, we want you to familiarize your self with Linux as this can be beneficial.
 
@@ -71,7 +71,7 @@ If you plan to have a career related to technology, you will interact with Linux
 
 The concepts and commands you will cover in this document will work with any _Linux distribution_. A _Linux distribution_ is a collection of software bundled with the _Linux Kernel_. These bundles contain a set of features and settings for a particular purpose.
 
-The basic building blocks remains the same so all distributions of Linux still retains the main characteristics.
+The basic building blocks remain the same so all distributions of Linux still retain the main characteristics.
 
 ---
 
@@ -99,7 +99,7 @@ These instructions use the following typographic conventions.
 ---
 
 ## Conclusion
-The idea of a free, reliable, customizable, and secure operating system is too good to overlook. Many users switch to Linux to remove themselves from propriety software or out of curiosity. Anyone who works in the tech industry also rely on the use of Linux.
+The idea of a free, reliable, customizable, and secure operating system is too good to overlook. Many users switch to Linux to remove themselves from propriety software or out of curiosity. Anyone who works in the tech industry also relies on the use of Linux.
 
 With that in mind, let's get started on teaching you some of the essentials. We recommend that you start with [navigating through the file system.](https://dl90.github.io/linux-basics/docs/navigating)
 

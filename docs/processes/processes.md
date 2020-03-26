@@ -12,7 +12,7 @@ permalink: /docs/processes
 
 ---
 
-A _process_ represents something running on your computer. There are two types of processes: _foreground processes_ and _background processes_. _Foreground processes_ are interactive and require some type of input. Launching a _foreground process_ ties up the terminal so you can not issue new terminal commands until the processes terminate. _Background processes_ can run independently and do not tie up the terminal.
+A _process_ represents something running on your computer. There are two types of processes: _foreground processes_ and _background processes_. _Foreground processes_ are interactive and need some type of input. Launching a _foreground process_ ties up the terminal so you can not issue new terminal commands until the processes terminate. _Background processes_ can run independently and do not tie up the terminal.
 
 The two most common commands you can use to view your systems processes are the ```ps aux``` and ```top``` commands. The difference between the two is that ```ps aux``` takes a snapshot of current processes while ```top``` updates the list of processes.
 
