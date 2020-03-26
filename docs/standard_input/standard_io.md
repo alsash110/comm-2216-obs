@@ -126,8 +126,9 @@ The `>>` operator _appends_ the stdout to a file while the `>` always overwrites
 The `|` is another operator that takes standard output from the left side and ‘pipes’ the left as the standard input to the right side.
 
 
->![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
->> **Note**: The  `|`  operator is strictly single directional and always 'pipes' from left to right.
+![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
+> **Note**: The  `|`  operator is strictly single directional and always 'pipes' from left to right.
+<br />
 <br />
 
 The command is formatted as `command  |  command`
@@ -150,10 +151,10 @@ The command is formatted as `command  |  command`
 
 We can redirect _stdin_ as well with the `<` operator.
 
->The  `<`  operator is the same as the  `>`  operator but reversed.
->The `<` operator _redirects_ the _stdout_ from the _right side_ as the _stdin_ on the _left_.
+The  `<`  operator is the same as the  `>`  operator but reversed.
+The `<` operator _redirects_ the _stdout_ from the _right side_ as the _stdin_ on the _left_.
 
-**4.** Execute the following command to see the word count of the *`mylist.txt`* file.
+**5.** Execute the following command to see the word count of the *`mylist.txt`* file.
 
 >```
 >wc < list.txt
@@ -184,15 +185,7 @@ You can see a word count of the *`mylist.txt`* file.
 >cat rockyou.txt | grep aaabbbcccddd
 >```
 
-<<<<<<< HEAD
 >You will receive an output which shows you that *`aaabbbcccddd`* is in the list of common passwords and you should not use it.
-=======
->![Screen shot of cat rockyou.txt `|` grep aaabbbcccddd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdin_3.png?raw=true "`|`")
-
->The `grep` command returns matching results if the exact text is found.
-
->Receive an output which shows you that *`aaabbbcccddd`* is in the list of common passwords and you should not use it.
->>>>>>> 634bf906f7319f5a8eec61bd40f11fbbc9305ab2
 
 >![Screen shot of cat rockyou.txt `|` grep aaabbbcccddd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdin_3.png?raw=true "`|`")
 
