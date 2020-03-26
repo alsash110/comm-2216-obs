@@ -184,7 +184,15 @@ You can see a word count of the *`mylist.txt`* file.
 >cat rockyou.txt | grep aaabbbcccddd
 >```
 
+<<<<<<< HEAD
 >You will receive an output which shows you that *`aaabbbcccddd`* is in the list of common passwords and you should not use it.
+=======
+>![Screen shot of cat rockyou.txt `|` grep aaabbbcccddd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdin_3.png?raw=true "`|`")
+
+>The `grep` command returns matching results if the exact text is found.
+
+>Receive an output which shows you that *`aaabbbcccddd`* is in the list of common passwords and you should not use it.
+>>>>>>> 634bf906f7319f5a8eec61bd40f11fbbc9305ab2
 
 >![Screen shot of cat rockyou.txt `|` grep aaabbbcccddd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/standard_input/stdin_3.png?raw=true "`|`")
 

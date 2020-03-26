@@ -79,13 +79,13 @@ The basic building blocks remains the same so all distributions of Linux still r
 
 These instructions use the following typographic conventions.
 
+| Convention                           | Typeface    | Examples                                     |
+| :----                                | :----       | :----                                        |
+| Command line commands and user input | ```Light``` | ```pwd```, ```ls```, ```cd```, ```sudo```    |
+| Specific keystrokes                  | **[Bold]**  | **[Enter]**, **[Esc]**, **[Ctrl]**, **[F4]** |
+| Console output                       | *`code`*    | *`/c/Users/Don/Desktop`*                     |
+| Key terms and emphasis               | _Italics_   | _Root user_, _Kernel_, _Pathname_            |
 
-| Convention                           | Typeface                  | Examples                                                    |
-| :----------------------------------- | :------------------------ | :---------------------------------------------------------- |
-| Command line commands and user input | ```Light```                 | ```pwd```, ```ls```, ```cd```, ```sudo```                           |
-| Specific keystrokes                  | **[Bold]**                | **[Enter]**, **[Esc]**, **[Ctrl]**, **[F4]**                |
-| Console output                       | *`code`*                    | *`/c/Users/Don/Desktop`*                                      |
-| Key terms and emphasis               | _Italics_                 | _Root user_, _Kernel_, _Pathname_                           |
 <br />
 
 ![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
