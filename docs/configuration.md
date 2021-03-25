@@ -4,7 +4,7 @@ title: Introduction
 nav_order: 2
 ---
 
-# Configuration
+# Introduction
 {: .no_toc }
 
 
