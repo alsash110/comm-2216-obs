@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Video Setup
-nav_order: 2
+nav_order: 99
 ---
 
 # Video Setup
