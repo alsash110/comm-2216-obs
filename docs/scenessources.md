@@ -17,7 +17,7 @@ A scene is the preset of sources and their positioning. Switching between scenes
 
 ### [](#header-3)The steps below will outline how to create a scene and select your sources for capture
 1. Find SCENES and SOURCES tab in the bottom left corner of the main screen.
-![](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/scenes_sourcebox.JPG)
+![](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/scenes_sourcebox.JPG){: .d-inline-block	}
 
 2. Right click on a scene to Rename in
 ![](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/scenes_renamesource.JPG)
