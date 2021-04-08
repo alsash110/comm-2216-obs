@@ -5,7 +5,11 @@ nav_order: 4
 ---
 
 # [](#header-1) Choosing Scenes and Sources
-{: .no_toc }
+### Table of contents
+{: .no_toc .text-delta }
+* TOC
+{:toc}
+---
 
 ## [](#header-3)What are scenes and sources?
 A **source** is an input from which the recording will take place. OBS allows users to have many different sources of input such as a browser window, a web camera, the whole screen capture and so on.
@@ -15,27 +19,29 @@ A **scene** is the preset of sources and their positioning. Switching between sc
 ##Setting Up Scenes
 
 
-### [](#header-3)The steps below will outline how to create a scene and select your sources for capture
+### [](#header-3)How to Create a New Scene
 1. Find **SCENES** and **SOURCES** tab in the bottom left corner of the main screen.
 ![](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/scenes_sourcebox.JPG){: .d-inline-block	}
 
-2. Right click on a scene to **Rename** in
+2. Right click on a scene to **Rename** it
 ![](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/scenes_renamesource.JPG)
 
-3. To add another scene click on the **‘+’** sign of the SCENES tab.
+3. To add another scene click on the **‘+’** sign of the **SCENES** tab.
 ![](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/scenes_createscene.JPG)
 
 4. Enter the name of the new scene in the  popped up menu
 ![](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/scenes_namescene.JPG)
 
 
-### Table of contents
-{: .no_toc .text-delta }
-* TOC
-{:toc}
+### [](#header-3)How to Select Sources 
 
 ---
+Once you’ve selected your audio and video sources, you’re ready to start setting up what you’ll be recording. At the bottom of your OBS window you’ll find a box that says **SOURCES**. Click on the **‘+’** to add a new source. 
 
-Frame rate is the rate that represents how frequently the image is being changed on the display of your computer. It’s usually measured in frames per second, or FPS. So if a video is captured and played back at 60fps, that means each second of video shows 60 distinct still images.
+You’ll be greeted with this menu:
+![](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/scenes_choices.png)
 
-Frame rate affects how smooth the video is for human eye. If a video has an FPS of over 24, that video would look smooth to most humans.
+From here you’ll select the sources you want to capture. Once you’ve selected the sources, they’ll show up in the sources box. We’ll go over next which sources you will need to start your first recording or stream
+
+If you’re using OBS for streaming video games or recording lectures or tutorials, you’ll likely want to capture some combination of the sources listed below. Outlined below are what each of these capture modules will be recording.
+![](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/scenes_sources.JPG)
