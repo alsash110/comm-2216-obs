@@ -8,7 +8,7 @@ permalink: /
 
 {: .fs-6 .fw-300 }
 
-# Introduction
+# Introduction ![Icon](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/obs_icon.png)
 {: .no_toc }
 
 ---
