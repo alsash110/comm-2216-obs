@@ -11,7 +11,7 @@ nav_order: 4
 {:toc}
 ---
 
-## [](#header-2)What are scenes and sources?
+## [](#header-2)What Are Scenes and Sources?
 A **source** is an input from which the recording will take place. OBS allows users to have many different sources of input such as a browser window, a web camera, the whole screen capture and so on.
 
 A **scene** is the preset of sources and their positioning. Switching between scenes allows the user to make different layouts of screen inputs in a single video.
