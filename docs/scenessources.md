@@ -48,27 +48,27 @@ If you’re using OBS for streaming video games or recording lectures or tutoria
 
 
 ### [](#header-3)Selecting the Sources You Need
-1. **Video Capture Device**(ol)
-  - This source when added will attempt to find a video capture device to record such as a webcam(ul)
-  - By right clicking the source once added and selecting Properties you can see a number of settings that can be changed with OBS. While you generally don’t need to touch these, you can press Configure Video to find some video properties that can be altered such as sharpness, contrast, brightness, and more. 
+1. **Video Capture Device** (ol)
+  - This source when added will attempt to find a video capture device to record such as a webcam (ul)
+  - By right clicking the source once added and selecting Properties you can see a number of settings that can be changed with OBS. While you generally don’t need to touch these, you can press Configure Video to find some video properties that can be altered such as sharpness, contrast, brightness, and more. (ul)
 
-2 **Display Capture**(ol)
-  - This will record your entire screen, but can be taxing on the computer especially if your FPS and bitrate are set with high values(ul)
-  - If you have multiple displays, you can select Properties in the Display Capture source where you will find a ‘Display’ dropdown, allowing you to select which display to record(ul)
+2 **Display Capture** (ol)
+  - This will record your entire screen, but can be taxing on the computer especially if your FPS and bitrate are set with high values (ul)
+  - If you have multiple displays, you can select Properties in the Display Capture source where you will find a ‘Display’ dropdown, allowing you to select which display to record (ul)
 
-3. **Audio Output Capture**(ol)
-  - This will record audio that is outputted to your device such as headphones or speakers, it will be set to your default audio device upon adding(ul)
+3. **Audio Output Capture** (ol)
+  - This will record audio that is outputted to your device such as headphones or speakers, it will be set to your default audio device upon adding (ul)
 
-4. **Audio Input Capture**(ol)
-  - This source will record your microphone input.(ul)
+4. **Audio Input Capture** (ol)
+  - This source will record your microphone input. (ul)
 
-5. **Window Capture**(ol)
-  - This is preferable to Display Capture if you are only going to be recording one application or browser window(ul)
+5. **Window Capture** (ol)
+  - This is preferable to Display Capture if you are only going to be recording one application or browser window (ul)
 
-6. **Game Capture**(ol)
-  - This mode is similar to window capture in that it only records one window, the window of the game that is open
-  - When selected you will be prompted to pick which game to stream (you must have the game already open). 
-  - Note: some games will not be picked up by the Game Capture scene, in which case you should try Window Capture
+6. **Game Capture** (ol)
+  - This mode is similar to window capture in that it only records one window, the window of the game that is open (ul)
+  - When selected you will be prompted to pick which game to stream (you must have the game already open). (ul)
+  - Note: some games will not be picked up by the Game Capture scene, in which case you should try Window Capture (ul)
 
 ---
 As you add each source, you’ll see them appear in the preview menu in the OBS window. By clicking each source in the preview window, you can resize them to your liking.
