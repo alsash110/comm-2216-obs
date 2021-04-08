@@ -78,4 +78,4 @@ These instructions use the following typographic conventions.
 
 Learning the basics of OBS would be a useful skill for a person who works remotely and wants to record quality video reports. No more low-resolution, low FPS, uninteractive video reports - with OBS you can control almost everything. 
 
-That being said, OBS is designed to help the user to get to recording quickly. But before recording a video, one should first have that [video setup.](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/docs/videosetup.md)
+That being said, OBS is designed to help the user to get to recording quickly. But before recording a video, one should first have that [video setup.](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/docs/configuration.md)
