@@ -31,7 +31,7 @@ Frame rate affects how smooth the video is for human eye. If a video has an FPS 
 
 ## What is Video's Resolution
 
-Video resolution in a display device that refers to the number of distinct pixels that could be displayed in each dimension. It is usually quoted as width×height ratio. For example, the standard HD resolution has 1280x720 pixels aspect ratio.
+Video resolution is a display device that refers to the number of distinct pixels that could be displayed in each dimension. It is usually quoted as width×height ratio. For example, the standard HD resolution has 1280x720 pixels aspect ratio.
 
 The resolution of the video affects the crispness of the image: the higher the resolution is - the more detailed is the image.
 
