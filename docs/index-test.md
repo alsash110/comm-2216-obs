@@ -1,8 +1,3 @@
----
-layout: default
-title: TO BE DELETED
-nav_order: 98
----
 
 ## Glossary
 
