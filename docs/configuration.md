@@ -1,8 +1,4 @@
----
-layout: default
-title: TO BE DELETED
-nav_order: 99
----
+
 
 # Video Setup
 {: .no_toc }
