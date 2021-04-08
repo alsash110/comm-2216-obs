@@ -69,6 +69,9 @@ If you’re using OBS for streaming video games or recording lectures or tutoria
   - This mode is similar to window capture in that it only records one window, the window of the game that is open
   - When selected you will be prompted to pick which game to stream (you must have the game already open)
   - Note: some games will not be picked up by the Game Capture scene, in which case you should try Window Capture
+
+
+
 ---
 As you add each source, you’ll see them appear in the preview menu in the OBS window. By clicking each source in the preview window, you can resize them to your liking.
 
