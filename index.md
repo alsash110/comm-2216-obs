@@ -6,6 +6,13 @@ description: "Just the Docs is a responsive Jekyll theme with built-in search th
 permalink: /
 ---
 
+{: .fs-6 .fw-300 }
+
+# Introduction
+{: .no_toc }
+
+---
+
 The purpose of this document is to help you get started with using Open Broadcaster Software (OBS). The sections in this document introduce you to some basic operations that OBS has to offer.
 
 OBS is a free, easy-to use piece of software that allows the users to record or stream their screen. Learning how to use OBS will help the user to create videos of better quality and become more familiar with video recording.
@@ -53,7 +60,7 @@ OBS is a very simple-to-use piece of software, which can be used to record video
 If you get past that initial impression and begin to use OBS, then you’ll find that it has a clear edge over other free recording software, as it doesn’t feature any watermarking or recording time limit that many others do.
 
 
-## Typographical Conventions
+### Typographical Conventions
 
 These instructions use the following typographic conventions.
 
