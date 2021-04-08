@@ -1,127 +1,41 @@
 ---
 layout: default
 title: Troubleshooting
-nav_order: 7
+nav_order: 8
 ---
 
-# Search
+# Troubleshooting
 {: .no_toc }
 
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
 ---
 
-Just the Docs uses [lunr.js](http://lunrjs.com) to add a client-side search interface powered by a JSON index that Jekyll generates.
-All search results are shown in an auto-complete style interface (there is no search results page).
-By default, all generated HTML pages are indexed using the following data points:
+These are some of the major issues when operating on OBS, roots of the issue and the potential measures to solve the issues
 
-- Page title
-- Page content
-- Page URL
+## Buffering Issues
 
-## Enable search in configuration
+Buffering is when data is preloaded into a reserved area of memory called a _buffer_. For streamers, there are three main reasons why you may be experiencing buffering issues, ie. the stream lagging or constantly loading.
 
-In your site's `_config.yml`, enable search:
+To troubleshoot buffering issues in OBS, **first and foremost**, confirm that the stream is experiencing _frame drops_. This is to make sure the issue isn’t with your own connection. To do this, check the counter at the bottom of the OBS Studio main window.
 
-```yaml
-# Enable or disable the site search
-# Supports true (default) or false
-search_enabled: true
-```
+If you are not experiencing any dropped frames, the next most likely reason for your buffering issues is _bitrate_: you’ve used too much of it. While a higher bitrate can be an easy way to make your stream look a bit better, if your bitrate is too high, your viewers may have issues with downloading it. If you must raise the bitrate, make sure it is within reason of the internet connection speeds of the countries your viewers may be from.
 
-### Search granularity
+If your bitrate is set to a reasonable number and you are not experiencing frame drops, then fixing the buffering issues can be more complicated. The third reason for buffer issues are with the _Provider_ (ie. Twitch, Youtube, Instagram) not having or not balancing its streams. For example, Twitch does not fully use its CDN unless the streamer is partnered. Viewers of non-partnered streamers may experience issues if the route between them and the provider is too long or overloaded. 
 
-Pages are split into sections that can be searched individually.
-The sections are defined by the headings on the page.
-Each section is displayed in a separate search result.
+Unfortunately, buffer issues are a tough fix. Unless you’re experiencing dropped frames, the stream is sent out and received at the server of your provider. From there it’s out of your control. The best way to keep the buffer issues away is to use reasonable bitrate values and not drop frames via poor connection. 
 
-```yaml
-# Split pages into sections that can be searched individually
-# Supports 1 - 6, default: 2
-search.heading_level: 2
-```
+## Known Conflicts with 3rd Party Applications
 
-### Search previews
+If you are experiencing crashes while using OBS please check the list below to ensure you’re not using one of these following applications:
 
-A search result can contain previews that show where the search words are found in the specific section.
+Alienware Alien Respawn:
+_This software is found on Dell Alienware systems. It will crash OBS_
 
-```yaml
-# Maximum amount of previews per search result
-# Default: 3
-search.previews: 3
+Game Capture Issues
+GPU Overload Issues
+Disabling Windows 10 Gaming Features
+Enabling/Disabling Aero in Windows 7
+Known Conflicts
+Black Screen/Laptop Performance
+MacOS Virtual Camera Compatibility Issues
+Performance and Encoding Issues
 
-# Maximum amount of words to display before a matched word in the preview
-# Default: 5
-search.preview_words_before: 5
-
-# Maximum amount of words to display after a matched word in the preview
-# Default: 10
-search.preview_words_after: 10
-```
-
-### Search tokenizer
-
-The default is for hyphens to separate tokens in search terms:
-`gem-based` is equivalent to `gem based`, matching either word.
-To allow search for hyphenated words:
-
-```yaml
-# Set the search token separator
-# Default: /[\s\-/]+/
-# Example: enable support for hyphenated search words
-search.tokenizer_separator: /[\s/]+/
-```
-
-### Display URL in search results 
-
-```yaml
-# Display the relative url in search results
-# Supports true (default) or false
-search.rel_url: false
-```
-
-### Display search button
-
-The search button displays in the bottom right corner of the screen and triggers the search input when clicked.
-
-```yaml
-# Enable or disable the search button that appears in the bottom right corner of every page
-# Supports true or false (default)
-search.button: true
-```
-
-
-## Hiding pages from search
-
-Sometimes you might have a page that you don't want to be indexed for the search nor to show up in search results, e.g, a 404 page.
-To exclude a page from search, add the `search_exclude: true` parameter to the page's YAML front matter:
-
-#### Example
-{: .no_toc }
-
-```yaml
----
-layout: default
-title: Page not found
-nav_exclude: true
-search_exclude: true
----
-```
-
-
-## Generate search index when used as a gem
-
-If you use Just the Docs as a remote theme, you do not need the following steps.
-
-If you use the theme as a gem, you must initialize the search by running this `rake` command that comes with `just-the-docs`:
-
-```bash
-$ bundle exec just-the-docs rake search:init
-```
-
-This command creates the `assets/js/zzzz-search-data.json` file that Jekyll uses to create your search index.
-Alternatively, you can create the file manually with [this content]({{ site.github.repository_url }}/blob/master/assets/js/zzzz-search-data.json).
