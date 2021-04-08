@@ -10,7 +10,7 @@ nav_order: 2
 
 Setting up the video to record is one of the most important aspects of your video recording process. One of the key factors to consider when recording it is the quality of the video.
 
-The main factors that affect the visual quality of a video are _framerate_ (measured in frames per second) and the _resolution_ (the amount of pixels used to capture/replicate an image on the screen).
+The main factors that affect the visual quality of a video are _frame rate_ (measured in frames per second) and the _resolution_ (the amount of pixels used to capture/replicate an image on the screen).
 
 One of the reasons why OBS is so popular, is because it allows you to control these quality settings. 
 
@@ -20,9 +20,21 @@ One of the reasons why OBS is so popular, is because it allows you to control th
 {:toc}
 
 ---
-## What is Video's Framerate
+## What is Video's Frame Rate
+
+Frame rate is the rate that represents how frequently the image is being changed on the display of your computer. It’s usually measured in frames per second, or FPS. So if a video is captured and played back at 60fps, that means each second of video shows 60 distinct still images.
+
+Frame rate affects how smooth the video is for human eye. If a video has an FPS of over 24, that video would look smooth to most humans.
+
+**If the frame rate drops below 24 fps, the video will look like a slideshow and will be less enjoyable to watch**
 
 ## What is Video's Resolution
+
+Video resolution in a display device that refers to the number of distinct pixels that could be displayed in each dimension. It is usually quoted as width×height ratio. For example, the standard HD resolution has 1280x720 pixels aspect ratio.
+
+The resolution of the video affects the crispness of the image: the higher the resolution is - the more detailed is the image.
+
+**If the input picture's resolution is lower than the resolution of the display, the quality presented will be of the input image. In other words, in most cases, if the input image is poor, it can not be enahced by a better display.**
 
 ## Setting Video’s Framerate and Resolution
 
