@@ -31,3 +31,6 @@ By default, both *Desktop Audio* and *Mic/Auxiliary Audio* will be set to *defau
 
 IMAGE HERE: DROPDOWN MENU FROM THE DESKTOP AUDIO OPTION
 
+![Note Icon](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/note-icon.png?raw=true "note tab"){: style="float: left" }
+>>**NOTE**: Input and output devices vary from computer to computer, and as such, your computer will likely have different devices listed.
+
