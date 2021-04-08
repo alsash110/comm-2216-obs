@@ -16,8 +16,6 @@ A **source** is an input from which the recording will take place. OBS allows us
 
 A **scene** is the preset of sources and their positioning. Switching between scenes allows the user to make different layouts of screen inputs in a single video.
 
-##Setting Up Scenes
-
 
 ### [](#header-3)How to Create a New Scene
 1. Find **SCENES** and **SOURCES** tab in the bottom left corner of the main screen.
