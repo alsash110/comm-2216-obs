@@ -39,9 +39,13 @@ A **scene** is the preset of sources and their positioning. Switching between sc
 Once you’ve selected your audio and video sources, you’re ready to start setting up what you’ll be recording. At the bottom of your OBS window you’ll find a box that says **SOURCES**. Click on the **‘+’** to add a new source. 
 
 You’ll be greeted with this menu:
+
+
 ![](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/scenes_choices.png)
 
 From here you’ll select the sources you want to capture. Once you’ve selected the sources, they’ll show up in the sources box. We’ll go over next which sources you will need to start your first recording or stream
 
 If you’re using OBS for streaming video games or recording lectures or tutorials, you’ll likely want to capture some combination of the sources listed below. Outlined below are what each of these capture modules will be recording.
+
+
 ![](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/scenes_sources.JPG)
