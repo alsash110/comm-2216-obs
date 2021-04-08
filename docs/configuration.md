@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Video Setup
+title: TO BE DELETED
 nav_order: 99
 ---
 
