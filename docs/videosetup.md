@@ -69,11 +69,3 @@ You now know how to change the framerate, and the resolution of your recordings.
 Now you will be able to change them if you want to increase or decrease the video quality to adjust quality/memory ratio.
 
 The next step of recording a great video is setting up the audio.
-
-
-
-
-
-
-
-
