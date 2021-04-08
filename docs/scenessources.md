@@ -21,7 +21,7 @@ A **scene** is the preset of sources and their positioning. Switching between sc
 1. Find **SCENES** and **SOURCES** tab in the bottom left corner of the main screen.
 >![sourcebox](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/scenes_sourcebox.JPG?raw=true "source box"){: .d-inline-block	}
 
-2. Right click on a scene to **Rename** it
+2. A scene is created for you by default. Right click on a scene to **Rename** it, or move on to next step.
 >![rename](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/scenes_renamesource.JPG?raw=true "rename")
 
 3. To add another scene click on the **‘+’** sign of the **SCENES** tab.
