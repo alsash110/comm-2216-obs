@@ -16,6 +16,7 @@ permalink: /
 The purpose of this document is to help you get started with using Open Broadcaster Software (OBS). The sections in this document introduce you to some basic operations that OBS has to offer.
 
 OBS is a free, easy-to use piece of software that allows the users to record or stream their screen. Learning how to use OBS will help the user to create videos of better quality and become more familiar with video recording.
+
 ---
 
 ### Table of contents
@@ -67,8 +68,9 @@ These instructions use the following typographic conventions.
 | Convention                           | Typeface      | Examples                                         |
 | :----                                | :----         | :----                                            |
 | Specific keystrokes                  |   **[Bold]**  |     **[Enter]**, **[Esc]**, **[Ctrl]**, **[F4]** |
-| Console output                       |   *`code`*    |     *`/c/Users/Don/Desktop`*                     |
-| Key terms and emphasis               |   _Italics_   |     _Root user_, _Kernel_, _Pathname_            |
+| Key Tabs                             |   **BOLD**    |     **SETTINGS**, **CUSTOMIZE**                  |
+| Key Steps                            |   **Bold**   |     **Open the SETTINGS tab**                     |
+| Key terms and emphasis               |   _Italics_   |     _Filter_, _Mixer_, _Source_                  |
 
 <br />
 
