@@ -21,16 +21,16 @@ A **scene** is the preset of sources and their positioning. Switching between sc
 
 ### [](#header-3)How to Create a New Scene
 1. Find **SCENES** and **SOURCES** tab in the bottom left corner of the main screen.
-![](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/scenes_sourcebox.JPG){: .d-inline-block	}
+>![sourcebox](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/scenes_sourcebox.JPG?raw=true "source box"){: .d-inline-block	}
 
 2. Right click on a scene to **Rename** it
-![](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/scenes_renamesource.JPG)
+>![rename](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/scenes_renamesource.JPG?raw=true "rename")
 
 3. To add another scene click on the **‘+’** sign of the **SCENES** tab.
-![](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/scenes_createscene.JPG)
+>![createscene](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/scenes_createscene.JPG?raw=true "createScene")
 
 4. Enter the name of the new scene in the  popped up menu
-![](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/scenes_namescene.JPG)
+>![namescene](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/scenes_namescene.JPG?raw=true "nameScene")
 
 
 ### [](#header-3)How to Select Sources 
@@ -41,11 +41,11 @@ Once you’ve selected your audio and video sources, you’re ready to start set
 You’ll be greeted with this menu:
 
 
-![](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/scenes_choices.png)
+>![choices](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/scenes_choices.png?raw=true "choices")
 
 From here you’ll select the sources you want to capture. Once you’ve selected the sources, they’ll show up in the sources box. We’ll go over next which sources you will need to start your first recording or stream
 
 If you’re using OBS for streaming video games or recording lectures or tutorials, you’ll likely want to capture some combination of the sources listed below. Outlined below are what each of these capture modules will be recording.
 
 
-![](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/scenes_sources.JPG)
+>![sources](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/scenes_sources.JPG?raw=true "sources")
