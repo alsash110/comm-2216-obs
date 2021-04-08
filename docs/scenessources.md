@@ -8,21 +8,21 @@ nav_order: 4
 {: .no_toc }
 
 ##hat are scenes and sources?
-A source is an input from which the recording will take place. OBS allows users to have many different sources of input such as a browser window, a web camera, the whole screen capture and so on.
+A **source** is an input from which the recording will take place. OBS allows users to have many different sources of input such as a browser window, a web camera, the whole screen capture and so on.
 
-A scene is the preset of sources and their positioning. Switching between scenes allows the user to make different layouts of screen inputs in a single video.
+A **scene** is the preset of sources and their positioning. Switching between scenes allows the user to make different layouts of screen inputs in a single video.
 
 ##Setting Up Scenes
 
 
 ### [](#header-3)The steps below will outline how to create a scene and select your sources for capture
-1. Find SCENES and SOURCES tab in the bottom left corner of the main screen.
+1. Find **SCENES** and **SOURCES** tab in the bottom left corner of the main screen.
 ![](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/scenes_sourcebox.JPG){: .d-inline-block	}
 
-2. Right click on a scene to Rename in
+2. Right click on a scene to **Rename** in
 ![](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/scenes_renamesource.JPG)
 
-3. To add another scene click on the ‘+’ sign of the SCENES tab.
+3. To add another scene click on the **‘+’** sign of the SCENES tab.
 ![](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/scenes_createscene.JPG)
 
 4. Enter the name of the new scene in the  popped up menu
