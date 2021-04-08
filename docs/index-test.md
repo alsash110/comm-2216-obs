@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Glossary
-nav_order: 7
+title: TO BE DELETED
+nav_order: 98
 ---
 
 ## Glossary
