@@ -52,7 +52,7 @@ If you’re using OBS for streaming video games or recording lectures or tutoria
   - This source when added will attempt to find a video capture device to record such as a webcam
   - By right clicking the source once added and selecting Properties you can see a number of settings that can be changed with OBS. While you generally don’t need to touch these, you can press Configure Video to find some video properties that can be altered such as sharpness, contrast, brightness, and more. 
 
-2 **Display Capture** 
+2. **Display Capture** 
   - This will record your entire screen, but can be taxing on the computer especially if your FPS and bitrate are set with high values
   - If you have multiple displays, you can select Properties in the Display Capture source where you will find a ‘Display’ dropdown, allowing you to select which display to record
 
