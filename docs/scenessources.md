@@ -31,6 +31,8 @@ A **scene** is the preset of sources and their positioning. Switching between sc
 >![namescene](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/scenes_namescene.JPG?raw=true "nameScene")
 
 Now you've created your first scene! The next step is to select which sources you'll be capturing for your stream/recording.
+
+
 ---
 ## [](#header-2)How to Select Sources
 At the bottom of your OBS window you’ll find a box that says **SOURCES**. Click on the **‘+’** to add a new source. (**Note:** Make sure you have selected and configured your audio and video sources before this step)
