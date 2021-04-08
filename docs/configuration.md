@@ -26,7 +26,7 @@ Frame rate is the rate that represents how frequently the image is being changed
 
 Frame rate affects how smooth the video is for human eye. If a video has an FPS of over 24, that video would look smooth to most humans.
 
-**If the frame rate drops below 24 fps, the video will look like a slideshow and will be less enjoyable to watch**
+**>![NOTE](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/note-icon.png?raw=true "note tab")If the frame rate drops below 24 fps, the video will look like a slideshow and will be less enjoyable to watch**
 
 ## What is Video's Resolution
 
@@ -34,7 +34,7 @@ Video resolution in a display device that refers to the number of distinct pixel
 
 The resolution of the video affects the crispness of the image: the higher the resolution is - the more detailed is the image.
 
-**If the input picture's resolution is lower than the resolution of the display, the quality presented will be of the input image. In other words, in most cases, if the input image is poor, it can not be enahced by a better display.**
+**>![NOTE](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/note-icon.png?raw=true "note tab")If the input picture's resolution is lower than the resolution of the display, the quality presented will be of the input image. In other words, in most cases, if the input image is poor, it can not be enahced by a better display.**
 
 ## Setting Video’s Framerate and Resolution
 
@@ -45,9 +45,17 @@ In order to set the frame rate and resolution of the video you want to record, f
 
 **1) Open SETTINGS from CONTROLS tab**
 
+>![Settings open](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/vid-1-set.png?raw=true "settings tab")
+>![Settings closeup](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/vid-1-set1.png?raw=true "settings tab closer")
+
+
 **2) Click on VIDEO tab**
 
+>![Video open](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/vid-2-set.png?raw=true "video tab")
+
 **3) Make sure that the values of Base Resolution, Output Resolution, Downscale Filter and FPS values fit you.**
+
+>![FPS Res open](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/vid-3-set.png?raw=true "settings tab")
 
 If you want to record a video of worse quality that takes up less memory on your computer - lower the resolution and framerate.
 If you want to record a video of better quality but that takes up more memory on your computer - increase the resolution and framerate.
