@@ -6,6 +6,8 @@ nav_order: 7
 
 ## Glossary
 
+
+
 **Bitrate**: the number of bits that are conveyed or processed per unit of time.
  
 **Frame Rate**: the rate that represents how frequently the image is being changed on the display of your computer.
