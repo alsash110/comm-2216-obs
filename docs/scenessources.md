@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Typography
-parent: docs
-nav_order: 1
+title: Scenes and Sources
+nav_order: 4
 ---
 
 # Choosing Scenes and Sources
