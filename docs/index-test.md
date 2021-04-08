@@ -14,6 +14,10 @@ nav_order: 7
 
 **Resolution**:  is a display device that refers to the number of distinct pixels that could be displayed in each dimension. 
 
+**Source**: is an input from which the recording will take place.
+
+**Scene**:  is a preset of sources and their positioning on the screen.
+
 **OBS**: Open Broadcaster Software is a free and open-source cross-platform streaming and recording program built with Qt and maintained by the OBS Project.
 
 ---
