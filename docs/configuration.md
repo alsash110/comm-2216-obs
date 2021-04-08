@@ -26,7 +26,7 @@ Frame rate is the rate that represents how frequently the image is being changed
 
 Frame rate affects how smooth the video is for human eye. If a video has an FPS of over 24, that video would look smooth to most humans.
 
-**>![NOTE](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/note-icon.png?raw=true "note tab")If the frame rate drops below 24 fps, the video will look like a slideshow and will be less enjoyable to watch**
+**>![NOTE](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/note-icon.png?raw=true "note tab"){: style="float: left" }If the frame rate drops below 24 fps, the video will look like a slideshow and will be less enjoyable to watch**
 
 ## What is Video's Resolution
 
@@ -34,7 +34,7 @@ Video resolution in a display device that refers to the number of distinct pixel
 
 The resolution of the video affects the crispness of the image: the higher the resolution is - the more detailed is the image.
 
-**>![NOTE](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/note-icon.png?raw=true "note tab")If the input picture's resolution is lower than the resolution of the display, the quality presented will be of the input image. In other words, in most cases, if the input image is poor, it can not be enahced by a better display.**
+**>![NOTE](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/note-icon.png?raw=true "note tab"){: style="float: left" }If the input picture's resolution is lower than the resolution of the display, the quality presented will be of the input image. In other words, in most cases, if the input image is poor, it can not be enahced by a better display.**
 
 ## Setting Video’s Framerate and Resolution
 
