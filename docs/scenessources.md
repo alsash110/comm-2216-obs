@@ -75,6 +75,6 @@ If you’re using OBS for streaming video games or recording lectures or tutoria
 ---
 As you add each source, you’ll see them appear in the preview menu in the OBS window. By clicking each source in the preview window, you can resize them to your liking.
 
-Now your first scene is complete! But let’s say you’re a high functioning individual who wants to stream yourself both gaming and simultaneously working on an english essay.
+Now you're ready to start recording or streaming! But let’s say you’re a high functioning individual who wants to stream yourself both gaming and simultaneously working on an english essay.
  
-You can easily do that with the addition of multiple scenes. When you add a scene you’ll be able to select different sources, or you can use it to quickly resize or current sources to fit your needs. 
+You can easily do that with the addition of multiple scenes. When you add a scene you’ll be able to select different sources, or you can use it to quickly resize or current sources to fit your needs. Simply click on each scene in OBS to switch between them.
