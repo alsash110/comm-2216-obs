@@ -25,17 +25,44 @@ Unfortunately, buffer issues are a tough fix. Unless you’re experiencing dropp
 
 ## Known Conflicts with 3rd Party Applications
 
-If you are experiencing crashes while using OBS please check the list below to ensure you’re not using one of these following applications:
+If you are experiencing crashes while using OBS please check the list below and make sure the following apps are either closed or uninstalled:
+  - Intel GPA
+  - Alienware Respawn
+  - Sendori
+  - Astrill VPN Proxy
+  - Warsaw
+  - Adobe Dynamic Link
+  - Personify
+  - Nahimic Audio
 
-Alienware Alien Respawn:
-_This software is found on Dell Alienware systems. It will crash OBS_
+Additinally, certain antivirus software and/or firewalls may interfere with OBS performance, preventing the capture from happening. To fix this issue, make sure to whitelist OBS in your computers settings. 
 
-Game Capture Issues
-GPU Overload Issues
-Disabling Windows 10 Gaming Features
-Enabling/Disabling Aero in Windows 7
-Known Conflicts
-Black Screen/Laptop Performance
-MacOS Virtual Camera Compatibility Issues
-Performance and Encoding Issues
+
+## Game Capture Troubleshooting
+
+If you’re having trouble with game capture, please check to make sure that you’re not experiencing one of the known conflicts OBS has with other apps.
+
+If the issue persists the following resolutions could be useful:
+
+  - Try running OBS as admin. This is a requirement for some games. 
+  - If your game is set to full-screen mode and you switch windows from the game, the rendering will stop. 
+  - Since OBS has compatibility issues with certain games in full screen mode it is recommended to stream your game on borderless full screen or windowed mode
+
+## GPU Overload Issues
+
+GPU overload is caused by a computer’s graphics card being unable to keep up with the production your system demands. If you are experiencing them, FIRST try running OBS as administrator. This will allow OBS reserve additional GPU capacity for use through the operating system. 
+There are a number of ways you can reduce the load on your graphics card. 
+**Within OBS**:
+  -	Our first recommendation is to build simpler scenes.
+      - OBS will drain additional resources from your GPU for all the scenes you have in your current collection
+      - If you are not using all the scenes currently, consider splitting them up into collections, this will allow OBS to use fewer resources while you stream
+  -	Use fewer filters
+    -While filters can be useful for certain scenes, they can be very taxing on your GPU’s resources. Removing a few if not all filters will help with GPU overloading issues. 
+**In System**:
+  -	Beware of the browser! Browsers like Google Chrome will contribute to your GPU overload issues since it has to render all that text, audio, imagery, and video.
+    - Consider using only a few tabs or closing chrome while you stream video games or other resource heavy activities
+  -	Lower the settings of the game you are playing
+    - While this may not be an optimal solution, by lowering the settings in the game this reduces the amount of work your GPU will need to do, in some cases preventing GPU overload
+
+If you're still having issues with any of the above, please check out the OBS forum or the OBS Discord!
 
