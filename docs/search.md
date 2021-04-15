@@ -5,7 +5,7 @@ nav_order: 8
 ---
 
 # Troubleshooting
-{: .no_toc }
+TOC {:toc}
 
 ---
 
