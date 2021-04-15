@@ -75,7 +75,7 @@ IMAGE HERE: THE VOLUME BAR WITH A SQUARE AROUND THE HANDLE THING THAT YOU DRAG
 
 ---
 
-The next step of the guide is to configure scenes and sources, to make sure that the viewers are seeing exactly what they need to see.
+The next step of the guide is to [configure scenes and sources](scenessources.md), to make sure that the viewers are seeing exactly what they need to see.
 
 However, if you’re finding that, even with the volume bar all the way to the right, an audio source is still too quiet, please follow the steps below.
 
@@ -84,11 +84,11 @@ However, if you’re finding that, even with the volume bar all the way to the r
 ### Boosting Volume Beyond the Volume Bar
 
 
-1. Click on the settings icon for the any source (it doesn’t have to be for the source you’re looking to adjust) and select *Advanced Audio Properties*.
+1) Click on the settings icon for the any source (it doesn’t have to be for the source you’re looking to adjust) and select *Advanced Audio Properties*.
 
 ![Advanced audio properties](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/audio_advanced_audio_properties.png?raw=true "Advanced audio properties")
 
-2. In the *Advanced Audio Properties* window, increase the value under *Volume* for your desired source until it’s at the desired volume level.
+2) In the *Advanced Audio Properties* window, increase the value under *Volume* for your desired source until it’s at the desired volume level.
 
 ![Further increase volume](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/audio_advanced_audio_volume.png?raw=true "Further increase volume")
 
