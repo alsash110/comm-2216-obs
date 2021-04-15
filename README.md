@@ -11,7 +11,7 @@ The topics this guide will cover include:
 
 ### How We Created Our Guide
 
-To finish our guide, we used many different applications, documentations, and concepts. We had to learn a wide array of concepts as well as implement programs and concepts we already knew.
+When we were creating our guide, we were tackling many unfamiliar concepts and technologies. However, in doing so, we gained new skills that we can use in other places.
 
 #### Using Markdown
 
@@ -44,7 +44,5 @@ We learned that if everyone does their part on time then success is inevitable.
 Throughout the process of learning how to use the markdown, we’ve learnt that helping others resolve the markdown errors actually helps us to become better in using the markdown.
 
 Thank you for reading our introduction to OBS guide and we hope that you learned something by following through our instructions.
-This document was built on:
-
 
 This document was built on: <a href="https://github.com/pmarsceill/just-the-docs"><h2>Just the Docs</h2></a>
