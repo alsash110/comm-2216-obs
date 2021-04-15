@@ -9,11 +9,6 @@ nav_order: 8
 
 These are some of the major issues when operating on OBS, the root causes of those issues and the potential measures to solve them.
 
-### Table of contents
-{: .no_toc .text-delta }
-* TOC
-{:toc}
-
 ## Buffering Issues
 
 Buffering is when data is preloaded into a reserved area of memory called a _buffer_. For streamers, there are three main reasons why you may be experiencing buffering issues, ie. the stream lagging or constantly loading.
