@@ -12,8 +12,8 @@ nav_order: 5
 {:toc}
 ---
 
-## [](#header-2)Pre-requests:
-1. To start recording in OBS you need at least one scene and one source set up; For instruction of setting up scenes and sources can refer to [scenes and sources](scenessources.md). Here is how the scene and source section should look like when ready to record:
+## [](#header-2)Prerequisites
+1. To start recording in OBS, you need at least one scene and one source set up. For instruction of setting up scenes and sources can refer to [scenes and sources](scenessources.md). This is how the scene and source section should look when ready to record:
 >![sourcebox](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/OBS-recording-1.png?raw=true "source box"){: .d-inline-block	}
 
 ---
