@@ -45,13 +45,13 @@ In order to set the frame rate and resolution of the video you want to record, f
 ---
 
 
-1) Open SETTINGS from the CONTROLS area in the bottom right of the OBS window
+1. Open SETTINGS from the CONTROLS area in the bottom right of the OBS window
 
 >![Settings open](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/vid-1-set.png?raw=true "settings tab")
 >![Settings closeup](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/vid-1-set1.png?raw=true "settings tab closer")
 
 
-2) Click on the **VIDEO** tab on the left of the **SETTINGS** window
+2. Click on the **VIDEO** tab on the left of the **SETTINGS** window
 
 >![Video open](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/vid-2-set.png?raw=true "video tab")
 

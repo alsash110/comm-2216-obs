@@ -17,11 +17,11 @@ To tinker with the audio, first we'll need to get to the **AUDIO** section of th
 
 1. Navigate to the **SETTINGS** menu from the **CONTROLS** section in the bottom right hand corner of the window.
 
-![Controls panel's settings](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/audio-controls-settings.png?raw=true "Control panel's settings button")
+    ![Controls panel's settings](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/audio-controls-settings.png?raw=true "Control panel's settings button")
 
 2. Move to the **AUDIO** tab.
 
-![Settings' audio tab](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/audio-audio-tab.png?raw=true "Settings' audio tab")
+    ![Settings' audio tab](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/audio-audio-tab.png?raw=true "Settings' audio tab")
 
 ---
 In the **AUDIO** tab, you'll find many options related to adjusting sounds, but many of these can be ignored. The important area from here, however, is the *Devices* section, pointed out in the image below, with the two main components grouped out.
@@ -88,10 +88,10 @@ In the event that your volume for a given source is too quiet even with the volu
 
 1. Click on the settings icon for the any source (it doesn’t have to be for the source you’re looking to adjust) and select *Advanced Audio Properties*.
 
-![Advanced audio properties](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/audio_advanced_audio_properties.png?raw=true "Advanced audio properties")
+    ![Advanced audio properties](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/audio_advanced_audio_properties.png?raw=true "Advanced audio properties")
 
 2. In the *Advanced Audio Properties* window, increase the value under *Volume* for your desired source until it’s at the desired volume level.
 
-![Further increase volume](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/audio_advanced_audio_volume.png?raw=true "Further increase volume")
+    ![Further increase volume](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/audio_advanced_audio_volume.png?raw=true "Further increase volume")
 
 It’s best to adjust this value by no more than 5dB at a time, as more than that may cause it to be too loud. Any adjustments are saved automatically and immediately, so you can monitor the Volume Meter as you’re adjusting the volume here.
