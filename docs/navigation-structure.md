@@ -13,13 +13,13 @@ nav_order: 5
 ---
 
 ## [](#header-2)Introduction:
-One of the main feature of OBS is to video recording from various of sources such as screen, running application(game, IDE), and camera.  
+One of the main features of OBS is video-recording from various sources such as display, running application(games, IDE), camera, and etc.  
 
 ---
 
 ## [](#header-2)Process of Recording:
 
-1. Pre-requests: To start recording in OBS you need at least one scene and one source set up; For instruction of setting up scenes and sources can refer to [scenes and sources](scenessources.md). Here is how the scene and source section should look like when ready to record:
+1. Pre-requests: To start recording in OBS you need at least one scene and one source set up; For the instruction of setting up scenes and sources can refer to [scenes and sources](scenessources.md). Here is how the scene and source section should look like when ready to record:
 >![sourcebox](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/OBS-recording-1.png?raw=true "source box"){: .d-inline-block	}
 
 2. Navigate to the **SETTINGS** interface from the *Controls* section:
@@ -34,7 +34,7 @@ One of the main feature of OBS is to video recording from various of sources suc
 5. Press the **STOP RECORDING** button from the *Controls* section when you want to stop recording:
 >![sourcebox](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/OBS-recording-5.png?raw=true "source box"){: .d-inline-block	}
 
-6. Navigate to the **SHOW RECORDINGS** option from the *File* section on the top of screen to see all recorded video files. By default, their names are the date and time when they were recorded:
+6. Navigate to the **SHOW RECORDINGS** option from the *File* section on the top of the screen to see all recorded video files. By default, their names are the date and time when they were recorded:
 >![sourcebox](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/OBS-recording-6a.png?raw=true "source box"){: .d-inline-block	}
 >![sourcebox](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/OBS-recording-6b.png?raw=true "source box"){: .d-inline-block	}
 
