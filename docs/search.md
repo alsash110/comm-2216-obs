@@ -34,6 +34,7 @@ If your bitrate is set to a reasonable number and you are not experiencing frame
 
 Unfortunately, buffer issues are a tough fix. Unless you’re experiencing dropped frames, the stream is sent out and received at the server of your provider. From there it’s out of your control. The best way to keep the buffer issues away is to use reasonable bitrate values and keep a good internet connection. 
 
+---
 ## Known Conflicts with 3rd Party Applications
 
 If you are experiencing crashes while using OBS please check the list below and make sure the following apps are either closed or uninstalled:
@@ -64,6 +65,7 @@ Additinally, certain antivirus software and/or firewalls may interfere with OBS 
   7. Now you've whitelisted OBS in your firewall.
 
 
+---
 ## Game Capture Troubleshooting
 
 If you’re having trouble with game capture, please check to make sure that you’re not experiencing one of the known conflicts OBS has with other apps.
@@ -74,6 +76,7 @@ If the issue persists the following resolutions could be useful:
   - If your game is set to full-screen mode and you switch windows from the game, the rendering will stop. 
   - Since OBS has compatibility issues with certain games in full screen mode it is recommended to stream your game on borderless full screen or windowed mode.
 
+---
 ## GPU Overload Issues
 
 GPU overload is caused by a computer’s graphics card being unable to keep up with the production your system demands. If you are experiencing them, FIRST try running OBS as administrator. This will allow OBS reserve additional GPU capacity for use through the operating system. 
