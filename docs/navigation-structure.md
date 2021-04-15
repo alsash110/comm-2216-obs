@@ -12,8 +12,9 @@ nav_order: 5
 {:toc}
 ---
 
-## [](#header-2)Prerequisites
-1. To start recording in OBS, you need at least one scene and one source set up. For instruction of setting up scenes and sources can refer to [scenes and sources](scenessources.md). This is how the scene and source section may look when you're ready to record:
+## [](#header-2)Introduction(Pre-requests):
+One of the main feature of OBS is to video recording from various of sources such as screen, running application(game, IDE), and camera.  
+1. To start recording in OBS you need at least one scene and one source set up; For instruction of setting up scenes and sources can refer to [scenes and sources](scenessources.md). Here is how the scene and source section should look like when ready to record:
 >![sourcebox](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/OBS-recording-1.png?raw=true "source box"){: .d-inline-block	}
 
 ---
@@ -34,3 +35,6 @@ nav_order: 5
 6. Navigate to the **SHOW RECORDINGS** option from the *File* section on the top of screen to see all recorded video files. By default, their name is the date and time when they were recorded:
 >![sourcebox](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/OBS-recording-6a.png?raw=true "source box"){: .d-inline-block	}
 >![sourcebox](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/OBS-recording-6b.png?raw=true "source box"){: .d-inline-block	}
+
+## [](#header-2)Conclusion:
+Congradulation! You have comepleted recording your first video using OBS.
