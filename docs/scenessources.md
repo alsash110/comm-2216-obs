@@ -5,29 +5,29 @@ nav_order: 4
 ---
 
 # [](#header-1) Choosing Scenes and Sources
-### Table of contents
-{: .no_toc .text-delta }
-* TOC
-{:toc}
----
 
 ## [](#header-2)What Are Scenes and Sources?
 A **source** is an input from which the recording will take place. OBS allows users to have many different sources of input such as a browser window, a web camera, the whole screen capture and so on.
 
 A **scene** is the preset of sources and their positioning. Switching between scenes allows the user to make different layouts of screen inputs in a single video.
 
+### Table of contents
+{: .no_toc .text-delta }
+* TOC
+{:toc}
+
 ---
 ## [](#header-2)How to Create a New Scene
 1. Find **SCENES** and **SOURCES** tab in the bottom left corner of the main screen.
 >![sourcebox](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/scenes_sourcebox.JPG?raw=true "source box"){: .d-inline-block	}
 
-2. A scene is created for you by default. Right click on a scene to **Rename** it, or move on to next step.
+2. A scene is created for you by default. Right click on a scene to *Rename* it, or move on to next step.
 >![rename](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/scenes_renamesource.JPG?raw=true "rename")
 
 3. To add another scene click on the **‘+’** sign of the **SCENES** tab.
 >![createscene](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/scenes_createscene.JPG?raw=true "createScene")
 
-4. Enter the name of the new scene in the  popped up menu
+4. Enter the name of the new scene in the popped up menu, then press *OK*.
 >![namescene](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/scenes_namescene.JPG?raw=true "nameScene")
 
 Now you've created your first scene! The next step is to select which sources you'll be capturing for your stream/recording.
@@ -35,14 +35,14 @@ Now you've created your first scene! The next step is to select which sources yo
 
 ---
 ## [](#header-2)How to Select Sources
-At the bottom of your OBS window you’ll find a box that says **SOURCES**. Click on the **‘+’** to add a new source. (**Note:** Make sure you have selected and configured your audio and video sources before this step)
+At the bottom of your OBS window you’ll find a box that says *Sources*. Click on the **‘+’** to add a new source. (**Note:** Make sure you have selected and configured your audio and video sources before this step)
 
 You’ll be greeted with this menu:
 
 
 >![choices](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/scenes_choices.png?raw=true "choices")
 
-From here you’ll select the **SOURCES** you want to **CAPTURE**. Once you’ve selected the sources, they’ll show up in the sources box. We’ll go over next which sources you will need to start your first recording or stream
+From here you’ll select the sources you wish to capture. Once you’ve selected the sources, they’ll show up in the sources box. We’ll go over next which sources you will need to start your first recording or stream.
 
 If you’re using OBS for streaming video games or recording lectures or tutorials, you’ll likely want to capture some combination of the sources listed below. Outlined below are what each of these capture modules will be recording.
 
@@ -75,7 +75,7 @@ If you’re using OBS for streaming video games or recording lectures or tutoria
 
 
 ---
-As you add each source, you’ll see them appear in the sources box. You'll see video sources appear in the OBS preview menu. By clicking on these sources, a red border will appear around it which allows you to resize each video source to your liking. 
+As you add each source, you’ll see them appear in the sources box. You'll see video sources appear in the video preview menu (the center portion of the main OBS window). By clicking on these sources, a red border will appear around it which allows you to resize each video source to your liking. 
 
 Now you're ready to start recording or streaming! But let’s say you’re a high functioning individual who wants to stream yourself both gaming and simultaneously working on an english essay.
  
