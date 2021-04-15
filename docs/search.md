@@ -31,7 +31,7 @@ If you are not experiencing any dropped frames, the next most likely reason for 
 
   2. From here find **Streaming**, inside you'll see a value for **Video Bitrate**
   >![sourcebox](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/SecuritySteps0.PNG?raw=true "Security Steps 0"){: .d-inline-block}
-    - Note: for most computers a bitrate of 2400Kbps is considered a __reasonable__ value.
+    - **Note**: for most computers a bitrate of 2400Kbps is considered a *reasonable* value.
 
 If your bitrate is set to a reasonable number and you are not experiencing frame drops, then fixing the buffering issues can be more complicated. The third reason for buffer issues are with the _Provider_ (ie. Twitch, Youtube, Instagram) not balancing its streams. For example, Twitch does allow streamers access to all their streaming resources if they are not partnered with Twitch. 
 
@@ -61,7 +61,7 @@ Additinally, certain antivirus software and/or firewalls may interfere with OBS 
    >![sourcebox](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/Whitelist3.PNG?raw=true "Whitelist3"){: .d-inline-block}  
   4. From the **Add an app** menu, you will go to the **Path** field and select browse
   >![sourcebox](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/Whitelist4.PNG?raw=true "Whitelist4"){: .d-inline-block}
-  5. Navigate to the folder where you downloaded OBS, and find and select the **.exe** file for OBS. This is usually located in __obs-studio -> bin__. Then press **OK**
+  5. Navigate to the folder where you downloaded OBS, and find and select the **.exe** file for OBS. This is usually located in *obs-studio -> bin*. Then press **OK**
   >![sourcebox](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/Whitelist5.PNG?raw=true Whitelist5"){: .d-inline-block}
   6. Now we're back to **Add an app** you should see OBS in the **Apps** list. Select **Add*
   >![sourcebox](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/Whitelist6.PNG?raw=true "Whitelist6"){: .d-inline-block}
