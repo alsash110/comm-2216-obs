@@ -55,6 +55,6 @@ Due to working together on this project for a month, we came to learn how the ot
 
 Working as a group for a project was extremely beneficial to everyone involved and taught us better interpersonal skills. This project made us realize how nice working together as a group was and we enjoyed being able to work collectively as a team to create something that we are both proud of. We are looking forward to working on a project together if we are ever given the chance to.
 
-Thank you for reading our basics to Linux guide and we hope that you learned something by following through our instructions.
+Thank you for reading our OBS guide and we hope that you learned something by following through our instructions.
 
 This document was built on: <a href="https://github.com/pmarsceill/just-the-docs"><h2>Just the Docs</h2></a>
