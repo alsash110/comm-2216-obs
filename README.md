@@ -31,7 +31,7 @@ We were advised that the Just The Docs Jekyll theme was easy to use for this ass
 
 #### Learning Best Practices For Web Writing
 
-To further readability, we opted to use a typography standard which helps readers know the difference between what **OPTIONS**, _key terms_, and **[Keystrokes]** are mentioned in the document.
+To further readability, we opted to use a typography standard which helps readers know the difference between **OPTIONS**, _key terms_, and **[Keystrokes]** are mentioned in the document.
 
 We also wanted to add more focus to important information by implementing icons so readers would pay more attention to certain parts of the document.
 
