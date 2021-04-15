@@ -13,6 +13,7 @@ Correctly setting up the audio is important in ensuring that the video sounds ex
 {:toc}
 
 ---
+## Getting to the Audio Settings
 To tinker with the audio, first we'll need to get to the **AUDIO** section of the **SETTINGS**.
 
 1. Navigate to the **SETTINGS** menu from the **CONTROLS** section in the bottom right hand corner of the window.
@@ -82,7 +83,7 @@ However, if you’re finding that, even with the volume bar all the way to the r
 
 ---
 
-### Boosting Volume Beyond the Volume Bar
+### Boosting the Volume Beyond the Volume Bar
 
 In the event that your volume for a given source is too quiet even with the volume bar at its max, follow these next steps to manually increase the volume beyond the limit of the volume bar.
 
