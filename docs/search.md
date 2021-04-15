@@ -17,18 +17,18 @@ Buffering is when data is preloaded into a reserved area of memory called a _buf
 
 To troubleshoot buffering issues in OBS, **first and foremost**, confirm that the stream is experiencing _frame drops_. This is to make sure the issue isn’t with your own connection. To do this, check the counter at the bottom of the OBS Studio main window.
 
-  - To check for frame drops:
-    1. Open OBS and look to the bottom right of the primary window
-    >![sourcebox](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/Dframes.PNG?raw=true "Dframes"){: .d-inline-block}
-    2. Monitor this _fps_ value to check if it fluctuates between low and high
+  ### To check for frame drops:
+  1. Open OBS and look to the bottom right of the primary window
+  >![sourcebox](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/Dframes.PNG?raw=true "Dframes"){: .d-inline-block}
+  2. Monitor this _fps_ value to check if it fluctuates between low and high
 
 If you are not experiencing any dropped frames, the next most likely reason for your buffering issues is _bitrate_: you’ve used too much of it. While a higher bitrate can be an easy way to make your stream look a bit better, if your bitrate is too high, your viewers may have issues with downloading it. If you must raise the bitrate, make sure it is within reason of the internet connection speeds of the countries your viewers may be from.
-  - To check/set your bitrate:
-    1. navigate from the main OBS window to **File** -> **Settings** -> **Output**
-    
-    2. From here find **Streaming**, inside you'll see a value for **Video Bitrate**
-    >![sourcebox](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/SecuritySteps0.PNG?raw=true "Security Steps 0"){: .d-inline-block}
-      - Note: for most computers a bitrate of 2400Kbps is considered a __reasonable__ value.
+  ###To check/set your bitrate:
+  1. navigate from the main OBS window to **File** -> **Settings** -> **Output**
+
+  2. From here find **Streaming**, inside you'll see a value for **Video Bitrate**
+  >![sourcebox](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/SecuritySteps0.PNG?raw=true "Security Steps 0"){: .d-inline-block}
+    - Note: for most computers a bitrate of 2400Kbps is considered a __reasonable__ value.
 
 If your bitrate is set to a reasonable number and you are not experiencing frame drops, then fixing the buffering issues can be more complicated. The third reason for buffer issues are with the _Provider_ (ie. Twitch, Youtube, Instagram) not balancing its streams. For example, Twitch does allow streamers access to all their streaming resources if they are not partnered with Twitch. 
 
