@@ -15,11 +15,11 @@ Correctly setting up the audio is important in ensuring that the video sounds ex
 ---
 To tinker with the audio, first we'll need to get to the **AUDIO** section of the **SETTINGS**.
 
-1) Navigate to the **SETTINGS** menu from the **CONTROLS** section in the bottom right hand corner of the window.
+1. Navigate to the **SETTINGS** menu from the **CONTROLS** section in the bottom right hand corner of the window.
 
 ![Controls panel's settings](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/audio-controls-settings.png?raw=true "Control panel's settings button")
 
-2) Move to the **AUDIO** tab.
+2. Move to the **AUDIO** tab.
 
 ![Settings' audio tab](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/audio-audio-tab.png?raw=true "Settings' audio tab")
 
@@ -52,14 +52,15 @@ The Audio Mixer can be found at the bottom of the main OBS window. Below is a ma
 
 ![Audio mixer](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/audio-audio-mixer.png?raw=true "Audio mixer")
 
-1) These are the sources which you set up in the MICROPHONE AND DESKTOP AUDIO section. In this image, no additional sources were set up, so you may have additional items in this area.
+1. These are the sources which you set up in the MICROPHONE AND DESKTOP AUDIO section. In this image, no additional sources were set up, so you may have additional items in this area.
 
-2) This is a volume bar for a given source, and is used to control how loud the sounds from a given source are.
+2. This is a volume bar for a given source, and is used to control how loud the sounds from a given source are.
 
-3) This bar, called a Volume Meter, indicates how loud the audio from a source is. When there are two bars directly next to each other, that indicates a stereo audio source, with the top being the left source and the bottom being the right source.
+3. This bar, called a Volume Meter, indicates how loud the audio from a source is. When there are two bars directly next to each other, that indicates a stereo audio source, with the top being the left source and the bottom being the right source.
 
-4) The settings icon contains many options for configuring a given source.
+4. The settings icon contains many options for configuring a given source.
 
+---
 ### Configuring the Audio Mixer
 
 
@@ -83,12 +84,13 @@ However, if you’re finding that, even with the volume bar all the way to the r
 
 ### Boosting Volume Beyond the Volume Bar
 
+In the event that your volume for a given source is too quiet even with the volume bar at its max, follow these next steps to manually increase the volume beyond the limit of the volume bar.
 
-1) Click on the settings icon for the any source (it doesn’t have to be for the source you’re looking to adjust) and select *Advanced Audio Properties*.
+1. Click on the settings icon for the any source (it doesn’t have to be for the source you’re looking to adjust) and select *Advanced Audio Properties*.
 
 ![Advanced audio properties](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/audio_advanced_audio_properties.png?raw=true "Advanced audio properties")
 
-2) In the *Advanced Audio Properties* window, increase the value under *Volume* for your desired source until it’s at the desired volume level.
+2. In the *Advanced Audio Properties* window, increase the value under *Volume* for your desired source until it’s at the desired volume level.
 
 ![Further increase volume](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/audio_advanced_audio_volume.png?raw=true "Further increase volume")
 
