@@ -42,7 +42,7 @@ We also wanted to add more focus to important information by implementing icons 
 
 The following icon indicates the reader to please pay attention to the following.
 
->![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note-icon.png?raw=true "Note")
+>![Note icon](https://github.com/alsash110/comm-2216-obs/tree/gh-pages/assets/images?raw=true "Note")
 
 
 ### Conclusion
