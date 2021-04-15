@@ -1,7 +1,8 @@
 ### Overview of the OBS (Open Broadcaster Software) Guide
 
 Hello reader, our guide on OBS is meant to help you gain basic and general skills of video recording with OBS.
-The things we want to teach you in this site include how to:
+
+The topics this guide will cover include:
 
 - changing video and audio settings,
 - adding scenes and sources,
