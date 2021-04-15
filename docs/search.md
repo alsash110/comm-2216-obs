@@ -9,7 +9,7 @@ nav_order: 8
 
 ---
 
-These are some of the major issues when operating on OBS, roots of the issue and the potential measures to solve the issues
+These are some of the major issues when operating on OBS, the root causes of those issues and the potential measures to solve them.
 
 ## Buffering Issues
 
@@ -46,7 +46,7 @@ If the issue persists the following resolutions could be useful:
 
   - Try running OBS as admin. This is a requirement for some games. 
   - If your game is set to full-screen mode and you switch windows from the game, the rendering will stop. 
-  - Since OBS has compatibility issues with certain games in full screen mode it is recommended to stream your game on borderless full screen or windowed mode
+  - Since OBS has compatibility issues with certain games in full screen mode it is recommended to stream your game on borderless full screen or windowed mode.
 
 ## GPU Overload Issues
 
@@ -54,15 +54,15 @@ GPU overload is caused by a computer’s graphics card being unable to keep up w
 There are a number of ways you can reduce the load on your graphics card. 
 **Within OBS**:
   -	Our first recommendation is to build simpler scenes.
-      - OBS will drain additional resources from your GPU for all the scenes you have in your current collection
-      - If you are not using all the scenes currently, consider splitting them up into collections, this will allow OBS to use fewer resources while you stream
-  -	Use fewer filters
-    -While filters can be useful for certain scenes, they can be very taxing on your GPU’s resources. Removing a few if not all filters will help with GPU overloading issues. 
+      - OBS will drain additional resources from your GPU for all the scenes you have in your current collection.
+      - If you are not using all the scenes currently, consider splitting them up into collections, this will allow OBS to use fewer resources while you stream.
+  -	Use fewer filters.
+    - While filters can be useful for certain scenes, they can be very taxing on your GPU’s resources. Removing a few if not all filters will help with GPU overloading issues. 
 **In System**:
   -	Beware of the browser! Browsers like Google Chrome will contribute to your GPU overload issues since it has to render all that text, audio, imagery, and video.
-    - Consider using only a few tabs or closing chrome while you stream video games or other resource heavy activities
-  -	Lower the settings of the game you are playing
-    - While this may not be an optimal solution, by lowering the settings in the game this reduces the amount of work your GPU will need to do, in some cases preventing GPU overload
+    - Consider using only a few tabs or closing chrome while you stream video games or other resource heavy activities.
+  -	Lower the settings of the game you are playing.
+    - While this may not be an optimal solution, by lowering the settings in the game this reduces the amount of work your GPU will need to do, in some cases preventing GPU overload.
 
 If you're still having issues with any of the above, please check out the OBS forum or the OBS Discord!
 
