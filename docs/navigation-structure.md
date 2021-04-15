@@ -13,24 +13,24 @@ nav_order: 5
 ---
 
 ## [](#header-2)Prerequisites
-1. To start recording in OBS, you need at least one scene and one source set up. For instruction of setting up scenes and sources can refer to [scenes and sources](scenessources.md). This is how the scene and source section should look when ready to record:
+1. To start recording in OBS, you need at least one scene and one source set up. For instruction of setting up scenes and sources can refer to [scenes and sources](scenessources.md). This is how the scene and source section may look when you're ready to record:
 >![sourcebox](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/OBS-recording-1.png?raw=true "source box"){: .d-inline-block	}
 
 ---
 
 ## [](#header-2)Process of Recording:
-2. Navigate to the **Settings** interface from the **Controls** section:
+2. Navigate to the **SETTINGS** interface from the *Controls* section:
 >![sourcebox](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/OBS-recording-2.png?raw=true "source box"){: .d-inline-block	}
 
-3. Navigate to the **Output** tab on the left menu; Take note of the **Recording Path** field and this will be the destination file where the recorded video will be saved:
+3. Navigate to the **OUTPUT** tab on the left menu; Take note of the *Recording Path* field and this will be the destination folder where the recorded video will be saved:
 >![sourcebox](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/OBS-recording-3.png?raw=true "source box"){: .d-inline-block	}
 
-4. In the main window, press the **Starting Recording** button  from the **Controls** section to start recording:
+4. In the main window, press the **START RECORDING** button from the *Controls* section to start recording:
 >![sourcebox](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/OBS-recording-4.png?raw=true "source box"){: .d-inline-block	}
 
-5. Press the **Stop Recording** button  from the **Controls** section when you want to stop recording:
+5. Press the **STOP RECORDING** button from the *Controls* section when you want to stop recording:
 >![sourcebox](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/OBS-recording-5.png?raw=true "source box"){: .d-inline-block	}
 
-6. Navigate to the **Show Recordings** option from the **File** section on the top of screen to see all recording video files. They are named by default as the date and time when they were recorded:
+6. Navigate to the **SHOW RECORDINGS** option from the *File* section on the top of screen to see all recorded video files. By default, their name is the date and time when they were recorded:
 >![sourcebox](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/OBS-recording-6a.png?raw=true "source box"){: .d-inline-block	}
 >![sourcebox](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/OBS-recording-6b.png?raw=true "source box"){: .d-inline-block	}
