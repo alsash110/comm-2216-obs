@@ -9,7 +9,10 @@ nav_order: 8
 
 These are some of the major issues when operating on OBS, the root causes of those issues and the potential measures to solve them.
 
-TOC {:toc}
+### Table of contents
+{: .no_toc .text-delta }
+* TOC
+{:toc}
 
 ## Buffering Issues
 
