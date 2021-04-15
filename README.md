@@ -1,72 +1,71 @@
-<p align="right">
-    <a href="https://badge.fury.io/rb/just-the-docs"><img src="https://badge.fury.io/rb/just-the-docs.svg" alt="Gem version"></a> <a href="https://github.com/pmarsceill/just-the-docs/actions?query=workflow%3A%22Master+branch+CI%22"><img src="https://github.com/pmarsceill/just-the-docs/workflows/Master%20branch%20CI/badge.svg" alt="Build status"></a>
-</p>
-<br><br>
-<p align="center">
-    <h1 align="center">Just the Docs</h1>
-    <p align="center">A modern, highly customizable, and responsive Jekyll theme for documentation with built-in search.<br>Easily hosted on GitHub Pages with few dependencies.</p>
-    <p align="center"><strong><a href="https://pmarsceill.github.io/just-the-docs/">See it in action!</a></strong></p>
-    <br><br><br>
-</p>
+### Overview of OBS Instruction Guide
 
-![jtd](https://user-images.githubusercontent.com/896475/47384541-89053c80-d6d5-11e8-98dc-dba16e192de9.gif)
+Hello reader, our guide on OBS is meant to provide you with a basic and general skills of video recording with OBS.
 
-## Installation
+The things we want to teach you in this site include how to:
+- changing video and audio settings,
+- adding scenes and sources,
+- recording the video and saving the recording.
 
-Add this line to your Jekyll site's Gemfile:
+### How We Collaborated Together
 
-```ruby
-gem "just-the-docs"
-```
+At the start of writing this guide, we came up with several key aspects of OBS that every user must know and how we could split it into easy steps.
 
-And add this line to your Jekyll site's `_config.yml`:
+Due to COVID-19 we never had a chance to discuss the project in person, but the familiarity with Discord and Zoom made the process of writing the instruction set efficient and without any loss of communication throughout.
 
-```yaml
-theme: just-the-docs
-```
+#### Using Markdown
 
-And then execute:
+The first step in creating our guide was to use markdown as an effective and easy way to create a guide.
 
-    $ bundle
+We were both unfamiliar with the concept of writing documentation with markdown before creating this guide. We had to learn how to format and use certain syntax to create a readable guide.
 
-Or install it yourself as:
+Markdown provided us with an easy-to-read and easy-to-write text format that is universally used on many platforms. Since we are learning to become web-developers, markdown allows us to integrate code, command inputs, and HTML into our documents.
 
-    $ gem install just-the-docs
+We learned and implemented the use of headings, font weights, lists, indentation, breaks, code blocks, tables, and integrating links and images in our guide.
 
-Alternatively, you can run it inside Docker while developing your site
+#### Using VS Code
 
-    $ docker-compose up
+The main program we used to read and write was VS Code. We were introduced to VS Code at the very beginning of the full-stack web development program at BCIT which made using VS Code a clear choice.
 
-## Usage
+#### Using a Style Guide
 
-[View the documentation](https://pmarsceill.github.io/just-the-docs/) for usage information.
+To further aid us in writing our guide, we decided to use a styleguide by [GNOME.](https://developer.gnome.org/gdp-style-guide/2.32/) The GNOME Documentation Style Guide provides users with clear and concise writing. We believe that this is extremely important when creating an instruction guide as a style guide allows us to easily convey to a reader why they should use the guide and what they are going to learn from the guide. 
 
-## Contributing
+Using a style guide allowed us to collaborate on a group project more easily since there were clear rules on how our document should be written, effectively lowering chances of potential arguments between us.
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/pmarsceill/just-the-docs. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+#### Using a Theme
 
-### Submitting code changes:
+We opted to use one of the free themes from Jekyll to allow us to change the style and look of the guide. We chose the current theme due to the themes clean and professional look.
 
-- Open a [Pull Request](https://github.com/pmarsceill/just-the-docs/pulls)
-- Ensure all CI tests pass
-- Await code review
-- Bump the version number in `just-the-docs.gemspec` and `package.json` according to [semantic versioning](https://semver.org/).
+To incorporate the Jekyll theme, we had to fork the Just the Docs theme and configured the yaml file to allow us to make all necessary code changes to the forked repository.
 
-### Design and development principles of this theme:
+#### Learning Best Practices For Web Writing
 
-1. As few dependencies as possible
-2. No build script needed
-3. First class mobile experience
-4. Make the content shine
+To make our guide more easily readable, we relied heavily on the use of _chunking_. Chunking is a method of presenting information by splitting concepts into smaller "chunks" to allow readers to read and understand much more easily.
 
-## Development
+To further readability, we opted to use a typography standard which helps readers know the difference between `command inputs and user inputs`, *`console outputs`*, _key terms_, and **[keystrokes]** to convey more importance towards parts which these were included.
 
-To set up your environment to develop this theme, run `bundle install`.
+We also wanted to divert more attention to important information by implementing icons so readers know to read and follow our instruction carefully. 
 
-Your theme is set up just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+The following icon indicates the reader to please pay attention to the following.
 
-When the theme is released, only the files in `_layouts`, `_includes`, and `_sass` tracked with Git will be released.
+>![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note")
 
-## License
+The following icon indicates please be careful with the following.
 
-The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+>![Caution icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/caution.png?raw=true "Caution")
+
+
+### Conclusion
+
+Completing a guide using many concepts and applications foreign to us was no easy feat. However, through using effective communication and collaboration tools, we were able to complete our guide with very minimal problems.
+
+We learned that working in a group is extremely different than working alone on personal projects. The main thing we both learned was that in a group is that we all have different ideas of how things should be done or look and that these differences can cause issues.
+
+Due to working together on this project for a month, we came to learn how the other person works and were able to easily come to agreement with each other.
+
+Working as a group for a project was extremely beneficial to everyone involved and taught us better interpersonal skills. This project made us realize how nice working together as a group was and we enjoyed being able to work collectively as a team to create something that we are both proud of. We are looking forward to working on a project together if we are ever given the chance to.
+
+Thank you for reading our basics to Linux guide and we hope that you learned something by following through our instructions.
+
+This document was built on: <a href="https://github.com/pmarsceill/just-the-docs"><h2>Just the Docs</h2></a>
