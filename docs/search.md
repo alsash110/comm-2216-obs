@@ -23,6 +23,7 @@ To troubleshoot buffering issues in OBS, **first and foremost**, confirm that th
   2. Monitor this _fps_ value to check if it fluctuates between low and high
 
 If you are not experiencing any dropped frames, the next most likely reason for your buffering issues is _bitrate_: you’ve used too much of it. While a higher bitrate can be an easy way to make your stream look a bit better, if your bitrate is too high, your viewers may have issues with downloading it. If you must raise the bitrate, make sure it is within reason of the internet connection speeds of the countries your viewers may be from.
+
  ### [](#header-3)To check/set your bitrate:
   1. navigate from the main OBS window to **File** -> **Settings** -> **Output**
 
