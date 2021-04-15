@@ -23,45 +23,26 @@ To finish our guide, we used many different applications, documentations, and co
 
 #### Using Markdown
 
-The first step in creating our guide was to use markdown as an effective and easy way to create a guide.
+The most difficult part of completing the instruction set was learning how to use the markdown and troubleshooting the issues that arose with the use of it.
 
-We were both unfamiliar with the concept of writing documentation with markdown before creating this guide. We had to learn how to format and use certain syntax to create a readable guide.
+In the beginning we were completely unfamiliar with the way the documentation websites are built, but as we worked more and more on the assignment - the skill just came naturally.
 
-Markdown provided us with an easy-to-read and easy-to-write text format that is universally used on many platforms. Since we are learning to become web-developers, markdown allows us to integrate code, command inputs, and HTML into our documents.
+Markdown helped us to create an appealing documentation website that is easy to follow and eye-pleasing, and it’s apparent that the skill we’ve gained will be useful for us in the future.
 
-We learned and implemented the use of headings, font weights, lists, indentation, breaks, code blocks, tables, and integrating links and images in our guide.
 
-#### Using VS Code
+#### Using Just The Docs for Styling
 
-The main program we used to read and write was VS Code. We were introduced to VS Code at the very beginning of the full-stack web development program at BCIT which made using VS Code a clear choice.
-
-#### Using a Style Guide
-
-To further aid us in writing our guide, we decided to use a styleguide by [GNOME.](https://developer.gnome.org/gdp-style-guide/2.32/) The GNOME Documentation Style Guide provides users with clear and concise writing. We believe that this is extremely important when creating an instruction guide as a style guide allows us to easily convey to a reader why they should use the guide and what they are going to learn from the guide. 
-
-Using a style guide allowed us to collaborate on a group project more easily since there were clear rules on how our document should be written, effectively lowering chances of potential arguments between us.
-
-#### Using a Theme
-
-We opted to use one of the free themes from Jekyll to allow us to change the style and look of the guide. We chose the current theme due to the themes clean and professional look.
-
-To incorporate the Jekyll theme, we had to fork the Just the Docs theme and configured the yaml file to allow us to make all necessary code changes to the forked repository.
+We were advised that the Just The Docs Jekyll theme was easy to use for this assignment, and we found that to definitely be the case. One hurdle we ran into was the website not updating after we would commit and push new changes, but simply refreshing the cache solved this problem.
 
 #### Learning Best Practices For Web Writing
 
-To make our guide more easily readable, we relied heavily on the use of _chunking_. Chunking is a method of presenting information by splitting concepts into smaller "chunks" to allow readers to read and understand much more easily.
+To further readability, we opted to use a typography standard which helps readers know the difference between what **OPTIONS**, _key terms_, and **[Keystrokes]** are mentioned in the document.
 
-To further readability, we opted to use a typography standard which helps readers know the difference between `command inputs and user inputs`, *`console outputs`*, _key terms_, and **[keystrokes]** to convey more importance towards parts which these were included.
-
-We also wanted to divert more attention to important information by implementing icons so readers know to read and follow our instruction carefully. 
+We also wanted to add more focus to important information by implementing icons so readers would pay more attention to certain parts of the document.
 
 The following icon indicates the reader to please pay attention to the following.
 
->![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note")
-
-The following icon indicates please be careful with the following.
-
->![Caution icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/caution.png?raw=true "Caution")
+>![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note-icon.png?raw=true "Note")
 
 
 ### Conclusion
