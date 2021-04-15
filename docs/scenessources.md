@@ -77,8 +77,6 @@ If you’re using OBS for streaming video games or recording lectures or tutoria
 ---
 As you add each source, you’ll see them appear in the sources box. You'll see video sources appear in the video preview menu (the center portion of the main OBS window). By clicking on these sources, a red border will appear around it which allows you to resize each video source to your liking. 
 
-Now you're ready to start recording or streaming! But let’s say you’re a high functioning individual who wants to stream yourself both gaming and simultaneously working on an english essay.
- 
-You can easily do that with the addition of multiple scenes. When you add a scene you’ll be able to select different sources, or you can use it to quickly resize or current sources to fit your needs. Simply click on each scene in OBS to switch between them.
+Now you're ready to start recording or streaming!
 
 In the next page, we'll walk you through [recording your video](navigation-structure.md).
