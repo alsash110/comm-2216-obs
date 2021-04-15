@@ -52,7 +52,7 @@ If you are experiencing crashes while using OBS please check the list below and 
 
 Additinally, certain antivirus software and/or firewalls may interfere with OBS performance, preventing the capture from happening. To fix this issue, make sure to whitelist OBS in your computers settings. 
  
-### [](#header-3)Follow these steps to whitelist OBS in your Windows Firewall
+### [](#header-3)Whitelist OBS in your Windows Firewall
   1. In the **Start Menu**, search for **Windows Security**
    >![sourcebox](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/SecuritySteps1.png?raw=true "Security Steps 1"){: .d-inline-block}
   2. Once you are in the **Firewall & Network Protection** menu, find **Allow an app through firewall** and click on it
