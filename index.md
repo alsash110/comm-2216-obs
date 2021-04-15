@@ -69,7 +69,6 @@ These instructions use the following typographic conventions.
 | :----                                | :----         | :----                                            |
 | Specific keystrokes                  |   **[Bold]**  |     **[Enter]**, **[Esc]**, **[Ctrl]**, **[F4]** |
 | Key Tabs                             |   **BOLD**    |     **SETTINGS**, **CUSTOMIZE**                  |
-| Key Steps                            |   **Bold**   |     **Open the SETTINGS tab**                     |
 | Key terms and emphasis               |   _Italics_   |     _Filter_, _Mixer_, _Source_                  |
 
 <br />
