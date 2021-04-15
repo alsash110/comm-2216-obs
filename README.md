@@ -30,7 +30,7 @@ Markdown helped us to create an appealing documentation website that is easy to 
 
 We were advised that the Just The Docs Jekyll theme was easy to use for this assignment, and we found that to definitely be the case. One hurdle we ran into was the website not updating after we would commit and push new changes, but simply refreshing the cache solved this problem.
 
-#### Learning Best Practices For Web Writing
+#### Helping the Reader
 
 We opted to use a typography standard which helps readers distinguish between **OPTIONS**, _key terms_, and **[Keystrokes]** are mentioned in the document.
 
