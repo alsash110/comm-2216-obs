@@ -12,9 +12,9 @@ nav_order: 5
 {:toc}
 ---
 
-## [](#header-2)Introduction(Pre-requests):
+## [](#header-2)Introduction:
 One of the main feature of OBS is to video recording from various of sources such as screen, running application(game, IDE), and camera.  
-1. To start recording in OBS you need at least one scene and one source set up; For instruction of setting up scenes and sources can refer to [scenes and sources](scenessources.md). Here is how the scene and source section should look like when ready to record:
+1. Pre-requests:To start recording in OBS you need at least one scene and one source set up; For instruction of setting up scenes and sources can refer to [scenes and sources](scenessources.md). Here is how the scene and source section should look like when ready to record:
 >![sourcebox](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/OBS-recording-1.png?raw=true "source box"){: .d-inline-block	}
 
 ---
@@ -37,4 +37,4 @@ One of the main feature of OBS is to video recording from various of sources suc
 >![sourcebox](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/OBS-recording-6b.png?raw=true "source box"){: .d-inline-block	}
 
 ## [](#header-2)Conclusion:
-Congradulation! You have comepleted recording your first video using OBS.
+Congradulation! You have completed recording your first video using OBS.
