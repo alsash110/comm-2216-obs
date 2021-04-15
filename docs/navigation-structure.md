@@ -34,7 +34,7 @@ One of the main feature of OBS is to video recording from various of sources suc
 5. Press the **STOP RECORDING** button from the *Controls* section when you want to stop recording:
 >![sourcebox](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/OBS-recording-5.png?raw=true "source box"){: .d-inline-block	}
 
-6. Navigate to the **SHOW RECORDINGS** option from the *File* section on the top of screen to see all recorded video files. By default, their name is the date and time when they were recorded:
+6. Navigate to the **SHOW RECORDINGS** option from the *File* section on the top of screen to see all recorded video files. By default, their names are the date and time when they were recorded:
 >![sourcebox](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/OBS-recording-6a.png?raw=true "source box"){: .d-inline-block	}
 >![sourcebox](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/OBS-recording-6b.png?raw=true "source box"){: .d-inline-block	}
 
