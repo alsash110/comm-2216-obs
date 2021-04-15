@@ -32,11 +32,9 @@ We were advised that the Just The Docs Jekyll theme was easy to use for this ass
 
 #### Learning Best Practices For Web Writing
 
-To further readability, we opted to use a typography standard which helps readers know the difference between **OPTIONS**, _key terms_, and **[Keystrokes]** are mentioned in the document.
+We opted to use a typography standard which helps readers distinguish between **OPTIONS**, _key terms_, and **[Keystrokes]** are mentioned in the document.
 
-We also wanted to add more focus to important information by implementing icons so readers would pay more attention to certain parts of the document.
-
-The following icon indicates the reader to please pay attention to the following.
+We also used the following icon to draw the user's attention to important things to note.
 
 >![Note icon](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/note-icon.png?raw=true "Note")
 
