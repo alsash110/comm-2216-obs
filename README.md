@@ -13,10 +13,6 @@ The topics this guide will cover include:
 
 To finish our guide, we used many different applications, documentations, and concepts. We had to learn a wide array of concepts as well as implement programs and concepts we already knew.
 
-
-### How We Created Our Guide
-To finish our guide, we used many different applications, documentations, and concepts. We had to learn a wide array of concepts as well as implement programs and concepts we already knew.
-
 #### Using Markdown
 
 The most difficult part of completing the instruction set was learning how to use the markdown and troubleshooting the issues that arose with the use of it.
