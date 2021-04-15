@@ -22,5 +22,3 @@ nav_order: 7
 
 **OBS**: Open Broadcaster Software is a free and open-source cross-platform streaming and recording program built with Qt and maintained by the OBS Project.
 
----
-
