@@ -39,4 +39,4 @@ One of the main features of OBS is video-recording from various sources such as 
 >![sourcebox](https://github.com/alsash110/comm-2216-obs/blob/gh-pages/assets/images/OBS-recording-6b.png?raw=true "source box"){: .d-inline-block	}
 
 ## [](#header-2)Conclusion:
-Congradulation! You have completed recording your first video using OBS.
+Congratulations! You have completed recording your first video using OBS.
